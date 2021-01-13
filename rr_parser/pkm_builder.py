@@ -1,14 +1,12 @@
 from typing import Optional, Union, Any
 from math import floor
-import re
-
-from . import Pokemon
-from .enums import GameType
-import pokebase as pb
 from random import random
-from rr_parser.constants.rr import get_species_learnset, get_species_id
-from .constants.rr import MoveLevel
-from .pkms import DecryptedData
+import re
+import pokebase as pb
+
+from .pkms import Pokemon, DecryptedData
+from .enums import GameType
+from .constants.rr import get_species_learnset, get_species_id, MoveLevel
 
 NATURES = {
     "Hardy": 0,
@@ -116,9 +114,8 @@ def _ability(
         elif gen == GameType(GameType.RR):
             assert (1 <= ability <= 3)
             if ability == 3:
-                assert (has_hidden == 1)
                 ab: int = 1
-                hidden: bool = True
+                hidden: bool = has_hidden == 1
                 pass
             else:
                 ab: int = ability
@@ -541,6 +538,7 @@ def pkm_builder(
         raise NotImplemented
 
     # Get checksum.
+    # sub_data_checksum: bytes = sub_data.get_checksum()
     sub_data_checksum: bytes = sub_data.get_checksum()
 
     # Stats.

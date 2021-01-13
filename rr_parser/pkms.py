@@ -465,6 +465,9 @@ class EncryptedData(ABCPokemonSubData):
             self._ot
         )
 
+    def to_encrypted(self) -> "EncryptedData":
+        return self
+
     def set_subdata(self, subdata: Tuple[Growth, Attacks, EVs, Misc]):
         # Assert tuple data.
         assert (isinstance(subdata[0], Growth))
