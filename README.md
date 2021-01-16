@@ -50,6 +50,8 @@ are permitted:
   team Pokemon into a file.
 * **create_and_insert_pokemon(game, species, \*\*kwargs)**: create
   and insert new Pokemon from input arguments.
+* **infinite_money(game)**: set max money.
+* **complete_pokedex(game)**: unlock all Pokedex entries.
 * **save_game(game)** export edited savegame.
 
 

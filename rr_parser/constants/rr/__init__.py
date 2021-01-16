@@ -4,6 +4,8 @@ from . import _species as module_species
 from . import _learnset as module_learnset
 from . import _pps as module_pps
 from . import _abilities as module_abilities
+from . import _pokedex as module_pokedex
+
 from typing import Optional, List
 import re
 
@@ -32,6 +34,23 @@ def get_species_id(species: str) -> Optional[int]:
     """
     species_name = "SPECIES_{}".format(species).upper()
     return getattr(module_species, species_name, None)
+
+
+def get_species_pokedex_id(species: str) -> Optional[int]:
+    """Get RadicalRed (or any other generation) Pokedex index from its name.
+
+    Parameters
+    ----------
+    species : str
+        Name of the Pokemon species whose Pokedex ID is wanted.
+
+    Returns
+    -------
+    Optional[int]
+        Species Pokedex ID if species was found or else, None.
+    """
+    species_name = "NATIONAL_DEX_{}".format(species).upper()
+    return getattr(module_pokedex, species_name, None)
 
 
 def get_ability_id(ability: str) -> Optional[int]:
@@ -90,6 +109,7 @@ def get_species_learnset(species: str) -> Optional[List[MoveLevel]]:
 
 __all__ = [
     "get_species_id",
+    "get_species_pokedex_id",
     "get_species_learnset",
     "get_ability_id",
     "MoveLevel"

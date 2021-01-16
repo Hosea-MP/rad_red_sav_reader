@@ -66,10 +66,10 @@ class Gen3(UpdatableData, Gen3Charset):
             self.savegame[0x01F000:0x01F000 + 4096]
         )
 
-        if not self.game_save_a.valid:
+        if not self.game_save_a.is_used:
             self.active_game_save = 1
             pass
-        elif not self.game_save_b.valid:
+        elif not self.game_save_b.is_used:
             self.active_game_save = 0
             pass
         else:
@@ -84,8 +84,11 @@ class Gen3(UpdatableData, Gen3Charset):
         else:
             self.game_save = self.game_save_b
             pass
+        assert self.check_valid()
+        pass
 
     def save(self, filename: str):
+        assert self.check_valid()
         with open(filename, "wb") as f:
             f.write(self.savegame)
         pass
@@ -98,21 +101,29 @@ class Gen3(UpdatableData, Gen3Charset):
         else:
             self.game_save_b = self.game_save
             pass
-
-        self.game_save.update_from_sub_data()
         self.update_from_sub_data()
+        assert self.check_valid()
         pass
 
     def update_from_sub_data(self):
-        self.savegame = (
+        new_savegame = (
                 self.game_save_a.data +
                 self.game_save_b.data +
                 self.hall_of_fame.data +
                 self.mystery_gift.data +
                 self.recorded_battle.data
         )
-        assert (len(self.savegame) == 0x20000)
+        assert len(new_savegame) == 0x20000
+        self.savegame = new_savegame
+        assert self.check_valid()
         pass
+
+    def check_valid(self):
+        is_valid = True
+        is_valid = is_valid and self.game_save_a.check_valid()
+        is_valid = is_valid and self.game_save_b.check_valid()
+        is_valid = is_valid and self.game_save.check_valid()
+        return is_valid
 
     def __str__(self) -> str:
         msg = ""

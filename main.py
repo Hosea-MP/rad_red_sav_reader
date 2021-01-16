@@ -20,6 +20,10 @@ def test_gen3():
         species="zapdos",
         shiny=True
     )
+    # rr_parser.infinite_money(g)
+    rr_parser.set_money(g, 987654)
+    # rr_parser.infinite_money(g)
+    rr_parser.clear_pokedex(g)
     rr_parser.save_game(g, GEN3_OUTPUT_SAVE)
     pass
 
@@ -43,6 +47,9 @@ def test_rr():
         ability=3,
         nature="Adamant"
     )
+
+    rr_parser.complete_pokedex(g)
+    rr_parser.infinite_money(g)
     rr_parser.save_game(g, RR_OUTPUT_SAVE)
     pass
 

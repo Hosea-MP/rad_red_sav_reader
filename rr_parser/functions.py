@@ -3,7 +3,9 @@ from typing import Union, Optional
 from .games import Gen3, RadicalRed
 from .pkms import Pokemon
 from .pkm_builder import pkm_builder
-from .exceptions import ChecksumException, InvalidSizeException
+from .exceptions import InvalidSizeException
+from .constants.rr import get_species_pokedex_id
+from .enums import PokedexEntryState, GameType
 
 
 def clone_first_team_pkm(game: Gen3) -> bool:
@@ -22,6 +24,7 @@ def clone_first_team_pkm(game: Gen3) -> bool:
     if 0 < game.game_save.team.team_size < 6:
         pk0: Pokemon = game.game_save.team.team_pokemon_list[0]
         game.set_pokemon(pk0, game.game_save.team.team_size)
+        assert game.check_valid()
         st: bool = True
         pass
     else:
@@ -217,6 +220,12 @@ def create_and_insert_pokemon(
     # If free space is available, set Pokemon.
     if game.game_save.team.team_size < 6:
         game.set_pokemon(pk0, game.game_save.team.team_size)
+        assert game.check_valid()
+        set_pokedex_entry(
+            game,
+            species,
+            PokedexEntryState(PokedexEntryState.CAUGHT)
+        )
         st: bool = True
         pass
     else:
@@ -226,10 +235,160 @@ def create_and_insert_pokemon(
     return pk0, st
 
 
+def set_pokedex_entry(
+        game: Gen3,
+        species: Union[str, int],
+        state: PokedexEntryState = PokedexEntryState(PokedexEntryState.SEEN)):
+    """Set Pokemon species entry state.
+
+    Parameters
+    ----------
+    game : Gen3
+        Game class instance.
+    species : Union[str, int]
+        Species case insensitive name or Pokedex entry number (1 or higher).
+    state : PokedexEntryState
+        Pokedex entry state:
+            PokedexEntryState.UNSEEN: unlocked entry.
+            PokedexEntryState.SEEN: Pokemon seen.
+            PokedexEntryState.CAUGHT: Pokemon seen and caught.
+    """
+
+    if isinstance(species, int):
+        species_int: int = species
+        pass
+    elif isinstance(species, str):
+        _temp = get_species_pokedex_id(species)
+        if _temp is None:
+            raise Exception("Pokemon species not found: '{}'.".format(species))
+        species_int: int = _temp
+        pass
+    else:
+        raise NotImplemented
+    assert species_int > 0
+
+    if state == PokedexEntryState(PokedexEntryState.UNSEEN):
+        game.game_save.pokedex.unset_seen(species_int)
+        game.game_save.pokedex.unset_caught(species_int)
+    elif state == PokedexEntryState(PokedexEntryState.SEEN):
+        game.game_save.pokedex.set_seen(species_int)
+        game.game_save.pokedex.unset_caught(species_int)
+        pass
+    elif state == PokedexEntryState(PokedexEntryState.CAUGHT):
+        game.game_save.pokedex.set_seen(species_int)
+        game.game_save.pokedex.set_caught(species_int)
+        pass
+    else:
+        raise NotImplemented
+        pass
+    pass
+
+    game.update_from_sub_data()
+    pass
+
+
+def clear_pokedex(game: Gen3):
+    """Clear all pokedex entries.
+
+    Parameters
+    ----------
+    game : Gen3
+        Game class instance whose Pokedex is to be cleared.
+    """
+
+    s: int = game.game_save.pokedex.pokedex_size_bytes
+    new_seen_data: bytes = bytes(s)
+    new_caught_data: bytes = bytes(s)
+    game.game_save.pokedex.data_seen = new_seen_data
+    game.game_save.pokedex.data_caught = new_caught_data
+    game.update_from_sub_data()
+    pass
+
+
+def complete_pokedex(game: Gen3):
+    """Fill all pokedex entries.
+
+    Parameters
+    ----------
+    game : Gen3
+        Game class instance whose Pokedex is to be completed.
+    """
+
+    s: int = game.game_save.pokedex.pokedex_size_bytes
+    new_seen_data: bytes = bytes([0xFF] * s)
+    new_caught_data: bytes = bytes([0xFF] * s)
+    game.game_save.pokedex.data_seen = new_seen_data
+    game.game_save.pokedex.data_caught = new_caught_data
+    game.update_from_sub_data()
+    pass
+
+
+def set_money(game: Gen3, money: int):
+    """Set player's money amount.
+
+    Parameters
+    ----------
+    game : Gen3
+        Game whose money value is to be changed.
+    money : int
+        New money amount. Must fit within 4 bytes.
+    """
+    trainer_info = game.game_save.trainer_info
+    team = game.game_save.team
+
+    # sec_key = int.from_bytes(trainer_info.section[0x0AF8:0x0AF8 + 4], 'little')
+    sec_key = int.from_bytes(trainer_info.section[0x0F20:0x0F20 + 4], 'little')
+
+    if game.gt == GameType(GameType.RR):
+        # money = 9999999
+        sec_money = money
+        pass
+    elif game.gt == GameType(GameType.FR):
+        # money = 999999
+        sec_money = money ^ sec_key
+        pass
+    else:
+        raise NotImplemented
+
+    data = bytearray(team.section)
+    data[0x0290:0x0290 + 4] = sec_money.to_bytes(4, 'little')
+    game.game_save.sections[1].section = bytes(data)
+
+    # team.section = bytes(data)
+    # team.update()
+    game.game_save.update_from_sub_data()
+    game.update_from_sub_data()
+    pass
+
+
+def infinite_money(game: Gen3):
+    """Set player's money amount to max.
+
+    Parameters
+    ----------
+    game : Gen3
+        Game whose money value is to be maxed.
+    """
+    if game.gt == GameType(GameType.RR):
+        set_money(game, 9999999)
+        pass
+    elif game.gt == GameType(GameType.FR):
+        set_money(game, 999999)
+        pass
+    else:
+        raise NotImplemented
+    pass
+
+
 __all__ = [
     "export_first_team_pkm",
     "clone_first_team_pkm",
     "load_radical_red_game",
     "save_game",
     "create_and_insert_pokemon",
+    "set_pokedex_entry",
+    "clear_pokedex",
+    "complete_pokedex",
+    "infinite_money",
+    "set_money"
 ]
