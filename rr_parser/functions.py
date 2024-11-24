@@ -7,6 +7,11 @@ from .exceptions import InvalidSizeException
 from .constants.rr import get_species_pokedex_id
 from .enums import PokedexEntryState, GameType
 
+from .pkm_builder import NATURES
+
+from . import constants
+
+import pokebase as pb
 
 def clone_first_team_pkm(game: Gen3) -> bool:
     """Clone first team Pokemon into the next free team slot.
@@ -61,6 +66,20 @@ def export_first_team_pkm(game: Gen3, output: str):
         pass
     pass
 
+def species_rr_to_nat_dex(species_rr):
+    for v in dir(constants.rr._species):
+        if getattr(constants.rr._species, v) == species_rr:
+            name = v[v.find('_')+1:]
+            return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name}')
+    return 'ERROR'
+
+def move_rr_to_name(move_rr):
+    for v in dir(constants.rr._moves):
+        if getattr(constants.rr._moves, v) == move_rr:
+            name = v[v.find('_')+1:].capitalize()
+            return name
+    return 'ERROR'
+
 def pkm_set_to_text(pkm: Pokemon):
     """Example Output:
             Piplup @ Oran Berry
@@ -74,22 +93,34 @@ def pkm_set_to_text(pkm: Pokemon):
 
     Notes:
     """
-    set_str = f'{pkm.sub_data_decrypted.species}'
-    set_str += f' @ {pkm.sub_data_decrypted.growth.item}\n' if pkm.sub_data_decrypted.growth.item is not None else None
-    set_str += f'{pkm.sub_data_decrypted.nature} Nature\n'
-    set_str += f'Ability: {pkm.sub_data_decrypted.ability}, (hidden: {pkm.sub_data_decrypted.hidden_ab})\n'
+    species = species_rr_to_nat_dex(pkm.sub_data_decrypted.species)
+    print(f'Querying for pokemon {species}')
+    pb_pkm = pb.pokemon(species)
+    species = pb_pkm.name.capitalize()
+    nature = list(NATURES.keys())[pkm.sub_data_decrypted.nature].capitalize()
+    item = pb.item(pkm.sub_data_decrypted.growth.item).name if pkm.sub_data_decrypted.growth.item != 0 else 0
+
+    ability = pb_pkm.abilities[2*pkm.sub_data_decrypted.hidden_ab + pkm.sub_data_decrypted.ability].ability.name
+    ability = ability.replace('-', ' ').title()
+
+
+    set_str = f'{species}'
+    set_str += f' @ {item}\n' if item != 0 else '\n'
+    set_str += f'Level: {pkm.level}\n'
+    set_str += f'{nature} Nature\n'
+    set_str += f'Ability: {ability}\n'
 
     set_str += 'EVs: '
-    set_str += ' /'.join('{0}, {1}'.format(val, stat) for stat, val in zip([
-                            "HP", "ATTACK", "DEFENSE",
-                            "SPEED", "SP. ATTACK", "SP. DEFENSE"
+    set_str += ' / '.join('{0} {1}'.format(val, stat) for stat, val in zip([
+                            "HP", "Atk", "Def",
+                            "Spe", "SpA", "SpD"
                         ],
                         pkm.sub_data.evs))
     
     set_str += '\nIVs: '
-    set_str += ' /'.join('{0}, {1}'.format(val, stat) for stat, val in zip([
-                            "HP", "ATTACK", "DEFENSE",
-                            "SPEED", "SP. ATTACK", "SP. DEFENSE"
+    set_str += ' / '.join('{0} {1}'.format(val, stat) for stat, val in zip([
+                            "HP", "Atk", "Def",
+                            "Spe", "SpA", "SpD"
                         ],
                         pkm.sub_data.ivs))
     set_str+='\n'
@@ -97,7 +128,7 @@ def pkm_set_to_text(pkm: Pokemon):
     moves = [int.from_bytes(move_data[i*2: (i+1)*2], 'little') for i in range(4)]
     for move in moves:
         if move != 0:
-            set_str+=f'- {move}\n'
+            set_str+=f'- {move_rr_to_name(move)}\n'
 
     return set_str
 
@@ -153,7 +184,7 @@ def load_radical_red_game(inp: str) -> RadicalRed:
     with open(inp, "rb") as f:
         b = f.read()
         pass
-    if len(b) != 131072:
+    if len(b) != 131088:
         raise InvalidSizeException("Savegame size is not 128 KiB.")
     return RadicalRed(b)
 

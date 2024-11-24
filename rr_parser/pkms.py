@@ -284,12 +284,12 @@ class DecryptedData(ABCPokemonSubData):
     
     @property
     def hidden_ab(self) -> int:
-        return int.from_bytes(self.misc.data[4:8], 'little') & (1 << 31)
+        return (int.from_bytes(self.misc.data[4:8], 'little') >> 31) & 1
     
     @property
     def ivs(self) -> list[int]:
         return [
-            (self.misc.data[4:8] >> (i*5) ) & (2^5-1) for i in range(6)
+            (int.from_bytes(self.misc.data[4:8], 'little') >> (i*5) ) & (2^5-1) for i in range(6)
         ]
 
     @species.setter
