@@ -61,6 +61,75 @@ def export_first_team_pkm(game: Gen3, output: str):
         pass
     pass
 
+def pkm_set_to_text(pkm: Pokemon):
+    """Example Output:
+            Piplup @ Oran Berry
+            Rash Nature
+            Ability: Torrent
+            EVs: 3 HP / 2 Atk / 1 SpA / 2 SpD / 1 Spe
+            IVs: 22 HP / 6 Atk / 30 Def / 8 SpA / 23 SpD / 27 Spe
+            - Pound
+            - Bubble
+            - Growl
+
+    Notes:
+    """
+    set_str = f'{pkm.sub_data_decrypted.species}'
+    set_str += f' @ {pkm.sub_data_decrypted.growth.item}\n' if pkm.sub_data_decrypted.growth.item is not None else None
+    set_str += f'{pkm.sub_data_decrypted.nature} Nature\n'
+    set_str += f'Ability: {pkm.sub_data_decrypted.ability}, (hidden: {pkm.sub_data_decrypted.hidden_ab})\n'
+
+    set_str += 'EVs: '
+    set_str += ' /'.join('{0}, {1}'.format(val, stat) for stat, val in zip([
+                            "HP", "ATTACK", "DEFENSE",
+                            "SPEED", "SP. ATTACK", "SP. DEFENSE"
+                        ],
+                        pkm.sub_data.evs))
+    
+    set_str += '\nIVs: '
+    set_str += ' /'.join('{0}, {1}'.format(val, stat) for stat, val in zip([
+                            "HP", "ATTACK", "DEFENSE",
+                            "SPEED", "SP. ATTACK", "SP. DEFENSE"
+                        ],
+                        pkm.sub_data.ivs))
+    set_str+='\n'
+    move_data = pkm.sub_data_decrypted.attacks.data
+    moves = [int.from_bytes(move_data[i*2: (i+1)*2], 'little') for i in range(4)]
+    for move in moves:
+        if move != 0:
+            set_str+=f'- {move}\n'
+
+    return set_str
+
+def export_pkm_sets_for_calc(game: Gen3, output: str, 
+                   box_range: tuple[int, int]=None, 
+                   skip_boxes:list[int]=None):
+    """Export all pokemon in the player team plus all of the pokemon in the PC
+    
+    """
+
+    
+    with open(output, 'w') as f:
+        for pokemon in game.game_save.team.team_pokemon_list[:game.game_save.team.team_size]:
+            set_str = pkm_set_to_text(pokemon)
+            f.write(set_str)
+            f.write('\n\n')
+        
+        # boxes = np.arange(25) # TODO: Check max number of boxes in PC
+        # if box_range is not None:
+        #     boxes = np.intersect1d(boxes, np.arange(box_range))
+        # if skip_boxes is not None:
+        #     boxes = set(boxes.flatten()) - set(skip_boxes)
+        
+        # for box in boxes: # TODO Fix this psuedo code
+        #     for pokemon in box: #TODO Fix this pseudo code
+        #         set_str = pkm_set_to_text(pokemon)
+        #         f.write(set_str)
+        #         f.write('\n\n')
+            
+
+    print(f'Exported pokemon sets to ``{output}``')
+
 
 def load_radical_red_game(inp: str) -> RadicalRed:
     """Load the Pokemon Radical Red savegame.

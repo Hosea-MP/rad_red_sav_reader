@@ -91,6 +91,10 @@ class Growth(UpdatableData):
         self.update_from_sub_data()
         pass
 
+    @property
+    def item(self) -> int:
+        return int.from_bytes(self.data[2:4], 'little')
+
     pass
 
 
@@ -267,8 +271,26 @@ class DecryptedData(ABCPokemonSubData):
         pass
 
     @property
+    def nature(self) -> int:
+        return self._pid % 25
+    
+    @property
+    def ability(self) -> int:
+        return self._pid % 2
+
+    @property
     def species(self) -> int:
         return self.growth.species
+    
+    @property
+    def hidden_ab(self) -> int:
+        return int.from_bytes(self.misc.data[4:8], 'little') & (1 << 31)
+    
+    @property
+    def ivs(self) -> list[int]:
+        return [
+            (self.misc.data[4:8] >> (i*5) ) & (2^5-1) for i in range(6)
+        ]
 
     @species.setter
     def species(self, no: int):
