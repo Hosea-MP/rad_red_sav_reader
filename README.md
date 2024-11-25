@@ -1,6 +1,8 @@
 
 # RadicalRed Savegame Editor
 
+NOTE: This is a fork of [This](https://gitlab.com/old22/radicalred-savegame-editor) gitlab repository from 2021
+
 Includes functions for loading Radical Red
 savegames, editing team Pokemons and saving
 the result into a legit savegame. Currently, it can:
