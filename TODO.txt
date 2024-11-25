@@ -1,0 +1,11 @@
+- Update move and species name conversion functions to use files in CFRU/strings
+
+- Add in typing for export
+- Add in gender for export
+
+- Add support for RR changes to ability ids
+    - Current: Checked up to (not including) Chikorita (152)
+
+- Add functionality for box export
+
+- Add support for chillet...?

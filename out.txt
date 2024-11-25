@@ -5,55 +5,55 @@ Ability: Competitive
 EVs: 10 HP / 5 Atk / 2 Def / 3 Spe / 4 SpA / 2 SpD
 IVs: 6 HP / 6 Atk / 6 Def / 2 Spe / 0 SpA / 6 SpD
 - Pluck
-- Babydolleyes
+- Doll Eyes
 - Bubble
-- Bubblebeam
+- Bubble Beam
 
 
 Tentacool
 Level: 15
 Docile Nature
-Ability: Liquid ooze
+Ability: Liquid Ooze
 EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
 IVs: 6 HP / 2 Atk / 6 Def / 4 Spe / 4 SpA / 4 SpD
-- Rapidspin
-- Watergun
-- Toxicspikes
+- Rapid Spin
+- Water Gun
+- None
 - Acid
 
 
 Marill
 Level: 15
 Quiet Nature
-Ability: Huge power
+Ability: Huge Power
 EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
 IVs: 0 HP / 2 Atk / 2 Def / 0 Spe / 4 SpA / 6 SpD
 - Rollout
-- Aquajet
-- Defensecurl
-- Bodyslam
+- Aqua Jet
+- Defense Curl
+- Body Slam
 
 
 Furret
 Level: 15
 Hardy Nature
-Ability: Keen eye
+Ability: Keen Eye
 EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
 IVs: 0 HP / 4 Atk / 0 Def / 2 Spe / 4 SpA / 6 SpD
 - Headbutt
 - Agility
-- Defensecurl
-- Quickattack
+- Defense Curl
+- Quick Attack
 
 
-Morelull @ old-amber
+Morelull @ Tiny Mushroom
 Level: 15
 Timid Nature
 Ability: Illuminate
 EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
 IVs: 0 HP / 0 Atk / 2 Def / 6 Spe / 6 SpA / 6 SpD
-- Megadrain
-- Drainingkiss
+- Mega Drain
+- Drain Kiss
 - Flash
 - Moonlight
 
@@ -65,7 +65,7 @@ Ability: Intimidate
 EVs: 1 HP / 0 Atk / 1 Def / 0 Spe / 0 SpA / 0 SpD
 IVs: 0 HP / 6 Atk / 2 Def / 6 Spe / 6 SpA / 2 SpD
 - Leer
-- Lowsweep
+- Low Sweep
 - Headbutt
 
 

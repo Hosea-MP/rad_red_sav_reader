@@ -1,0 +1,10751 @@
+{
+	"1": {
+		"id": 1,
+		"name": "bulbasaur",
+		"abilities": [
+			"overgrow",
+			"chlorophyll"
+		]
+	},
+	"2": {
+		"id": 2,
+		"name": "ivysaur",
+		"abilities": [
+			"overgrow",
+			"chlorophyll"
+		]
+	},
+	"3": {
+		"id": 3,
+		"name": "venusaur",
+		"abilities": [
+			"overgrow",
+			"chlorophyll"
+		]
+	},
+	"4": {
+		"id": 4,
+		"name": "charmander",
+		"abilities": [
+			"blaze",
+			"solar-power"
+		]
+	},
+	"5": {
+		"id": 5,
+		"name": "charmeleon",
+		"abilities": [
+			"blaze",
+			"solar-power"
+		]
+	},
+	"6": {
+		"id": 6,
+		"name": "charizard",
+		"abilities": [
+			"blaze",
+			"solar-power"
+		]
+	},
+	"7": {
+		"id": 7,
+		"name": "squirtle",
+		"abilities": [
+			"torrent",
+			"rain-dish"
+		]
+	},
+	"8": {
+		"id": 8,
+		"name": "wartortle",
+		"abilities": [
+			"torrent",
+			"rain-dish"
+		]
+	},
+	"9": {
+		"id": 9,
+		"name": "blastoise",
+		"abilities": [
+			"torrent",
+			"rain-dish"
+		]
+	},
+	"10": {
+		"id": 10,
+		"name": "caterpie",
+		"abilities": [
+			"shield-dust",
+			"run-away"
+		]
+	},
+	"11": {
+		"id": 11,
+		"name": "metapod",
+		"abilities": [
+			"shed-skin"
+		]
+	},
+	"12": {
+		"id": 12,
+		"name": "butterfree",
+		"abilities": [
+			"compound-eyes",
+			"tinted-lens"
+		]
+	},
+	"13": {
+		"id": 13,
+		"name": "weedle",
+		"abilities": [
+			"shield-dust",
+			"run-away"
+		]
+	},
+	"14": {
+		"id": 14,
+		"name": "kakuna",
+		"abilities": [
+			"shed-skin"
+		]
+	},
+	"15": {
+		"id": 15,
+		"name": "beedrill",
+		"abilities": [
+			"swarm",
+			"sniper"
+		]
+	},
+	"16": {
+		"id": 16,
+		"name": "pidgey",
+		"abilities": [
+			"frisk",
+			"no-guard"
+		]
+	},
+	"17": {
+		"id": 17,
+		"name": "pidgeotto",
+		"abilities": [
+			"frisk",
+			"no-guard"
+		]
+	},
+	"18": {
+		"id": 18,
+		"name": "pidgeot",
+		"abilities": [
+			"frisk",
+			"no-guard"
+		]
+	},
+	"19": {
+		"id": 19,
+		"name": "rattata",
+		"abilities": [
+			"run-away",
+			"guts",
+			"hustle"
+		]
+	},
+	"20": {
+		"id": 20,
+		"name": "raticate",
+		"abilities": [
+			"run-away",
+			"guts",
+			"hustle"
+		]
+	},
+	"21": {
+		"id": 21,
+		"name": "spearow",
+		"abilities": [
+			"frisk",
+            "technician",
+			"sniper"
+		]
+	},
+	"22": {
+		"id": 22,
+		"name": "fearow",
+		"abilities": [
+			"frisk",
+            "technician",
+			"sniper"
+		]
+	},
+	"23": {
+		"id": 23,
+		"name": "ekans",
+		"abilities": [
+			"intimidate",
+			"shed-skin",
+			"corrosion"
+		]
+	},
+	"24": {
+		"id": 24,
+		"name": "arbok",
+		"abilities": [
+			"intimidate",
+			"shed-skin",
+			"strong-jaw"
+		]
+	},
+	"25": {
+		"id": 25,
+		"name": "pikachu",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"26": {
+		"id": 26,
+		"name": "raichu",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"27": {
+		"id": 27,
+		"name": "sandshrew",
+		"abilities": [
+			"sand-veil",
+			"sand-rush"
+		]
+	},
+	"28": {
+		"id": 28,
+		"name": "sandslash",
+		"abilities": [
+			"sand-veil",
+			"sand-rush"
+		]
+	},
+	"29": {
+		"id": 29,
+		"name": "nidoran-f",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"hustle"
+		]
+	},
+	"30": {
+		"id": 30,
+		"name": "nidorina",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"hustle"
+		]
+	},
+	"31": {
+		"id": 31,
+		"name": "nidoqueen",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"sheer-force"
+		]
+	},
+	"32": {
+		"id": 32,
+		"name": "nidoran-m",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"hustle"
+		]
+	},
+	"33": {
+		"id": 33,
+		"name": "nidorino",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"hustle"
+		]
+	},
+	"34": {
+		"id": 34,
+		"name": "nidoking",
+		"abilities": [
+			"poison-touch",
+			"rivalry",
+			"sheer-force"
+		]
+	},
+	"35": {
+		"id": 35,
+		"name": "clefairy",
+		"abilities": [
+			"cute-charm",
+			"magic-guard",
+			"friend-guard"
+		]
+	},
+	"36": {
+		"id": 36,
+		"name": "clefable",
+		"abilities": [
+			"cute-charm",
+			"magic-guard",
+			"unaware"
+		]
+	},
+	"37": {
+		"id": 37,
+		"name": "vulpix",
+		"abilities": [
+			"flash-fire",
+			"drought"
+		]
+	},
+	"38": {
+		"id": 38,
+		"name": "ninetales",
+		"abilities": [
+			"flash-fire",
+			"drought"
+		]
+	},
+	"39": {
+		"id": 39,
+		"name": "jigglypuff",
+		"abilities": [
+			"cute-charm",
+			"competitive",
+			"friend-guard"
+		]
+	},
+	"40": {
+		"id": 40,
+		"name": "wigglytuff",
+		"abilities": [
+			"sheer-force",
+			"competitive",
+			"frisk"
+		]
+	},
+	"41": {
+		"id": 41,
+		"name": "zubat",
+		"abilities": [
+            "infiltrator",
+			"sniper",
+            "corrosion"
+		]
+	},
+	"42": {
+		"id": 42,
+		"name": "golbat",
+		"abilities": [
+            "infiltrator",
+			"sniper",
+            "corrosion"
+		]
+	},
+	"43": {
+		"id": 43,
+		"name": "oddish",
+		"abilities": [
+			"chlorophyll",
+			"run-away"
+		]
+	},
+	"44": {
+		"id": 44,
+		"name": "gloom",
+		"abilities": [
+			"chlorophyll",
+			"stench"
+		]
+	},
+	"45": {
+		"id": 45,
+		"name": "vileplume",
+		"abilities": [
+			"chlorophyll",
+			"effect-spore"
+		]
+	},
+	"46": {
+		"id": 46,
+		"name": "paras",
+		"abilities": [
+			"effect-spore",
+			"dry-skin",
+			"damp"
+		]
+	},
+	"47": {
+		"id": 47,
+		"name": "parasect",
+		"abilities": [
+			"effect-spore",
+			"dry-skin",
+			"damp"
+		]
+	},
+	"48": {
+		"id": 48,
+		"name": "venonat",
+		"abilities": [
+			"compound-eyes",
+			"tinted-lens",
+			"run-away"
+		]
+	},
+	"49": {
+		"id": 49,
+		"name": "venomoth",
+		"abilities": [
+			"shield-dust",
+			"tinted-lens",
+			"wonder-skin"
+		]
+	},
+	"50": {
+		"id": 50,
+		"name": "diglett",
+		"abilities": [
+			"sand-veil",
+			"arena-trap",
+			"sand-force"
+		]
+	},
+	"51": {
+		"id": 51,
+		"name": "dugtrio",
+		"abilities": [
+			"sand-veil",
+			"arena-trap",
+			"sand-force"
+		]
+	},
+	"52": {
+		"id": 52,
+		"name": "meowth",
+		"abilities": [
+			"pickup",
+			"technician",
+			"feline-prowess"
+		]
+	},
+	"53": {
+		"id": 53,
+		"name": "persian",
+		"abilities": [
+			"limber",
+			"technician",
+			"feline-prowess"
+		]
+	},
+	"54": {
+		"id": 54,
+		"name": "psyduck",
+		"abilities": [
+			"damp",
+			"cloud-nine",
+			"swift-swim"
+		]
+	},
+	"55": {
+		"id": 55,
+		"name": "golduck",
+		"abilities": [
+			"swift-swim",
+			"cloud-nine",
+			"neuroforce"
+		]
+	},
+	"56": {
+		"id": 56,
+		"name": "mankey",
+		"abilities": [
+			"vital-spirit",
+			"anger-point",
+			"defiant"
+		]
+	},
+	"57": {
+		"id": 57,
+		"name": "primeape",
+		"abilities": [
+			"vital-spirit",
+			"anger-point",
+			"defiant"
+		]
+	},
+	"58": {
+		"id": 58,
+		"name": "growlithe",
+		"abilities": [
+			"intimidate",
+			"flash-fire",
+			"justified"
+		]
+	},
+	"59": {
+		"id": 59,
+		"name": "arcanine",
+		"abilities": [
+			"intimidate",
+			"flash-fire",
+			"justified"
+		]
+	},
+	"60": {
+		"id": 60,
+		"name": "poliwag",
+		"abilities": [
+			"water-absorb",
+			"damp",
+			"swift-swim"
+		]
+	},
+	"61": {
+		"id": 61,
+		"name": "poliwhirl",
+		"abilities": [
+			"water-absorb",
+			"damp",
+			"swift-swim"
+		]
+	},
+	"62": {
+		"id": 62,
+		"name": "poliwrath",
+		"abilities": [
+			"water-absorb",
+			"damp",
+			"swift-swim"
+		]
+	},
+	"63": {
+		"id": 63,
+		"name": "abra",
+		"abilities": [
+			"synchronize",
+			"inner-focus",
+			"magic-guard"
+		]
+	},
+	"64": {
+		"id": 64,
+		"name": "kadabra",
+		"abilities": [
+			"synchronize",
+			"inner-focus",
+			"magic-guard"
+		]
+	},
+	"65": {
+		"id": 65,
+		"name": "alakazam",
+		"abilities": [
+			"synchronize",
+			"inner-focus",
+			"magic-guard"
+		]
+	},
+	"66": {
+		"id": 66,
+		"name": "machop",
+		"abilities": [
+			"guts",
+			"no-guard",
+			"steadfast"
+		]
+	},
+	"67": {
+		"id": 67,
+		"name": "machoke",
+		"abilities": [
+			"guts",
+			"no-guard",
+			"steadfast"
+		]
+	},
+	"68": {
+		"id": 68,
+		"name": "machamp",
+		"abilities": [
+			"guts",
+			"no-guard",
+			"steadfast"
+		]
+	},
+	"69": {
+		"id": 69,
+		"name": "bellsprout",
+		"abilities": [
+			"chlorophyll",
+			"gluttony"
+		]
+	},
+	"70": {
+		"id": 70,
+		"name": "weepinbell",
+		"abilities": [
+			"chlorophyll",
+			"gluttony"
+		]
+	},
+	"71": {
+		"id": 71,
+		"name": "victreebel",
+		"abilities": [
+			"chlorophyll",
+			"gluttony"
+		]
+	},
+	"72": {
+		"id": 72,
+		"name": "tentacool",
+		"abilities": [
+			"clear-body",
+			"liquid-ooze",
+			"rain-dish"
+		]
+	},
+	"73": {
+		"id": 73,
+		"name": "tentacruel",
+		"abilities": [
+			"clear-body",
+			"liquid-ooze",
+			"rain-dish"
+		]
+	},
+	"74": {
+		"id": 74,
+		"name": "geodude",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"sand-veil"
+		]
+	},
+	"75": {
+		"id": 75,
+		"name": "graveler",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"sand-veil"
+		]
+	},
+	"76": {
+		"id": 76,
+		"name": "golem",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"sand-veil"
+		]
+	},
+	"77": {
+		"id": 77,
+		"name": "ponyta",
+		"abilities": [
+			"run-away",
+			"flash-fire",
+			"flame-body"
+		]
+	},
+	"78": {
+		"id": 78,
+		"name": "rapidash",
+		"abilities": [
+			"reckless",
+			"flash-fire",
+			"blazing-soul"
+		]
+	},
+	"79": {
+		"id": 79,
+		"name": "slowpoke",
+		"abilities": [
+			"oblivious",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"80": {
+		"id": 80,
+		"name": "slowbro",
+		"abilities": [
+			"oblivious",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"81": {
+		"id": 81,
+		"name": "magnemite",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"analytic"
+		]
+	},
+	"82": {
+		"id": 82,
+		"name": "magneton",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"analytic"
+		]
+	},
+	"83": {
+		"id": 83,
+		"name": "farfetchd",
+		"abilities": [
+			"frisk",
+			"inner-focus",
+			"sharpness"
+		]
+	},
+	"84": {
+		"id": 84,
+		"name": "doduo",
+		"abilities": [
+			"run-away",
+			"early-bird"
+		]
+	},
+	"85": {
+		"id": 85,
+		"name": "dodrio",
+		"abilities": [
+			"rock-head",
+			"early-bird"
+		]
+	},
+	"86": {
+		"id": 86,
+		"name": "seel",
+		"abilities": [
+			"thick-fat",
+			"hydration",
+			"ice-body"
+		]
+	},
+	"87": {
+		"id": 87,
+		"name": "dewgong",
+		"abilities": [
+			"thick-fat",
+			"ice-scales",
+			"ice-body"
+		]
+	},
+	"88": {
+		"id": 88,
+		"name": "grimer",
+		"abilities": [
+			"stench",
+			"sticky-hold",
+			"poison-touch"
+		]
+	},
+	"89": {
+		"id": 89,
+		"name": "muk",
+		"abilities": [
+			"regenerator",
+			"sticky-hold",
+			"poison-touch"
+		]
+	},
+	"90": {
+		"id": 90,
+		"name": "shellder",
+		"abilities": [
+			"shell-armor",
+			"skill-link",
+			"overcoat"
+		]
+	},
+	"91": {
+		"id": 91,
+		"name": "cloyster",
+		"abilities": [
+			"shell-armor",
+			"skill-link",
+			"overcoat"
+		]
+	},
+	"92": {
+		"id": 92,
+		"name": "gastly",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"93": {
+		"id": 93,
+		"name": "haunter",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"94": {
+		"id": 94,
+		"name": "gengar",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"95": {
+		"id": 95,
+		"name": "onix",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"weak-armor"
+		]
+	},
+	"96": {
+		"id": 96,
+		"name": "drowzee",
+		"abilities": [
+			"insomnia",
+			"bad-dreams",
+			"psychic-surge"
+		]
+	},
+	"97": {
+		"id": 97,
+		"name": "hypno",
+		"abilities": [
+			"insomnia",
+			"bad-dreams",
+			"psychic-surge"
+		]
+	},
+	"98": {
+		"id": 98,
+		"name": "krabby",
+		"abilities": [
+			"hyper-cutter",
+			"shell-armor",
+			"sheer-force"
+		]
+	},
+	"99": {
+		"id": 99,
+		"name": "kingler",
+		"abilities": [
+			"hyper-cutter",
+			"shell-armor",
+			"sheer-force"
+		]
+	},
+	"100": {
+		"id": 100,
+		"name": "voltorb",
+		"abilities": [
+			"soundproof",
+			"static",
+			"galvanize"
+		]
+	},
+	"101": {
+		"id": 101,
+		"name": "electrode",
+		"abilities": [
+			"soundproof",
+			"static",
+			"galvanize"
+		]
+	},
+	"102": {
+		"id": 102,
+		"name": "exeggcute",
+		"abilities": [
+			"chlorophyll",
+			"harvest"
+		]
+	},
+	"103": {
+		"id": 103,
+		"name": "exeggutor",
+		"abilities": [
+			"chlorophyll",
+			"harvest"
+		]
+	},
+	"104": {
+		"id": 104,
+		"name": "cubone",
+		"abilities": [
+			"rock-head",
+			"battle-armor",
+			"bone-zone"
+		]
+	},
+	"105": {
+		"id": 105,
+		"name": "marowak",
+		"abilities": [
+			"rock-head",
+			"battle-armor",
+			"bone-zone"
+		]
+	},
+	"106": {
+		"id": 106,
+		"name": "hitmonlee",
+		"abilities": [
+			"unburden",
+			"reckless",
+			"striker"
+		]
+	},
+	"107": {
+		"id": 107,
+		"name": "hitmonchan",
+		"abilities": [
+			"frisk",
+			"iron-fist",
+			"inner-focus"
+		]
+	},
+	"108": {
+		"id": 108,
+		"name": "lickitung",
+		"abilities": [
+			"own-tempo",
+			"oblivious",
+			"cloud-nine"
+		]
+	},
+	"109": {
+		"id": 109,
+		"name": "koffing",
+		"abilities": [
+			"levitate",
+			"neutralizing-gas",
+			"toxic-debris"
+		]
+	},
+	"110": {
+		"id": 110,
+		"name": "weezing",
+		"abilities": [
+			"levitate",
+			"neutralizing-gas",
+			"toxic-debris"
+		]
+	},
+	"111": {
+		"id": 111,
+		"name": "rhyhorn",
+		"abilities": [
+			"lightning-rod",
+			"rock-head",
+			"reckless"
+		]
+	},
+	"112": {
+		"id": 112,
+		"name": "rhydon",
+		"abilities": [
+			"lightning-rod",
+			"rock-head",
+			"reckless"
+		]
+	},
+	"113": {
+		"id": 113,
+		"name": "chansey",
+		"abilities": [
+			"natural-cure",
+			"serene-grace"
+		]
+	},
+	"114": {
+		"id": 114,
+		"name": "tangela",
+		"abilities": [
+			"chlorophyll",
+			"leaf-guard",
+			"regenerator"
+		]
+	},
+	"115": {
+		"id": 115,
+		"name": "kangaskhan",
+		"abilities": [
+			"early-bird",
+			"scrappy",
+			"inner-focus"
+		]
+	},
+	"116": {
+		"id": 116,
+		"name": "horsea",
+		"abilities": [
+			"swift-swim",
+			"sniper",
+			"damp"
+		]
+	},
+	"117": {
+		"id": 117,
+		"name": "seadra",
+		"abilities": [
+			"poison-touch",
+			"sniper",
+			"damp"
+		]
+	},
+	"118": {
+		"id": 118,
+		"name": "goldeen",
+		"abilities": [
+			"lightning-rod",
+			"water-veil",
+			"rain-dish"
+		]
+	},
+	"119": {
+		"id": 119,
+		"name": "seaking",
+		"abilities": [
+			"lightning-rod",
+			"water-veil",
+			"rain-dish"
+		]
+	},
+	"120": {
+		"id": 120,
+		"name": "staryu",
+		"abilities": [
+			"natural-cure",
+			"illuminate",
+			"analytic"
+		]
+	},
+	"121": {
+		"id": 121,
+		"name": "starmie",
+		"abilities": [
+			"natural-cure",
+			"illuminate",
+			"analytic"
+		]
+	},
+	"122": {
+		"id": 122,
+		"name": "mr-mime",
+		"abilities": [
+			"soundproof",
+			"filter",
+			"misty-surge"
+		]
+	},
+	"123": {
+		"id": 123,
+		"name": "scyther",
+		"abilities": [
+			"swarm",
+			"technician",
+			"steadfast"
+		]
+	},
+	"124": {
+		"id": 124,
+		"name": "jynx",
+		"abilities": [
+			"dry-skin"
+		]
+	},
+	"125": {
+		"id": 125,
+		"name": "electabuzz",
+		"abilities": [
+			"static",
+			"vital-spirit",
+            "iron-fist"
+		]
+	},
+	"126": {
+		"id": 126,
+		"name": "magmar",
+		"abilities": [
+			"flame-body",
+            "magma-armor",
+			"vital-spirit"
+		]
+	},
+	"127": {
+		"id": 127,
+		"name": "pinsir",
+		"abilities": [
+			"hyper-cutter",
+			"mold-breaker",
+			"moxie"
+		]
+	},
+	"128": {
+		"id": 128,
+		"name": "tauros",
+		"abilities": [
+			"intimidate",
+			"anger-point",
+			"sheer-force"
+		]
+	},
+	"129": {
+		"id": 129,
+		"name": "magikarp",
+		"abilities": [
+			"swift-swim",
+			"hydration"
+		]
+	},
+	"130": {
+		"id": 130,
+		"name": "gyarados",
+		"abilities": [
+			"intimidate",
+			"moxie"
+		]
+	},
+	"131": {
+		"id": 131,
+		"name": "lapras",
+		"abilities": [
+			"water-absorb",
+			"hydration"
+		]
+	},
+	"132": {
+		"id": 132,
+		"name": "ditto",
+		"abilities": [
+			"limber",
+			"imposter"
+		]
+	},
+	"133": {
+		"id": 133,
+		"name": "eevee",
+		"abilities": [
+			"run-away",
+			"adaptability"
+		]
+	},
+	"134": {
+		"id": 134,
+		"name": "vaporeon",
+		"abilities": [
+			"water-absorb",
+			"hydration"
+		]
+	},
+	"135": {
+		"id": 135,
+		"name": "jolteon",
+		"abilities": [
+			"volt-absorb",
+			"quick-feet"
+		]
+	},
+	"136": {
+		"id": 136,
+		"name": "flareon",
+		"abilities": [
+			"flash-fire",
+			"toxic-boost"
+		]
+	},
+	"137": {
+		"id": 137,
+		"name": "porygon",
+		"abilities": [
+			"trace",
+			"download",
+			"analytic"
+		]
+	},
+	"138": {
+		"id": 138,
+		"name": "omanyte",
+		"abilities": [
+			"swift-swim",
+			"shell-armor",
+			"weak-armor"
+		]
+	},
+	"139": {
+		"id": 139,
+		"name": "omastar",
+		"abilities": [
+			"swift-swim",
+			"shell-armor",
+			"weak-armor"
+		]
+	},
+	"140": {
+		"id": 140,
+		"name": "kabuto",
+		"abilities": [
+			"weak-armor",
+			"battle-armor",
+			"swift-swim"
+		]
+	},
+	"141": {
+		"id": 141,
+		"name": "kabutops",
+		"abilities": [
+			"weak-armor",
+			"battle-armor",
+			"swift-swim"
+		]
+	},
+	"142": {
+		"id": 142,
+		"name": "aerodactyl",
+		"abilities": [
+			"rock-head",
+			"pressure",
+			"unnerve"
+		]
+	},
+	"143": {
+		"id": 143,
+		"name": "snorlax",
+		"abilities": [
+			"immunity",
+			"thick-fat",
+			"gluttony"
+		]
+	},
+	"144": {
+		"id": 144,
+		"name": "articuno",
+		"abilities": [
+			"pressure",
+			"frozen-mist"
+		]
+	},
+	"145": {
+		"id": 145,
+		"name": "zapdos",
+		"abilities": [
+			"pressure",
+			"static"
+		]
+	},
+	"146": {
+		"id": 146,
+		"name": "moltres",
+		"abilities": [
+			"pressure",
+			"flame-body"
+		]
+	},
+	"147": {
+		"id": 147,
+		"name": "dratini",
+		"abilities": [
+			"shed-skin",
+			"marvel-scale"
+		]
+	},
+	"148": {
+		"id": 148,
+		"name": "dragonair",
+		"abilities": [
+			"shed-skin",
+			"marvel-scale"
+		]
+	},
+	"149": {
+		"id": 149,
+		"name": "dragonite",
+		"abilities": [
+			"inner-focus",
+			"multiscale"
+		]
+	},
+	"150": {
+		"id": 150,
+		"name": "mewtwo",
+		"abilities": [
+			"pressure",
+			"unnerve"
+		]
+	},
+	"151": {
+		"id": 151,
+		"name": "mew",
+		"abilities": [
+			"synchronize"
+		]
+	},
+	"152": {
+		"id": 152,
+		"name": "chikorita",
+		"abilities": [
+			"overgrow",
+			"leaf-guard"
+		]
+	},
+	"153": {
+		"id": 153,
+		"name": "bayleef",
+		"abilities": [
+			"overgrow",
+			"leaf-guard"
+		]
+	},
+	"154": {
+		"id": 154,
+		"name": "meganium",
+		"abilities": [
+			"overgrow",
+			"leaf-guard"
+		]
+	},
+	"155": {
+		"id": 155,
+		"name": "cyndaquil",
+		"abilities": [
+			"blaze",
+			"flash-fire"
+		]
+	},
+	"156": {
+		"id": 156,
+		"name": "quilava",
+		"abilities": [
+			"blaze",
+			"flash-fire"
+		]
+	},
+	"157": {
+		"id": 157,
+		"name": "typhlosion",
+		"abilities": [
+			"blaze",
+			"flash-fire"
+		]
+	},
+	"158": {
+		"id": 158,
+		"name": "totodile",
+		"abilities": [
+			"torrent",
+			"sheer-force"
+		]
+	},
+	"159": {
+		"id": 159,
+		"name": "croconaw",
+		"abilities": [
+			"torrent",
+			"sheer-force"
+		]
+	},
+	"160": {
+		"id": 160,
+		"name": "feraligatr",
+		"abilities": [
+			"torrent",
+			"sheer-force"
+		]
+	},
+	"161": {
+		"id": 161,
+		"name": "sentret",
+		"abilities": [
+			"run-away",
+			"keen-eye",
+			"frisk"
+		]
+	},
+	"162": {
+		"id": 162,
+		"name": "furret",
+		"abilities": [
+			"run-away",
+			"keen-eye",
+			"frisk"
+		]
+	},
+	"163": {
+		"id": 163,
+		"name": "hoothoot",
+		"abilities": [
+			"insomnia",
+			"keen-eye",
+			"tinted-lens"
+		]
+	},
+	"164": {
+		"id": 164,
+		"name": "noctowl",
+		"abilities": [
+			"insomnia",
+			"keen-eye",
+			"tinted-lens"
+		]
+	},
+	"165": {
+		"id": 165,
+		"name": "ledyba",
+		"abilities": [
+			"swarm",
+			"early-bird",
+			"rattled"
+		]
+	},
+	"166": {
+		"id": 166,
+		"name": "ledian",
+		"abilities": [
+			"swarm",
+			"early-bird",
+			"iron-fist"
+		]
+	},
+	"167": {
+		"id": 167,
+		"name": "spinarak",
+		"abilities": [
+			"swarm",
+			"insomnia",
+			"sniper"
+		]
+	},
+	"168": {
+		"id": 168,
+		"name": "ariados",
+		"abilities": [
+			"swarm",
+			"insomnia",
+			"sniper"
+		]
+	},
+	"169": {
+		"id": 169,
+		"name": "crobat",
+		"abilities": [
+			"inner-focus",
+			"infiltrator"
+		]
+	},
+	"170": {
+		"id": 170,
+		"name": "chinchou",
+		"abilities": [
+			"volt-absorb",
+			"illuminate",
+			"water-absorb"
+		]
+	},
+	"171": {
+		"id": 171,
+		"name": "lanturn",
+		"abilities": [
+			"volt-absorb",
+			"illuminate",
+			"water-absorb"
+		]
+	},
+	"172": {
+		"id": 172,
+		"name": "pichu",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"173": {
+		"id": 173,
+		"name": "cleffa",
+		"abilities": [
+			"cute-charm",
+			"magic-guard",
+			"friend-guard"
+		]
+	},
+	"174": {
+		"id": 174,
+		"name": "igglybuff",
+		"abilities": [
+			"cute-charm",
+			"competitive",
+			"friend-guard"
+		]
+	},
+	"175": {
+		"id": 175,
+		"name": "togepi",
+		"abilities": [
+			"hustle",
+			"serene-grace",
+			"super-luck"
+		]
+	},
+	"176": {
+		"id": 176,
+		"name": "togetic",
+		"abilities": [
+			"hustle",
+			"serene-grace",
+			"super-luck"
+		]
+	},
+	"177": {
+		"id": 177,
+		"name": "natu",
+		"abilities": [
+			"synchronize",
+			"early-bird",
+			"magic-bounce"
+		]
+	},
+	"178": {
+		"id": 178,
+		"name": "xatu",
+		"abilities": [
+			"synchronize",
+			"early-bird",
+			"magic-bounce"
+		]
+	},
+	"179": {
+		"id": 179,
+		"name": "mareep",
+		"abilities": [
+			"static",
+			"plus"
+		]
+	},
+	"180": {
+		"id": 180,
+		"name": "flaaffy",
+		"abilities": [
+			"static",
+			"plus"
+		]
+	},
+	"181": {
+		"id": 181,
+		"name": "ampharos",
+		"abilities": [
+			"static",
+			"plus"
+		]
+	},
+	"182": {
+		"id": 182,
+		"name": "bellossom",
+		"abilities": [
+			"chlorophyll",
+			"healer"
+		]
+	},
+	"183": {
+		"id": 183,
+		"name": "marill",
+		"abilities": [
+			"thick-fat",
+			"huge-power",
+			"sap-sipper"
+		]
+	},
+	"184": {
+		"id": 184,
+		"name": "azumarill",
+		"abilities": [
+			"thick-fat",
+			"huge-power",
+			"sap-sipper"
+		]
+	},
+	"185": {
+		"id": 185,
+		"name": "sudowoodo",
+		"abilities": [
+			"sturdy",
+			"rock-head",
+			"rattled"
+		]
+	},
+	"186": {
+		"id": 186,
+		"name": "politoed",
+		"abilities": [
+			"water-absorb",
+			"damp",
+			"drizzle"
+		]
+	},
+	"187": {
+		"id": 187,
+		"name": "hoppip",
+		"abilities": [
+			"chlorophyll",
+			"leaf-guard",
+			"infiltrator"
+		]
+	},
+	"188": {
+		"id": 188,
+		"name": "skiploom",
+		"abilities": [
+			"chlorophyll",
+			"leaf-guard",
+			"infiltrator"
+		]
+	},
+	"189": {
+		"id": 189,
+		"name": "jumpluff",
+		"abilities": [
+			"chlorophyll",
+			"leaf-guard",
+			"infiltrator"
+		]
+	},
+	"190": {
+		"id": 190,
+		"name": "aipom",
+		"abilities": [
+			"run-away",
+			"pickup",
+			"skill-link"
+		]
+	},
+	"191": {
+		"id": 191,
+		"name": "sunkern",
+		"abilities": [
+			"chlorophyll",
+			"solar-power",
+			"early-bird"
+		]
+	},
+	"192": {
+		"id": 192,
+		"name": "sunflora",
+		"abilities": [
+			"chlorophyll",
+			"solar-power",
+			"early-bird"
+		]
+	},
+	"193": {
+		"id": 193,
+		"name": "yanma",
+		"abilities": [
+			"speed-boost",
+			"compound-eyes",
+			"frisk"
+		]
+	},
+	"194": {
+		"id": 194,
+		"name": "wooper",
+		"abilities": [
+			"damp",
+			"water-absorb",
+			"unaware"
+		]
+	},
+	"195": {
+		"id": 195,
+		"name": "quagsire",
+		"abilities": [
+			"damp",
+			"water-absorb",
+			"unaware"
+		]
+	},
+	"196": {
+		"id": 196,
+		"name": "espeon",
+		"abilities": [
+			"synchronize",
+			"magic-bounce"
+		]
+	},
+	"197": {
+		"id": 197,
+		"name": "umbreon",
+		"abilities": [
+			"synchronize",
+			"inner-focus"
+		]
+	},
+	"198": {
+		"id": 198,
+		"name": "murkrow",
+		"abilities": [
+			"insomnia",
+			"super-luck",
+			"prankster"
+		]
+	},
+	"199": {
+		"id": 199,
+		"name": "slowking",
+		"abilities": [
+			"oblivious",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"200": {
+		"id": 200,
+		"name": "misdreavus",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"201": {
+		"id": 201,
+		"name": "unown",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"202": {
+		"id": 202,
+		"name": "wobbuffet",
+		"abilities": [
+			"shadow-tag",
+			"telepathy"
+		]
+	},
+	"203": {
+		"id": 203,
+		"name": "girafarig",
+		"abilities": [
+			"inner-focus",
+			"early-bird",
+			"sap-sipper"
+		]
+	},
+	"204": {
+		"id": 204,
+		"name": "pineco",
+		"abilities": [
+			"sturdy",
+			"overcoat"
+		]
+	},
+	"205": {
+		"id": 205,
+		"name": "forretress",
+		"abilities": [
+			"sturdy",
+			"overcoat"
+		]
+	},
+	"206": {
+		"id": 206,
+		"name": "dunsparce",
+		"abilities": [
+			"serene-grace",
+			"run-away",
+			"rattled"
+		]
+	},
+	"207": {
+		"id": 207,
+		"name": "gligar",
+		"abilities": [
+			"hyper-cutter",
+			"sand-veil",
+			"immunity"
+		]
+	},
+	"208": {
+		"id": 208,
+		"name": "steelix",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"sheer-force"
+		]
+	},
+	"209": {
+		"id": 209,
+		"name": "snubbull",
+		"abilities": [
+			"intimidate",
+			"run-away",
+			"rattled"
+		]
+	},
+	"210": {
+		"id": 210,
+		"name": "granbull",
+		"abilities": [
+			"intimidate",
+			"quick-feet",
+			"rattled"
+		]
+	},
+	"211": {
+		"id": 211,
+		"name": "qwilfish",
+		"abilities": [
+			"poison-point",
+			"swift-swim",
+			"intimidate"
+		]
+	},
+	"212": {
+		"id": 212,
+		"name": "scizor",
+		"abilities": [
+			"swarm",
+			"technician",
+			"light-metal"
+		]
+	},
+	"213": {
+		"id": 213,
+		"name": "shuckle",
+		"abilities": [
+			"sturdy",
+			"gluttony",
+			"contrary"
+		]
+	},
+	"214": {
+		"id": 214,
+		"name": "heracross",
+		"abilities": [
+			"swarm",
+			"guts",
+			"moxie"
+		]
+	},
+	"215": {
+		"id": 215,
+		"name": "sneasel",
+		"abilities": [
+			"inner-focus",
+			"keen-eye",
+			"pickpocket"
+		]
+	},
+	"216": {
+		"id": 216,
+		"name": "teddiursa",
+		"abilities": [
+			"pickup",
+			"quick-feet",
+			"honey-gather"
+		]
+	},
+	"217": {
+		"id": 217,
+		"name": "ursaring",
+		"abilities": [
+			"guts",
+			"quick-feet",
+			"unnerve"
+		]
+	},
+	"218": {
+		"id": 218,
+		"name": "slugma",
+		"abilities": [
+			"magma-armor",
+			"flame-body",
+			"weak-armor"
+		]
+	},
+	"219": {
+		"id": 219,
+		"name": "magcargo",
+		"abilities": [
+			"magma-armor",
+			"flame-body",
+			"weak-armor"
+		]
+	},
+	"220": {
+		"id": 220,
+		"name": "swinub",
+		"abilities": [
+			"oblivious",
+			"snow-cloak",
+			"thick-fat"
+		]
+	},
+	"221": {
+		"id": 221,
+		"name": "piloswine",
+		"abilities": [
+			"oblivious",
+			"snow-cloak",
+			"thick-fat"
+		]
+	},
+	"222": {
+		"id": 222,
+		"name": "corsola",
+		"abilities": [
+			"hustle",
+			"natural-cure",
+			"regenerator"
+		]
+	},
+	"223": {
+		"id": 223,
+		"name": "remoraid",
+		"abilities": [
+			"hustle",
+			"sniper",
+			"moody"
+		]
+	},
+	"224": {
+		"id": 224,
+		"name": "octillery",
+		"abilities": [
+			"suction-cups",
+			"sniper",
+			"moody"
+		]
+	},
+	"225": {
+		"id": 225,
+		"name": "delibird",
+		"abilities": [
+			"vital-spirit",
+			"hustle",
+			"insomnia"
+		]
+	},
+	"226": {
+		"id": 226,
+		"name": "mantine",
+		"abilities": [
+			"swift-swim",
+			"water-absorb",
+			"water-veil"
+		]
+	},
+	"227": {
+		"id": 227,
+		"name": "skarmory",
+		"abilities": [
+			"keen-eye",
+			"sturdy",
+			"weak-armor"
+		]
+	},
+	"228": {
+		"id": 228,
+		"name": "houndour",
+		"abilities": [
+			"early-bird",
+			"flash-fire",
+			"unnerve"
+		]
+	},
+	"229": {
+		"id": 229,
+		"name": "houndoom",
+		"abilities": [
+			"early-bird",
+			"flash-fire",
+			"unnerve"
+		]
+	},
+	"230": {
+		"id": 230,
+		"name": "kingdra",
+		"abilities": [
+			"swift-swim",
+			"sniper",
+			"damp"
+		]
+	},
+	"231": {
+		"id": 231,
+		"name": "phanpy",
+		"abilities": [
+			"pickup",
+			"sand-veil"
+		]
+	},
+	"232": {
+		"id": 232,
+		"name": "donphan",
+		"abilities": [
+			"sturdy",
+			"sand-veil"
+		]
+	},
+	"233": {
+		"id": 233,
+		"name": "porygon2",
+		"abilities": [
+			"trace",
+			"download",
+			"analytic"
+		]
+	},
+	"234": {
+		"id": 234,
+		"name": "stantler",
+		"abilities": [
+			"intimidate",
+			"frisk",
+			"sap-sipper"
+		]
+	},
+	"235": {
+		"id": 235,
+		"name": "smeargle",
+		"abilities": [
+			"own-tempo",
+			"technician",
+			"moody"
+		]
+	},
+	"236": {
+		"id": 236,
+		"name": "tyrogue",
+		"abilities": [
+			"guts",
+			"steadfast",
+			"vital-spirit"
+		]
+	},
+	"237": {
+		"id": 237,
+		"name": "hitmontop",
+		"abilities": [
+			"intimidate",
+			"technician",
+			"steadfast"
+		]
+	},
+	"238": {
+		"id": 238,
+		"name": "smoochum",
+		"abilities": [
+			"oblivious",
+			"forewarn",
+			"hydration"
+		]
+	},
+	"239": {
+		"id": 239,
+		"name": "elekid",
+		"abilities": [
+			"static",
+			"vital-spirit"
+		]
+	},
+	"240": {
+		"id": 240,
+		"name": "magby",
+		"abilities": [
+			"flame-body",
+			"vital-spirit"
+		]
+	},
+	"241": {
+		"id": 241,
+		"name": "miltank",
+		"abilities": [
+			"thick-fat",
+			"scrappy",
+			"sap-sipper"
+		]
+	},
+	"242": {
+		"id": 242,
+		"name": "blissey",
+		"abilities": [
+			"natural-cure",
+			"serene-grace",
+			"healer"
+		]
+	},
+	"243": {
+		"id": 243,
+		"name": "raikou",
+		"abilities": [
+			"pressure",
+			"inner-focus"
+		]
+	},
+	"244": {
+		"id": 244,
+		"name": "entei",
+		"abilities": [
+			"pressure",
+			"inner-focus"
+		]
+	},
+	"245": {
+		"id": 245,
+		"name": "suicune",
+		"abilities": [
+			"pressure",
+			"inner-focus"
+		]
+	},
+	"246": {
+		"id": 246,
+		"name": "larvitar",
+		"abilities": [
+			"guts",
+			"sand-veil"
+		]
+	},
+	"247": {
+		"id": 247,
+		"name": "pupitar",
+		"abilities": [
+			"shed-skin"
+		]
+	},
+	"248": {
+		"id": 248,
+		"name": "tyranitar",
+		"abilities": [
+			"sand-stream",
+			"unnerve"
+		]
+	},
+	"249": {
+		"id": 249,
+		"name": "lugia",
+		"abilities": [
+			"pressure",
+			"multiscale"
+		]
+	},
+	"250": {
+		"id": 250,
+		"name": "ho-oh",
+		"abilities": [
+			"pressure",
+			"regenerator"
+		]
+	},
+	"251": {
+		"id": 251,
+		"name": "celebi",
+		"abilities": [
+			"natural-cure"
+		]
+	},
+	"252": {
+		"id": 252,
+		"name": "treecko",
+		"abilities": [
+			"overgrow",
+			"unburden"
+		]
+	},
+	"253": {
+		"id": 253,
+		"name": "grovyle",
+		"abilities": [
+			"overgrow",
+			"unburden"
+		]
+	},
+	"254": {
+		"id": 254,
+		"name": "sceptile",
+		"abilities": [
+			"overgrow",
+			"unburden"
+		]
+	},
+	"255": {
+		"id": 255,
+		"name": "torchic",
+		"abilities": [
+			"blaze",
+			"speed-boost"
+		]
+	},
+	"256": {
+		"id": 256,
+		"name": "combusken",
+		"abilities": [
+			"blaze",
+			"speed-boost"
+		]
+	},
+	"257": {
+		"id": 257,
+		"name": "blaziken",
+		"abilities": [
+			"blaze",
+			"speed-boost"
+		]
+	},
+	"258": {
+		"id": 258,
+		"name": "mudkip",
+		"abilities": [
+			"torrent",
+			"damp"
+		]
+	},
+	"259": {
+		"id": 259,
+		"name": "marshtomp",
+		"abilities": [
+			"torrent",
+			"damp"
+		]
+	},
+	"260": {
+		"id": 260,
+		"name": "swampert",
+		"abilities": [
+			"torrent",
+			"damp"
+		]
+	},
+	"261": {
+		"id": 261,
+		"name": "poochyena",
+		"abilities": [
+			"run-away",
+			"quick-feet",
+			"rattled"
+		]
+	},
+	"262": {
+		"id": 262,
+		"name": "mightyena",
+		"abilities": [
+			"intimidate",
+			"quick-feet",
+			"moxie"
+		]
+	},
+	"263": {
+		"id": 263,
+		"name": "zigzagoon",
+		"abilities": [
+			"pickup",
+			"gluttony",
+			"quick-feet"
+		]
+	},
+	"264": {
+		"id": 264,
+		"name": "linoone",
+		"abilities": [
+			"pickup",
+			"gluttony",
+			"quick-feet"
+		]
+	},
+	"265": {
+		"id": 265,
+		"name": "wurmple",
+		"abilities": [
+			"shield-dust",
+			"run-away"
+		]
+	},
+	"266": {
+		"id": 266,
+		"name": "silcoon",
+		"abilities": [
+			"shed-skin"
+		]
+	},
+	"267": {
+		"id": 267,
+		"name": "beautifly",
+		"abilities": [
+			"swarm",
+			"rivalry"
+		]
+	},
+	"268": {
+		"id": 268,
+		"name": "cascoon",
+		"abilities": [
+			"shed-skin"
+		]
+	},
+	"269": {
+		"id": 269,
+		"name": "dustox",
+		"abilities": [
+			"shield-dust",
+			"compound-eyes"
+		]
+	},
+	"270": {
+		"id": 270,
+		"name": "lotad",
+		"abilities": [
+			"swift-swim",
+			"rain-dish",
+			"own-tempo"
+		]
+	},
+	"271": {
+		"id": 271,
+		"name": "lombre",
+		"abilities": [
+			"swift-swim",
+			"rain-dish",
+			"own-tempo"
+		]
+	},
+	"272": {
+		"id": 272,
+		"name": "ludicolo",
+		"abilities": [
+			"swift-swim",
+			"rain-dish",
+			"own-tempo"
+		]
+	},
+	"273": {
+		"id": 273,
+		"name": "seedot",
+		"abilities": [
+			"chlorophyll",
+			"early-bird",
+			"pickpocket"
+		]
+	},
+	"274": {
+		"id": 274,
+		"name": "nuzleaf",
+		"abilities": [
+			"chlorophyll",
+			"early-bird",
+			"pickpocket"
+		]
+	},
+	"275": {
+		"id": 275,
+		"name": "shiftry",
+		"abilities": [
+			"chlorophyll",
+			"wind-rider",
+			"pickpocket"
+		]
+	},
+	"276": {
+		"id": 276,
+		"name": "taillow",
+		"abilities": [
+			"guts",
+			"scrappy"
+		]
+	},
+	"277": {
+		"id": 277,
+		"name": "swellow",
+		"abilities": [
+			"guts",
+			"scrappy"
+		]
+	},
+	"278": {
+		"id": 278,
+		"name": "wingull",
+		"abilities": [
+			"keen-eye",
+			"hydration",
+			"rain-dish"
+		]
+	},
+	"279": {
+		"id": 279,
+		"name": "pelipper",
+		"abilities": [
+			"keen-eye",
+			"drizzle",
+			"rain-dish"
+		]
+	},
+	"280": {
+		"id": 280,
+		"name": "ralts",
+		"abilities": [
+			"synchronize",
+			"trace",
+			"telepathy"
+		]
+	},
+	"281": {
+		"id": 281,
+		"name": "kirlia",
+		"abilities": [
+			"synchronize",
+			"trace",
+			"telepathy"
+		]
+	},
+	"282": {
+		"id": 282,
+		"name": "gardevoir",
+		"abilities": [
+			"synchronize",
+			"trace",
+			"telepathy"
+		]
+	},
+	"283": {
+		"id": 283,
+		"name": "surskit",
+		"abilities": [
+			"swift-swim",
+			"rain-dish"
+		]
+	},
+	"284": {
+		"id": 284,
+		"name": "masquerain",
+		"abilities": [
+			"intimidate",
+			"unnerve"
+		]
+	},
+	"285": {
+		"id": 285,
+		"name": "shroomish",
+		"abilities": [
+			"effect-spore",
+			"poison-heal",
+			"quick-feet"
+		]
+	},
+	"286": {
+		"id": 286,
+		"name": "breloom",
+		"abilities": [
+			"effect-spore",
+			"poison-heal",
+			"technician"
+		]
+	},
+	"287": {
+		"id": 287,
+		"name": "slakoth",
+		"abilities": [
+			"truant"
+		]
+	},
+	"288": {
+		"id": 288,
+		"name": "vigoroth",
+		"abilities": [
+			"vital-spirit"
+		]
+	},
+	"289": {
+		"id": 289,
+		"name": "slaking",
+		"abilities": [
+			"truant"
+		]
+	},
+	"290": {
+		"id": 290,
+		"name": "nincada",
+		"abilities": [
+			"compound-eyes",
+			"run-away"
+		]
+	},
+	"291": {
+		"id": 291,
+		"name": "ninjask",
+		"abilities": [
+			"speed-boost",
+			"infiltrator"
+		]
+	},
+	"292": {
+		"id": 292,
+		"name": "shedinja",
+		"abilities": [
+			"wonder-guard"
+		]
+	},
+	"293": {
+		"id": 293,
+		"name": "whismur",
+		"abilities": [
+			"soundproof",
+			"rattled"
+		]
+	},
+	"294": {
+		"id": 294,
+		"name": "loudred",
+		"abilities": [
+			"soundproof",
+			"scrappy"
+		]
+	},
+	"295": {
+		"id": 295,
+		"name": "exploud",
+		"abilities": [
+			"soundproof",
+			"scrappy"
+		]
+	},
+	"296": {
+		"id": 296,
+		"name": "makuhita",
+		"abilities": [
+			"thick-fat",
+			"guts",
+			"sheer-force"
+		]
+	},
+	"297": {
+		"id": 297,
+		"name": "hariyama",
+		"abilities": [
+			"thick-fat",
+			"guts",
+			"sheer-force"
+		]
+	},
+	"298": {
+		"id": 298,
+		"name": "azurill",
+		"abilities": [
+			"thick-fat",
+			"huge-power",
+			"sap-sipper"
+		]
+	},
+	"299": {
+		"id": 299,
+		"name": "nosepass",
+		"abilities": [
+			"sturdy",
+			"magnet-pull",
+			"sand-force"
+		]
+	},
+	"300": {
+		"id": 300,
+		"name": "skitty",
+		"abilities": [
+			"cute-charm",
+			"normalize",
+			"wonder-skin"
+		]
+	},
+	"301": {
+		"id": 301,
+		"name": "delcatty",
+		"abilities": [
+			"cute-charm",
+			"normalize",
+			"wonder-skin"
+		]
+	},
+	"302": {
+		"id": 302,
+		"name": "sableye",
+		"abilities": [
+			"keen-eye",
+			"stall",
+			"prankster"
+		]
+	},
+	"303": {
+		"id": 303,
+		"name": "mawile",
+		"abilities": [
+			"hyper-cutter",
+			"intimidate",
+			"sheer-force"
+		]
+	},
+	"304": {
+		"id": 304,
+		"name": "aron",
+		"abilities": [
+			"sturdy",
+			"rock-head",
+			"heavy-metal"
+		]
+	},
+	"305": {
+		"id": 305,
+		"name": "lairon",
+		"abilities": [
+			"sturdy",
+			"rock-head",
+			"heavy-metal"
+		]
+	},
+	"306": {
+		"id": 306,
+		"name": "aggron",
+		"abilities": [
+			"sturdy",
+			"rock-head",
+			"heavy-metal"
+		]
+	},
+	"307": {
+		"id": 307,
+		"name": "meditite",
+		"abilities": [
+			"pure-power",
+			"telepathy"
+		]
+	},
+	"308": {
+		"id": 308,
+		"name": "medicham",
+		"abilities": [
+			"pure-power",
+			"telepathy"
+		]
+	},
+	"309": {
+		"id": 309,
+		"name": "electrike",
+		"abilities": [
+			"static",
+			"lightning-rod",
+			"minus"
+		]
+	},
+	"310": {
+		"id": 310,
+		"name": "manectric",
+		"abilities": [
+			"static",
+			"lightning-rod",
+			"minus"
+		]
+	},
+	"311": {
+		"id": 311,
+		"name": "plusle",
+		"abilities": [
+			"plus",
+			"lightning-rod"
+		]
+	},
+	"312": {
+		"id": 312,
+		"name": "minun",
+		"abilities": [
+			"minus",
+			"volt-absorb"
+		]
+	},
+	"313": {
+		"id": 313,
+		"name": "volbeat",
+		"abilities": [
+			"illuminate",
+			"swarm",
+			"prankster"
+		]
+	},
+	"314": {
+		"id": 314,
+		"name": "illumise",
+		"abilities": [
+			"oblivious",
+			"tinted-lens",
+			"prankster"
+		]
+	},
+	"315": {
+		"id": 315,
+		"name": "roselia",
+		"abilities": [
+			"natural-cure",
+			"poison-point",
+			"leaf-guard"
+		]
+	},
+	"316": {
+		"id": 316,
+		"name": "gulpin",
+		"abilities": [
+			"liquid-ooze",
+			"sticky-hold",
+			"gluttony"
+		]
+	},
+	"317": {
+		"id": 317,
+		"name": "swalot",
+		"abilities": [
+			"liquid-ooze",
+			"sticky-hold",
+			"gluttony"
+		]
+	},
+	"318": {
+		"id": 318,
+		"name": "carvanha",
+		"abilities": [
+			"rough-skin",
+			"speed-boost"
+		]
+	},
+	"319": {
+		"id": 319,
+		"name": "sharpedo",
+		"abilities": [
+			"rough-skin",
+			"speed-boost"
+		]
+	},
+	"320": {
+		"id": 320,
+		"name": "wailmer",
+		"abilities": [
+			"water-veil",
+			"oblivious",
+			"pressure"
+		]
+	},
+	"321": {
+		"id": 321,
+		"name": "wailord",
+		"abilities": [
+			"water-veil",
+			"oblivious",
+			"pressure"
+		]
+	},
+	"322": {
+		"id": 322,
+		"name": "numel",
+		"abilities": [
+			"oblivious",
+			"simple",
+			"own-tempo"
+		]
+	},
+	"323": {
+		"id": 323,
+		"name": "camerupt",
+		"abilities": [
+			"magma-armor",
+			"solid-rock",
+			"anger-point"
+		]
+	},
+	"324": {
+		"id": 324,
+		"name": "torkoal",
+		"abilities": [
+			"white-smoke",
+			"drought",
+			"shell-armor"
+		]
+	},
+	"325": {
+		"id": 325,
+		"name": "spoink",
+		"abilities": [
+			"thick-fat",
+			"own-tempo",
+			"gluttony"
+		]
+	},
+	"326": {
+		"id": 326,
+		"name": "grumpig",
+		"abilities": [
+			"thick-fat",
+			"own-tempo",
+			"gluttony"
+		]
+	},
+	"327": {
+		"id": 327,
+		"name": "spinda",
+		"abilities": [
+			"own-tempo",
+			"tangled-feet",
+			"contrary"
+		]
+	},
+	"328": {
+		"id": 328,
+		"name": "trapinch",
+		"abilities": [
+			"hyper-cutter",
+			"arena-trap",
+			"sheer-force"
+		]
+	},
+	"329": {
+		"id": 329,
+		"name": "vibrava",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"330": {
+		"id": 330,
+		"name": "flygon",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"331": {
+		"id": 331,
+		"name": "cacnea",
+		"abilities": [
+			"sand-veil",
+			"water-absorb"
+		]
+	},
+	"332": {
+		"id": 332,
+		"name": "cacturne",
+		"abilities": [
+			"sand-veil",
+			"water-absorb"
+		]
+	},
+	"333": {
+		"id": 333,
+		"name": "swablu",
+		"abilities": [
+			"natural-cure",
+			"cloud-nine"
+		]
+	},
+	"334": {
+		"id": 334,
+		"name": "altaria",
+		"abilities": [
+			"natural-cure",
+			"cloud-nine"
+		]
+	},
+	"335": {
+		"id": 335,
+		"name": "zangoose",
+		"abilities": [
+			"immunity",
+			"toxic-boost"
+		]
+	},
+	"336": {
+		"id": 336,
+		"name": "seviper",
+		"abilities": [
+			"shed-skin",
+			"infiltrator"
+		]
+	},
+	"337": {
+		"id": 337,
+		"name": "lunatone",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"338": {
+		"id": 338,
+		"name": "solrock",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"339": {
+		"id": 339,
+		"name": "barboach",
+		"abilities": [
+			"oblivious",
+			"anticipation",
+			"hydration"
+		]
+	},
+	"340": {
+		"id": 340,
+		"name": "whiscash",
+		"abilities": [
+			"oblivious",
+			"anticipation",
+			"hydration"
+		]
+	},
+	"341": {
+		"id": 341,
+		"name": "corphish",
+		"abilities": [
+			"hyper-cutter",
+			"shell-armor",
+			"adaptability"
+		]
+	},
+	"342": {
+		"id": 342,
+		"name": "crawdaunt",
+		"abilities": [
+			"hyper-cutter",
+			"shell-armor",
+			"adaptability"
+		]
+	},
+	"343": {
+		"id": 343,
+		"name": "baltoy",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"344": {
+		"id": 344,
+		"name": "claydol",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"345": {
+		"id": 345,
+		"name": "lileep",
+		"abilities": [
+			"suction-cups",
+			"storm-drain"
+		]
+	},
+	"346": {
+		"id": 346,
+		"name": "cradily",
+		"abilities": [
+			"suction-cups",
+			"storm-drain"
+		]
+	},
+	"347": {
+		"id": 347,
+		"name": "anorith",
+		"abilities": [
+			"battle-armor",
+			"swift-swim"
+		]
+	},
+	"348": {
+		"id": 348,
+		"name": "armaldo",
+		"abilities": [
+			"battle-armor",
+			"swift-swim"
+		]
+	},
+	"349": {
+		"id": 349,
+		"name": "feebas",
+		"abilities": [
+			"swift-swim",
+			"oblivious",
+			"adaptability"
+		]
+	},
+	"350": {
+		"id": 350,
+		"name": "milotic",
+		"abilities": [
+			"marvel-scale",
+			"competitive",
+			"cute-charm"
+		]
+	},
+	"351": {
+		"id": 351,
+		"name": "castform",
+		"abilities": [
+			"forecast"
+		]
+	},
+	"352": {
+		"id": 352,
+		"name": "kecleon",
+		"abilities": [
+			"color-change",
+			"protean"
+		]
+	},
+	"353": {
+		"id": 353,
+		"name": "shuppet",
+		"abilities": [
+			"insomnia",
+			"frisk",
+			"cursed-body"
+		]
+	},
+	"354": {
+		"id": 354,
+		"name": "banette",
+		"abilities": [
+			"insomnia",
+			"frisk",
+			"cursed-body"
+		]
+	},
+	"355": {
+		"id": 355,
+		"name": "duskull",
+		"abilities": [
+			"levitate",
+			"frisk"
+		]
+	},
+	"356": {
+		"id": 356,
+		"name": "dusclops",
+		"abilities": [
+			"pressure",
+			"frisk"
+		]
+	},
+	"357": {
+		"id": 357,
+		"name": "tropius",
+		"abilities": [
+			"chlorophyll",
+			"solar-power",
+			"harvest"
+		]
+	},
+	"358": {
+		"id": 358,
+		"name": "chimecho",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"359": {
+		"id": 359,
+		"name": "absol",
+		"abilities": [
+			"pressure",
+			"super-luck",
+			"justified"
+		]
+	},
+	"360": {
+		"id": 360,
+		"name": "wynaut",
+		"abilities": [
+			"shadow-tag",
+			"telepathy"
+		]
+	},
+	"361": {
+		"id": 361,
+		"name": "snorunt",
+		"abilities": [
+			"inner-focus",
+			"ice-body",
+			"moody"
+		]
+	},
+	"362": {
+		"id": 362,
+		"name": "glalie",
+		"abilities": [
+			"inner-focus",
+			"ice-body",
+			"moody"
+		]
+	},
+	"363": {
+		"id": 363,
+		"name": "spheal",
+		"abilities": [
+			"thick-fat",
+			"ice-body",
+			"oblivious"
+		]
+	},
+	"364": {
+		"id": 364,
+		"name": "sealeo",
+		"abilities": [
+			"thick-fat",
+			"ice-body",
+			"oblivious"
+		]
+	},
+	"365": {
+		"id": 365,
+		"name": "walrein",
+		"abilities": [
+			"thick-fat",
+			"ice-body",
+			"oblivious"
+		]
+	},
+	"366": {
+		"id": 366,
+		"name": "clamperl",
+		"abilities": [
+			"shell-armor",
+			"rattled"
+		]
+	},
+	"367": {
+		"id": 367,
+		"name": "huntail",
+		"abilities": [
+			"swift-swim",
+			"water-veil"
+		]
+	},
+	"368": {
+		"id": 368,
+		"name": "gorebyss",
+		"abilities": [
+			"swift-swim",
+			"hydration"
+		]
+	},
+	"369": {
+		"id": 369,
+		"name": "relicanth",
+		"abilities": [
+			"swift-swim",
+			"rock-head",
+			"sturdy"
+		]
+	},
+	"370": {
+		"id": 370,
+		"name": "luvdisc",
+		"abilities": [
+			"swift-swim",
+			"hydration"
+		]
+	},
+	"371": {
+		"id": 371,
+		"name": "bagon",
+		"abilities": [
+			"rock-head",
+			"sheer-force"
+		]
+	},
+	"372": {
+		"id": 372,
+		"name": "shelgon",
+		"abilities": [
+			"rock-head",
+			"overcoat"
+		]
+	},
+	"373": {
+		"id": 373,
+		"name": "salamence",
+		"abilities": [
+			"intimidate",
+			"moxie"
+		]
+	},
+	"374": {
+		"id": 374,
+		"name": "beldum",
+		"abilities": [
+			"clear-body",
+			"light-metal"
+		]
+	},
+	"375": {
+		"id": 375,
+		"name": "metang",
+		"abilities": [
+			"clear-body",
+			"light-metal"
+		]
+	},
+	"376": {
+		"id": 376,
+		"name": "metagross",
+		"abilities": [
+			"clear-body",
+			"light-metal"
+		]
+	},
+	"377": {
+		"id": 377,
+		"name": "regirock",
+		"abilities": [
+			"clear-body",
+			"sturdy"
+		]
+	},
+	"378": {
+		"id": 378,
+		"name": "regice",
+		"abilities": [
+			"clear-body",
+			"ice-body"
+		]
+	},
+	"379": {
+		"id": 379,
+		"name": "registeel",
+		"abilities": [
+			"clear-body",
+			"light-metal"
+		]
+	},
+	"380": {
+		"id": 380,
+		"name": "latias",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"381": {
+		"id": 381,
+		"name": "latios",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"382": {
+		"id": 382,
+		"name": "kyogre",
+		"abilities": [
+			"drizzle"
+		]
+	},
+	"383": {
+		"id": 383,
+		"name": "groudon",
+		"abilities": [
+			"drought"
+		]
+	},
+	"384": {
+		"id": 384,
+		"name": "rayquaza",
+		"abilities": [
+			"air-lock"
+		]
+	},
+	"385": {
+		"id": 385,
+		"name": "jirachi",
+		"abilities": [
+			"serene-grace"
+		]
+	},
+	"386": {
+		"id": 386,
+		"name": "deoxys-normal",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"387": {
+		"id": 387,
+		"name": "turtwig",
+		"abilities": [
+			"overgrow",
+			"shell-armor"
+		]
+	},
+	"388": {
+		"id": 388,
+		"name": "grotle",
+		"abilities": [
+			"overgrow",
+			"shell-armor"
+		]
+	},
+	"389": {
+		"id": 389,
+		"name": "torterra",
+		"abilities": [
+			"overgrow",
+			"shell-armor"
+		]
+	},
+	"390": {
+		"id": 390,
+		"name": "chimchar",
+		"abilities": [
+			"blaze",
+			"iron-fist"
+		]
+	},
+	"391": {
+		"id": 391,
+		"name": "monferno",
+		"abilities": [
+			"blaze",
+			"iron-fist"
+		]
+	},
+	"392": {
+		"id": 392,
+		"name": "infernape",
+		"abilities": [
+			"blaze",
+			"iron-fist"
+		]
+	},
+	"393": {
+		"id": 393,
+		"name": "piplup",
+		"abilities": [
+			"torrent",
+			"competitive"
+		]
+	},
+	"394": {
+		"id": 394,
+		"name": "prinplup",
+		"abilities": [
+			"torrent",
+			"competitive"
+		]
+	},
+	"395": {
+		"id": 395,
+		"name": "empoleon",
+		"abilities": [
+			"torrent",
+			"competitive"
+		]
+	},
+	"396": {
+		"id": 396,
+		"name": "starly",
+		"abilities": [
+			"keen-eye",
+			"reckless"
+		]
+	},
+	"397": {
+		"id": 397,
+		"name": "staravia",
+		"abilities": [
+			"intimidate",
+			"reckless"
+		]
+	},
+	"398": {
+		"id": 398,
+		"name": "staraptor",
+		"abilities": [
+			"intimidate",
+			"reckless"
+		]
+	},
+	"399": {
+		"id": 399,
+		"name": "bidoof",
+		"abilities": [
+			"simple",
+			"unaware",
+			"moody"
+		]
+	},
+	"400": {
+		"id": 400,
+		"name": "bibarel",
+		"abilities": [
+			"simple",
+			"unaware",
+			"moody"
+		]
+	},
+	"401": {
+		"id": 401,
+		"name": "kricketot",
+		"abilities": [
+			"shed-skin",
+			"run-away"
+		]
+	},
+	"402": {
+		"id": 402,
+		"name": "kricketune",
+		"abilities": [
+			"swarm",
+			"technician"
+		]
+	},
+	"403": {
+		"id": 403,
+		"name": "shinx",
+		"abilities": [
+			"rivalry",
+			"intimidate",
+			"guts"
+		]
+	},
+	"404": {
+		"id": 404,
+		"name": "luxio",
+		"abilities": [
+			"rivalry",
+			"intimidate",
+			"guts"
+		]
+	},
+	"405": {
+		"id": 405,
+		"name": "luxray",
+		"abilities": [
+			"rivalry",
+			"intimidate",
+			"guts"
+		]
+	},
+	"406": {
+		"id": 406,
+		"name": "budew",
+		"abilities": [
+			"natural-cure",
+			"poison-point",
+			"leaf-guard"
+		]
+	},
+	"407": {
+		"id": 407,
+		"name": "roserade",
+		"abilities": [
+			"natural-cure",
+			"poison-point",
+			"technician"
+		]
+	},
+	"408": {
+		"id": 408,
+		"name": "cranidos",
+		"abilities": [
+			"mold-breaker",
+			"sheer-force"
+		]
+	},
+	"409": {
+		"id": 409,
+		"name": "rampardos",
+		"abilities": [
+			"mold-breaker",
+			"sheer-force"
+		]
+	},
+	"410": {
+		"id": 410,
+		"name": "shieldon",
+		"abilities": [
+			"sturdy",
+			"soundproof"
+		]
+	},
+	"411": {
+		"id": 411,
+		"name": "bastiodon",
+		"abilities": [
+			"sturdy",
+			"soundproof"
+		]
+	},
+	"412": {
+		"id": 412,
+		"name": "burmy",
+		"abilities": [
+			"shed-skin",
+			"overcoat"
+		]
+	},
+	"413": {
+		"id": 413,
+		"name": "wormadam-plant",
+		"abilities": [
+			"anticipation",
+			"overcoat"
+		]
+	},
+	"414": {
+		"id": 414,
+		"name": "mothim",
+		"abilities": [
+			"swarm",
+			"tinted-lens"
+		]
+	},
+	"415": {
+		"id": 415,
+		"name": "combee",
+		"abilities": [
+			"honey-gather",
+			"hustle"
+		]
+	},
+	"416": {
+		"id": 416,
+		"name": "vespiquen",
+		"abilities": [
+			"pressure",
+			"unnerve"
+		]
+	},
+	"417": {
+		"id": 417,
+		"name": "pachirisu",
+		"abilities": [
+			"run-away",
+			"pickup",
+			"volt-absorb"
+		]
+	},
+	"418": {
+		"id": 418,
+		"name": "buizel",
+		"abilities": [
+			"swift-swim",
+			"water-veil"
+		]
+	},
+	"419": {
+		"id": 419,
+		"name": "floatzel",
+		"abilities": [
+			"swift-swim",
+			"water-veil"
+		]
+	},
+	"420": {
+		"id": 420,
+		"name": "cherubi",
+		"abilities": [
+			"chlorophyll"
+		]
+	},
+	"421": {
+		"id": 421,
+		"name": "cherrim",
+		"abilities": [
+			"flower-gift"
+		]
+	},
+	"422": {
+		"id": 422,
+		"name": "shellos",
+		"abilities": [
+			"sticky-hold",
+			"storm-drain",
+			"sand-force"
+		]
+	},
+	"423": {
+		"id": 423,
+		"name": "gastrodon",
+		"abilities": [
+			"sticky-hold",
+			"storm-drain",
+			"sand-force"
+		]
+	},
+	"424": {
+		"id": 424,
+		"name": "ambipom",
+		"abilities": [
+			"technician",
+			"pickup",
+			"skill-link"
+		]
+	},
+	"425": {
+		"id": 425,
+		"name": "drifloon",
+		"abilities": [
+			"aftermath",
+			"unburden",
+			"flare-boost"
+		]
+	},
+	"426": {
+		"id": 426,
+		"name": "drifblim",
+		"abilities": [
+			"aftermath",
+			"unburden",
+			"flare-boost"
+		]
+	},
+	"427": {
+		"id": 427,
+		"name": "buneary",
+		"abilities": [
+			"run-away",
+			"klutz",
+			"limber"
+		]
+	},
+	"428": {
+		"id": 428,
+		"name": "lopunny",
+		"abilities": [
+			"cute-charm",
+			"klutz",
+			"limber"
+		]
+	},
+	"429": {
+		"id": 429,
+		"name": "mismagius",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"430": {
+		"id": 430,
+		"name": "honchkrow",
+		"abilities": [
+			"insomnia",
+			"super-luck",
+			"moxie"
+		]
+	},
+	"431": {
+		"id": 431,
+		"name": "glameow",
+		"abilities": [
+			"limber",
+			"own-tempo",
+			"keen-eye"
+		]
+	},
+	"432": {
+		"id": 432,
+		"name": "purugly",
+		"abilities": [
+			"thick-fat",
+			"own-tempo",
+			"defiant"
+		]
+	},
+	"433": {
+		"id": 433,
+		"name": "chingling",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"434": {
+		"id": 434,
+		"name": "stunky",
+		"abilities": [
+			"stench",
+			"aftermath",
+			"keen-eye"
+		]
+	},
+	"435": {
+		"id": 435,
+		"name": "skuntank",
+		"abilities": [
+			"stench",
+			"aftermath",
+			"keen-eye"
+		]
+	},
+	"436": {
+		"id": 436,
+		"name": "bronzor",
+		"abilities": [
+			"levitate",
+			"heatproof",
+			"heavy-metal"
+		]
+	},
+	"437": {
+		"id": 437,
+		"name": "bronzong",
+		"abilities": [
+			"levitate",
+			"heatproof",
+			"heavy-metal"
+		]
+	},
+	"438": {
+		"id": 438,
+		"name": "bonsly",
+		"abilities": [
+			"sturdy",
+			"rock-head",
+			"rattled"
+		]
+	},
+	"439": {
+		"id": 439,
+		"name": "mime-jr",
+		"abilities": [
+			"soundproof",
+			"filter",
+			"technician"
+		]
+	},
+	"440": {
+		"id": 440,
+		"name": "happiny",
+		"abilities": [
+			"natural-cure",
+			"serene-grace",
+			"friend-guard"
+		]
+	},
+	"441": {
+		"id": 441,
+		"name": "chatot",
+		"abilities": [
+			"keen-eye",
+			"tangled-feet",
+			"big-pecks"
+		]
+	},
+	"442": {
+		"id": 442,
+		"name": "spiritomb",
+		"abilities": [
+			"pressure",
+			"infiltrator"
+		]
+	},
+	"443": {
+		"id": 443,
+		"name": "gible",
+		"abilities": [
+			"sand-veil",
+			"rough-skin"
+		]
+	},
+	"444": {
+		"id": 444,
+		"name": "gabite",
+		"abilities": [
+			"sand-veil",
+			"rough-skin"
+		]
+	},
+	"445": {
+		"id": 445,
+		"name": "garchomp",
+		"abilities": [
+			"sand-veil",
+			"rough-skin"
+		]
+	},
+	"446": {
+		"id": 446,
+		"name": "munchlax",
+		"abilities": [
+			"pickup",
+			"thick-fat",
+			"gluttony"
+		]
+	},
+	"447": {
+		"id": 447,
+		"name": "riolu",
+		"abilities": [
+			"steadfast",
+			"inner-focus",
+			"prankster"
+		]
+	},
+	"448": {
+		"id": 448,
+		"name": "lucario",
+		"abilities": [
+			"steadfast",
+			"inner-focus",
+			"justified"
+		]
+	},
+	"449": {
+		"id": 449,
+		"name": "hippopotas",
+		"abilities": [
+			"sand-stream",
+			"sand-force"
+		]
+	},
+	"450": {
+		"id": 450,
+		"name": "hippowdon",
+		"abilities": [
+			"sand-stream",
+			"sand-force"
+		]
+	},
+	"451": {
+		"id": 451,
+		"name": "skorupi",
+		"abilities": [
+			"battle-armor",
+			"sniper",
+			"keen-eye"
+		]
+	},
+	"452": {
+		"id": 452,
+		"name": "drapion",
+		"abilities": [
+			"battle-armor",
+			"sniper",
+			"keen-eye"
+		]
+	},
+	"453": {
+		"id": 453,
+		"name": "croagunk",
+		"abilities": [
+			"anticipation",
+			"dry-skin",
+			"poison-touch"
+		]
+	},
+	"454": {
+		"id": 454,
+		"name": "toxicroak",
+		"abilities": [
+			"anticipation",
+			"dry-skin",
+			"poison-touch"
+		]
+	},
+	"455": {
+		"id": 455,
+		"name": "carnivine",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"456": {
+		"id": 456,
+		"name": "finneon",
+		"abilities": [
+			"swift-swim",
+			"storm-drain",
+			"water-veil"
+		]
+	},
+	"457": {
+		"id": 457,
+		"name": "lumineon",
+		"abilities": [
+			"swift-swim",
+			"storm-drain",
+			"water-veil"
+		]
+	},
+	"458": {
+		"id": 458,
+		"name": "mantyke",
+		"abilities": [
+			"swift-swim",
+			"water-absorb",
+			"water-veil"
+		]
+	},
+	"459": {
+		"id": 459,
+		"name": "snover",
+		"abilities": [
+			"snow-warning",
+			"soundproof"
+		]
+	},
+	"460": {
+		"id": 460,
+		"name": "abomasnow",
+		"abilities": [
+			"snow-warning",
+			"soundproof"
+		]
+	},
+	"461": {
+		"id": 461,
+		"name": "weavile",
+		"abilities": [
+			"pressure",
+			"pickpocket"
+		]
+	},
+	"462": {
+		"id": 462,
+		"name": "magnezone",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"analytic"
+		]
+	},
+	"463": {
+		"id": 463,
+		"name": "lickilicky",
+		"abilities": [
+			"own-tempo",
+			"oblivious",
+			"cloud-nine"
+		]
+	},
+	"464": {
+		"id": 464,
+		"name": "rhyperior",
+		"abilities": [
+			"lightning-rod",
+			"solid-rock",
+			"reckless"
+		]
+	},
+	"465": {
+		"id": 465,
+		"name": "tangrowth",
+		"abilities": [
+			"chlorophyll",
+			"leaf-guard",
+			"regenerator"
+		]
+	},
+	"466": {
+		"id": 466,
+		"name": "electivire",
+		"abilities": [
+			"motor-drive",
+			"vital-spirit"
+		]
+	},
+	"467": {
+		"id": 467,
+		"name": "magmortar",
+		"abilities": [
+			"flame-body",
+			"vital-spirit"
+		]
+	},
+	"468": {
+		"id": 468,
+		"name": "togekiss",
+		"abilities": [
+			"hustle",
+			"serene-grace",
+			"super-luck"
+		]
+	},
+	"469": {
+		"id": 469,
+		"name": "yanmega",
+		"abilities": [
+			"speed-boost",
+			"tinted-lens",
+			"frisk"
+		]
+	},
+	"470": {
+		"id": 470,
+		"name": "leafeon",
+		"abilities": [
+			"leaf-guard",
+			"chlorophyll"
+		]
+	},
+	"471": {
+		"id": 471,
+		"name": "glaceon",
+		"abilities": [
+			"snow-cloak",
+			"ice-body"
+		]
+	},
+	"472": {
+		"id": 472,
+		"name": "gliscor",
+		"abilities": [
+			"hyper-cutter",
+			"sand-veil",
+			"poison-heal"
+		]
+	},
+	"473": {
+		"id": 473,
+		"name": "mamoswine",
+		"abilities": [
+			"oblivious",
+			"snow-cloak",
+			"thick-fat"
+		]
+	},
+	"474": {
+		"id": 474,
+		"name": "porygon-z",
+		"abilities": [
+			"adaptability",
+			"download",
+			"analytic"
+		]
+	},
+	"475": {
+		"id": 475,
+		"name": "gallade",
+		"abilities": [
+			"steadfast",
+			"sharpness",
+			"justified"
+		]
+	},
+	"476": {
+		"id": 476,
+		"name": "probopass",
+		"abilities": [
+			"sturdy",
+			"magnet-pull",
+			"sand-force"
+		]
+	},
+	"477": {
+		"id": 477,
+		"name": "dusknoir",
+		"abilities": [
+			"pressure",
+			"frisk"
+		]
+	},
+	"478": {
+		"id": 478,
+		"name": "froslass",
+		"abilities": [
+			"snow-cloak",
+			"cursed-body"
+		]
+	},
+	"479": {
+		"id": 479,
+		"name": "rotom",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"480": {
+		"id": 480,
+		"name": "uxie",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"481": {
+		"id": 481,
+		"name": "mesprit",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"482": {
+		"id": 482,
+		"name": "azelf",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"483": {
+		"id": 483,
+		"name": "dialga",
+		"abilities": [
+			"pressure",
+			"telepathy"
+		]
+	},
+	"484": {
+		"id": 484,
+		"name": "palkia",
+		"abilities": [
+			"pressure",
+			"telepathy"
+		]
+	},
+	"485": {
+		"id": 485,
+		"name": "heatran",
+		"abilities": [
+			"flash-fire",
+			"flame-body"
+		]
+	},
+	"486": {
+		"id": 486,
+		"name": "regigigas",
+		"abilities": [
+			"slow-start"
+		]
+	},
+	"487": {
+		"id": 487,
+		"name": "giratina-altered",
+		"abilities": [
+			"pressure",
+			"telepathy"
+		]
+	},
+	"488": {
+		"id": 488,
+		"name": "cresselia",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"489": {
+		"id": 489,
+		"name": "phione",
+		"abilities": [
+			"hydration"
+		]
+	},
+	"490": {
+		"id": 490,
+		"name": "manaphy",
+		"abilities": [
+			"hydration"
+		]
+	},
+	"491": {
+		"id": 491,
+		"name": "darkrai",
+		"abilities": [
+			"bad-dreams"
+		]
+	},
+	"492": {
+		"id": 492,
+		"name": "shaymin-land",
+		"abilities": [
+			"natural-cure"
+		]
+	},
+	"493": {
+		"id": 493,
+		"name": "arceus",
+		"abilities": [
+			"multitype"
+		]
+	},
+	"494": {
+		"id": 494,
+		"name": "victini",
+		"abilities": [
+			"victory-star"
+		]
+	},
+	"495": {
+		"id": 495,
+		"name": "snivy",
+		"abilities": [
+			"overgrow",
+			"contrary"
+		]
+	},
+	"496": {
+		"id": 496,
+		"name": "servine",
+		"abilities": [
+			"overgrow",
+			"contrary"
+		]
+	},
+	"497": {
+		"id": 497,
+		"name": "serperior",
+		"abilities": [
+			"overgrow",
+			"contrary"
+		]
+	},
+	"498": {
+		"id": 498,
+		"name": "tepig",
+		"abilities": [
+			"blaze",
+			"thick-fat"
+		]
+	},
+	"499": {
+		"id": 499,
+		"name": "pignite",
+		"abilities": [
+			"blaze",
+			"thick-fat"
+		]
+	},
+	"500": {
+		"id": 500,
+		"name": "emboar",
+		"abilities": [
+			"blaze",
+			"reckless"
+		]
+	},
+	"501": {
+		"id": 501,
+		"name": "oshawott",
+		"abilities": [
+			"torrent",
+			"shell-armor"
+		]
+	},
+	"502": {
+		"id": 502,
+		"name": "dewott",
+		"abilities": [
+			"torrent",
+			"shell-armor"
+		]
+	},
+	"503": {
+		"id": 503,
+		"name": "samurott",
+		"abilities": [
+			"torrent",
+			"shell-armor"
+		]
+	},
+	"504": {
+		"id": 504,
+		"name": "patrat",
+		"abilities": [
+			"run-away",
+			"keen-eye",
+			"analytic"
+		]
+	},
+	"505": {
+		"id": 505,
+		"name": "watchog",
+		"abilities": [
+			"illuminate",
+			"keen-eye",
+			"analytic"
+		]
+	},
+	"506": {
+		"id": 506,
+		"name": "lillipup",
+		"abilities": [
+			"vital-spirit",
+			"pickup",
+			"run-away"
+		]
+	},
+	"507": {
+		"id": 507,
+		"name": "herdier",
+		"abilities": [
+			"intimidate",
+			"sand-rush",
+			"scrappy"
+		]
+	},
+	"508": {
+		"id": 508,
+		"name": "stoutland",
+		"abilities": [
+			"intimidate",
+			"sand-rush",
+			"scrappy"
+		]
+	},
+	"509": {
+		"id": 509,
+		"name": "purrloin",
+		"abilities": [
+			"limber",
+			"unburden",
+			"prankster"
+		]
+	},
+	"510": {
+		"id": 510,
+		"name": "liepard",
+		"abilities": [
+			"limber",
+			"unburden",
+			"prankster"
+		]
+	},
+	"511": {
+		"id": 511,
+		"name": "pansage",
+		"abilities": [
+			"gluttony",
+			"overgrow"
+		]
+	},
+	"512": {
+		"id": 512,
+		"name": "simisage",
+		"abilities": [
+			"gluttony",
+			"overgrow"
+		]
+	},
+	"513": {
+		"id": 513,
+		"name": "pansear",
+		"abilities": [
+			"gluttony",
+			"blaze"
+		]
+	},
+	"514": {
+		"id": 514,
+		"name": "simisear",
+		"abilities": [
+			"gluttony",
+			"blaze"
+		]
+	},
+	"515": {
+		"id": 515,
+		"name": "panpour",
+		"abilities": [
+			"gluttony",
+			"torrent"
+		]
+	},
+	"516": {
+		"id": 516,
+		"name": "simipour",
+		"abilities": [
+			"gluttony",
+			"torrent"
+		]
+	},
+	"517": {
+		"id": 517,
+		"name": "munna",
+		"abilities": [
+			"forewarn",
+			"synchronize",
+			"telepathy"
+		]
+	},
+	"518": {
+		"id": 518,
+		"name": "musharna",
+		"abilities": [
+			"forewarn",
+			"synchronize",
+			"telepathy"
+		]
+	},
+	"519": {
+		"id": 519,
+		"name": "pidove",
+		"abilities": [
+			"big-pecks",
+			"super-luck",
+			"rivalry"
+		]
+	},
+	"520": {
+		"id": 520,
+		"name": "tranquill",
+		"abilities": [
+			"big-pecks",
+			"super-luck",
+			"rivalry"
+		]
+	},
+	"521": {
+		"id": 521,
+		"name": "unfezant",
+		"abilities": [
+			"big-pecks",
+			"super-luck",
+			"rivalry"
+		]
+	},
+	"522": {
+		"id": 522,
+		"name": "blitzle",
+		"abilities": [
+			"lightning-rod",
+			"motor-drive",
+			"sap-sipper"
+		]
+	},
+	"523": {
+		"id": 523,
+		"name": "zebstrika",
+		"abilities": [
+			"lightning-rod",
+			"motor-drive",
+			"sap-sipper"
+		]
+	},
+	"524": {
+		"id": 524,
+		"name": "roggenrola",
+		"abilities": [
+			"sturdy",
+			"weak-armor",
+			"sand-force"
+		]
+	},
+	"525": {
+		"id": 525,
+		"name": "boldore",
+		"abilities": [
+			"sturdy",
+			"weak-armor",
+			"sand-force"
+		]
+	},
+	"526": {
+		"id": 526,
+		"name": "gigalith",
+		"abilities": [
+			"sturdy",
+			"sand-stream",
+			"sand-force"
+		]
+	},
+	"527": {
+		"id": 527,
+		"name": "woobat",
+		"abilities": [
+			"unaware",
+			"klutz",
+			"simple"
+		]
+	},
+	"528": {
+		"id": 528,
+		"name": "swoobat",
+		"abilities": [
+			"unaware",
+			"klutz",
+			"simple"
+		]
+	},
+	"529": {
+		"id": 529,
+		"name": "drilbur",
+		"abilities": [
+			"sand-rush",
+			"sand-force",
+			"mold-breaker"
+		]
+	},
+	"530": {
+		"id": 530,
+		"name": "excadrill",
+		"abilities": [
+			"sand-rush",
+			"sand-force",
+			"mold-breaker"
+		]
+	},
+	"531": {
+		"id": 531,
+		"name": "audino",
+		"abilities": [
+			"healer",
+			"regenerator",
+			"klutz"
+		]
+	},
+	"532": {
+		"id": 532,
+		"name": "timburr",
+		"abilities": [
+			"guts",
+			"sheer-force",
+			"iron-fist"
+		]
+	},
+	"533": {
+		"id": 533,
+		"name": "gurdurr",
+		"abilities": [
+			"guts",
+			"sheer-force",
+			"iron-fist"
+		]
+	},
+	"534": {
+		"id": 534,
+		"name": "conkeldurr",
+		"abilities": [
+			"guts",
+			"sheer-force",
+			"iron-fist"
+		]
+	},
+	"535": {
+		"id": 535,
+		"name": "tympole",
+		"abilities": [
+			"swift-swim",
+			"hydration",
+			"water-absorb"
+		]
+	},
+	"536": {
+		"id": 536,
+		"name": "palpitoad",
+		"abilities": [
+			"swift-swim",
+			"hydration",
+			"water-absorb"
+		]
+	},
+	"537": {
+		"id": 537,
+		"name": "seismitoad",
+		"abilities": [
+			"swift-swim",
+			"poison-touch",
+			"water-absorb"
+		]
+	},
+	"538": {
+		"id": 538,
+		"name": "throh",
+		"abilities": [
+			"guts",
+			"inner-focus",
+			"mold-breaker"
+		]
+	},
+	"539": {
+		"id": 539,
+		"name": "sawk",
+		"abilities": [
+			"sturdy",
+			"inner-focus",
+			"mold-breaker"
+		]
+	},
+	"540": {
+		"id": 540,
+		"name": "sewaddle",
+		"abilities": [
+			"swarm",
+			"chlorophyll",
+			"overcoat"
+		]
+	},
+	"541": {
+		"id": 541,
+		"name": "swadloon",
+		"abilities": [
+			"leaf-guard",
+			"chlorophyll",
+			"overcoat"
+		]
+	},
+	"542": {
+		"id": 542,
+		"name": "leavanny",
+		"abilities": [
+			"swarm",
+			"chlorophyll",
+			"overcoat"
+		]
+	},
+	"543": {
+		"id": 543,
+		"name": "venipede",
+		"abilities": [
+			"poison-point",
+			"swarm",
+			"speed-boost"
+		]
+	},
+	"544": {
+		"id": 544,
+		"name": "whirlipede",
+		"abilities": [
+			"poison-point",
+			"swarm",
+			"speed-boost"
+		]
+	},
+	"545": {
+		"id": 545,
+		"name": "scolipede",
+		"abilities": [
+			"poison-point",
+			"swarm",
+			"speed-boost"
+		]
+	},
+	"546": {
+		"id": 546,
+		"name": "cottonee",
+		"abilities": [
+			"prankster",
+			"infiltrator",
+			"chlorophyll"
+		]
+	},
+	"547": {
+		"id": 547,
+		"name": "whimsicott",
+		"abilities": [
+			"prankster",
+			"infiltrator",
+			"chlorophyll"
+		]
+	},
+	"548": {
+		"id": 548,
+		"name": "petilil",
+		"abilities": [
+			"chlorophyll",
+			"own-tempo",
+			"leaf-guard"
+		]
+	},
+	"549": {
+		"id": 549,
+		"name": "lilligant",
+		"abilities": [
+			"chlorophyll",
+			"own-tempo",
+			"leaf-guard"
+		]
+	},
+	"550": {
+		"id": 550,
+		"name": "basculin-red-striped",
+		"abilities": [
+			"reckless",
+			"adaptability",
+			"mold-breaker"
+		]
+	},
+	"551": {
+		"id": 551,
+		"name": "sandile",
+		"abilities": [
+			"intimidate",
+			"moxie",
+			"anger-point"
+		]
+	},
+	"552": {
+		"id": 552,
+		"name": "krokorok",
+		"abilities": [
+			"intimidate",
+			"moxie",
+			"anger-point"
+		]
+	},
+	"553": {
+		"id": 553,
+		"name": "krookodile",
+		"abilities": [
+			"intimidate",
+			"moxie",
+			"anger-point"
+		]
+	},
+	"554": {
+		"id": 554,
+		"name": "darumaka",
+		"abilities": [
+			"hustle",
+			"inner-focus"
+		]
+	},
+	"555": {
+		"id": 555,
+		"name": "darmanitan-standard",
+		"abilities": [
+			"sheer-force",
+			"zen-mode"
+		]
+	},
+	"556": {
+		"id": 556,
+		"name": "maractus",
+		"abilities": [
+			"water-absorb",
+			"chlorophyll",
+			"storm-drain"
+		]
+	},
+	"557": {
+		"id": 557,
+		"name": "dwebble",
+		"abilities": [
+			"sturdy",
+			"shell-armor",
+			"weak-armor"
+		]
+	},
+	"558": {
+		"id": 558,
+		"name": "crustle",
+		"abilities": [
+			"sturdy",
+			"shell-armor",
+			"weak-armor"
+		]
+	},
+	"559": {
+		"id": 559,
+		"name": "scraggy",
+		"abilities": [
+			"shed-skin",
+			"moxie",
+			"intimidate"
+		]
+	},
+	"560": {
+		"id": 560,
+		"name": "scrafty",
+		"abilities": [
+			"shed-skin",
+			"moxie",
+			"intimidate"
+		]
+	},
+	"561": {
+		"id": 561,
+		"name": "sigilyph",
+		"abilities": [
+			"wonder-skin",
+			"magic-guard",
+			"tinted-lens"
+		]
+	},
+	"562": {
+		"id": 562,
+		"name": "yamask",
+		"abilities": [
+			"mummy"
+		]
+	},
+	"563": {
+		"id": 563,
+		"name": "cofagrigus",
+		"abilities": [
+			"mummy"
+		]
+	},
+	"564": {
+		"id": 564,
+		"name": "tirtouga",
+		"abilities": [
+			"solid-rock",
+			"sturdy",
+			"swift-swim"
+		]
+	},
+	"565": {
+		"id": 565,
+		"name": "carracosta",
+		"abilities": [
+			"solid-rock",
+			"sturdy",
+			"swift-swim"
+		]
+	},
+	"566": {
+		"id": 566,
+		"name": "archen",
+		"abilities": [
+			"defeatist"
+		]
+	},
+	"567": {
+		"id": 567,
+		"name": "archeops",
+		"abilities": [
+			"defeatist"
+		]
+	},
+	"568": {
+		"id": 568,
+		"name": "trubbish",
+		"abilities": [
+			"stench",
+			"sticky-hold",
+			"aftermath"
+		]
+	},
+	"569": {
+		"id": 569,
+		"name": "garbodor",
+		"abilities": [
+			"stench",
+			"weak-armor",
+			"aftermath"
+		]
+	},
+	"570": {
+		"id": 570,
+		"name": "zorua",
+		"abilities": [
+			"illusion"
+		]
+	},
+	"571": {
+		"id": 571,
+		"name": "zoroark",
+		"abilities": [
+			"illusion"
+		]
+	},
+	"572": {
+		"id": 572,
+		"name": "minccino",
+		"abilities": [
+			"cute-charm",
+			"technician",
+			"skill-link"
+		]
+	},
+	"573": {
+		"id": 573,
+		"name": "cinccino",
+		"abilities": [
+			"cute-charm",
+			"technician",
+			"skill-link"
+		]
+	},
+	"574": {
+		"id": 574,
+		"name": "gothita",
+		"abilities": [
+			"frisk",
+			"competitive",
+			"shadow-tag"
+		]
+	},
+	"575": {
+		"id": 575,
+		"name": "gothorita",
+		"abilities": [
+			"frisk",
+			"competitive",
+			"shadow-tag"
+		]
+	},
+	"576": {
+		"id": 576,
+		"name": "gothitelle",
+		"abilities": [
+			"frisk",
+			"competitive",
+			"shadow-tag"
+		]
+	},
+	"577": {
+		"id": 577,
+		"name": "solosis",
+		"abilities": [
+			"overcoat",
+			"magic-guard",
+			"regenerator"
+		]
+	},
+	"578": {
+		"id": 578,
+		"name": "duosion",
+		"abilities": [
+			"overcoat",
+			"magic-guard",
+			"regenerator"
+		]
+	},
+	"579": {
+		"id": 579,
+		"name": "reuniclus",
+		"abilities": [
+			"overcoat",
+			"magic-guard",
+			"regenerator"
+		]
+	},
+	"580": {
+		"id": 580,
+		"name": "ducklett",
+		"abilities": [
+			"keen-eye",
+			"big-pecks",
+			"hydration"
+		]
+	},
+	"581": {
+		"id": 581,
+		"name": "swanna",
+		"abilities": [
+			"keen-eye",
+			"big-pecks",
+			"hydration"
+		]
+	},
+	"582": {
+		"id": 582,
+		"name": "vanillite",
+		"abilities": [
+			"ice-body",
+			"snow-cloak",
+			"weak-armor"
+		]
+	},
+	"583": {
+		"id": 583,
+		"name": "vanillish",
+		"abilities": [
+			"ice-body",
+			"snow-cloak",
+			"weak-armor"
+		]
+	},
+	"584": {
+		"id": 584,
+		"name": "vanilluxe",
+		"abilities": [
+			"ice-body",
+			"snow-warning",
+			"weak-armor"
+		]
+	},
+	"585": {
+		"id": 585,
+		"name": "deerling",
+		"abilities": [
+			"chlorophyll",
+			"sap-sipper",
+			"serene-grace"
+		]
+	},
+	"586": {
+		"id": 586,
+		"name": "sawsbuck",
+		"abilities": [
+			"chlorophyll",
+			"sap-sipper",
+			"serene-grace"
+		]
+	},
+	"587": {
+		"id": 587,
+		"name": "emolga",
+		"abilities": [
+			"static",
+			"motor-drive"
+		]
+	},
+	"588": {
+		"id": 588,
+		"name": "karrablast",
+		"abilities": [
+			"swarm",
+			"shed-skin",
+			"no-guard"
+		]
+	},
+	"589": {
+		"id": 589,
+		"name": "escavalier",
+		"abilities": [
+			"swarm",
+			"shell-armor",
+			"overcoat"
+		]
+	},
+	"590": {
+		"id": 590,
+		"name": "foongus",
+		"abilities": [
+			"effect-spore",
+			"regenerator"
+		]
+	},
+	"591": {
+		"id": 591,
+		"name": "amoonguss",
+		"abilities": [
+			"effect-spore",
+			"regenerator"
+		]
+	},
+	"592": {
+		"id": 592,
+		"name": "frillish",
+		"abilities": [
+			"water-absorb",
+			"cursed-body",
+			"damp"
+		]
+	},
+	"593": {
+		"id": 593,
+		"name": "jellicent",
+		"abilities": [
+			"water-absorb",
+			"cursed-body",
+			"damp"
+		]
+	},
+	"594": {
+		"id": 594,
+		"name": "alomomola",
+		"abilities": [
+			"healer",
+			"hydration",
+			"regenerator"
+		]
+	},
+	"595": {
+		"id": 595,
+		"name": "joltik",
+		"abilities": [
+			"compound-eyes",
+			"unnerve",
+			"swarm"
+		]
+	},
+	"596": {
+		"id": 596,
+		"name": "galvantula",
+		"abilities": [
+			"compound-eyes",
+			"unnerve",
+			"swarm"
+		]
+	},
+	"597": {
+		"id": 597,
+		"name": "ferroseed",
+		"abilities": [
+			"iron-barbs"
+		]
+	},
+	"598": {
+		"id": 598,
+		"name": "ferrothorn",
+		"abilities": [
+			"iron-barbs",
+			"anticipation"
+		]
+	},
+	"599": {
+		"id": 599,
+		"name": "klink",
+		"abilities": [
+			"plus",
+			"minus",
+			"clear-body"
+		]
+	},
+	"600": {
+		"id": 600,
+		"name": "klang",
+		"abilities": [
+			"plus",
+			"minus",
+			"clear-body"
+		]
+	},
+	"601": {
+		"id": 601,
+		"name": "klinklang",
+		"abilities": [
+			"plus",
+			"minus",
+			"clear-body"
+		]
+	},
+	"602": {
+		"id": 602,
+		"name": "tynamo",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"603": {
+		"id": 603,
+		"name": "eelektrik",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"604": {
+		"id": 604,
+		"name": "eelektross",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"605": {
+		"id": 605,
+		"name": "elgyem",
+		"abilities": [
+			"telepathy",
+			"synchronize",
+			"analytic"
+		]
+	},
+	"606": {
+		"id": 606,
+		"name": "beheeyem",
+		"abilities": [
+			"telepathy",
+			"synchronize",
+			"analytic"
+		]
+	},
+	"607": {
+		"id": 607,
+		"name": "litwick",
+		"abilities": [
+			"flash-fire",
+			"flame-body",
+			"infiltrator"
+		]
+	},
+	"608": {
+		"id": 608,
+		"name": "lampent",
+		"abilities": [
+			"flash-fire",
+			"flame-body",
+			"infiltrator"
+		]
+	},
+	"609": {
+		"id": 609,
+		"name": "chandelure",
+		"abilities": [
+			"flash-fire",
+			"flame-body",
+			"infiltrator"
+		]
+	},
+	"610": {
+		"id": 610,
+		"name": "axew",
+		"abilities": [
+			"rivalry",
+			"mold-breaker",
+			"unnerve"
+		]
+	},
+	"611": {
+		"id": 611,
+		"name": "fraxure",
+		"abilities": [
+			"rivalry",
+			"mold-breaker",
+			"unnerve"
+		]
+	},
+	"612": {
+		"id": 612,
+		"name": "haxorus",
+		"abilities": [
+			"rivalry",
+			"mold-breaker",
+			"unnerve"
+		]
+	},
+	"613": {
+		"id": 613,
+		"name": "cubchoo",
+		"abilities": [
+			"snow-cloak",
+			"slush-rush",
+			"rattled"
+		]
+	},
+	"614": {
+		"id": 614,
+		"name": "beartic",
+		"abilities": [
+			"snow-cloak",
+			"slush-rush",
+			"swift-swim"
+		]
+	},
+	"615": {
+		"id": 615,
+		"name": "cryogonal",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"616": {
+		"id": 616,
+		"name": "shelmet",
+		"abilities": [
+			"hydration",
+			"shell-armor",
+			"overcoat"
+		]
+	},
+	"617": {
+		"id": 617,
+		"name": "accelgor",
+		"abilities": [
+			"hydration",
+			"sticky-hold",
+			"unburden"
+		]
+	},
+	"618": {
+		"id": 618,
+		"name": "stunfisk",
+		"abilities": [
+			"static",
+			"limber",
+			"sand-veil"
+		]
+	},
+	"619": {
+		"id": 619,
+		"name": "mienfoo",
+		"abilities": [
+			"inner-focus",
+			"regenerator",
+			"reckless"
+		]
+	},
+	"620": {
+		"id": 620,
+		"name": "mienshao",
+		"abilities": [
+			"inner-focus",
+			"regenerator",
+			"reckless"
+		]
+	},
+	"621": {
+		"id": 621,
+		"name": "druddigon",
+		"abilities": [
+			"rough-skin",
+			"sheer-force",
+			"mold-breaker"
+		]
+	},
+	"622": {
+		"id": 622,
+		"name": "golett",
+		"abilities": [
+			"iron-fist",
+			"klutz",
+			"no-guard"
+		]
+	},
+	"623": {
+		"id": 623,
+		"name": "golurk",
+		"abilities": [
+			"iron-fist",
+			"klutz",
+			"no-guard"
+		]
+	},
+	"624": {
+		"id": 624,
+		"name": "pawniard",
+		"abilities": [
+			"defiant",
+			"inner-focus",
+			"pressure"
+		]
+	},
+	"625": {
+		"id": 625,
+		"name": "bisharp",
+		"abilities": [
+			"defiant",
+			"inner-focus",
+			"pressure"
+		]
+	},
+	"626": {
+		"id": 626,
+		"name": "bouffalant",
+		"abilities": [
+			"reckless",
+			"sap-sipper",
+			"soundproof"
+		]
+	},
+	"627": {
+		"id": 627,
+		"name": "rufflet",
+		"abilities": [
+			"keen-eye",
+			"sheer-force",
+			"hustle"
+		]
+	},
+	"628": {
+		"id": 628,
+		"name": "braviary",
+		"abilities": [
+			"keen-eye",
+			"sheer-force",
+			"defiant"
+		]
+	},
+	"629": {
+		"id": 629,
+		"name": "vullaby",
+		"abilities": [
+			"big-pecks",
+			"overcoat",
+			"weak-armor"
+		]
+	},
+	"630": {
+		"id": 630,
+		"name": "mandibuzz",
+		"abilities": [
+			"big-pecks",
+			"overcoat",
+			"weak-armor"
+		]
+	},
+	"631": {
+		"id": 631,
+		"name": "heatmor",
+		"abilities": [
+			"gluttony",
+			"flash-fire",
+			"white-smoke"
+		]
+	},
+	"632": {
+		"id": 632,
+		"name": "durant",
+		"abilities": [
+			"swarm",
+			"hustle",
+			"truant"
+		]
+	},
+	"633": {
+		"id": 633,
+		"name": "deino",
+		"abilities": [
+			"hustle"
+		]
+	},
+	"634": {
+		"id": 634,
+		"name": "zweilous",
+		"abilities": [
+			"hustle"
+		]
+	},
+	"635": {
+		"id": 635,
+		"name": "hydreigon",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"636": {
+		"id": 636,
+		"name": "larvesta",
+		"abilities": [
+			"flame-body",
+			"swarm"
+		]
+	},
+	"637": {
+		"id": 637,
+		"name": "volcarona",
+		"abilities": [
+			"flame-body",
+			"swarm"
+		]
+	},
+	"638": {
+		"id": 638,
+		"name": "cobalion",
+		"abilities": [
+			"justified"
+		]
+	},
+	"639": {
+		"id": 639,
+		"name": "terrakion",
+		"abilities": [
+			"justified"
+		]
+	},
+	"640": {
+		"id": 640,
+		"name": "virizion",
+		"abilities": [
+			"justified"
+		]
+	},
+	"641": {
+		"id": 641,
+		"name": "tornadus-incarnate",
+		"abilities": [
+			"prankster",
+			"defiant"
+		]
+	},
+	"642": {
+		"id": 642,
+		"name": "thundurus-incarnate",
+		"abilities": [
+			"prankster",
+			"defiant"
+		]
+	},
+	"643": {
+		"id": 643,
+		"name": "reshiram",
+		"abilities": [
+			"turboblaze"
+		]
+	},
+	"644": {
+		"id": 644,
+		"name": "zekrom",
+		"abilities": [
+			"teravolt"
+		]
+	},
+	"645": {
+		"id": 645,
+		"name": "landorus-incarnate",
+		"abilities": [
+			"sand-force",
+			"sheer-force"
+		]
+	},
+	"646": {
+		"id": 646,
+		"name": "kyurem",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"647": {
+		"id": 647,
+		"name": "keldeo-ordinary",
+		"abilities": [
+			"justified"
+		]
+	},
+	"648": {
+		"id": 648,
+		"name": "meloetta-aria",
+		"abilities": [
+			"serene-grace"
+		]
+	},
+	"649": {
+		"id": 649,
+		"name": "genesect",
+		"abilities": [
+			"download"
+		]
+	},
+	"650": {
+		"id": 650,
+		"name": "chespin",
+		"abilities": [
+			"overgrow",
+			"bulletproof"
+		]
+	},
+	"651": {
+		"id": 651,
+		"name": "quilladin",
+		"abilities": [
+			"overgrow",
+			"bulletproof"
+		]
+	},
+	"652": {
+		"id": 652,
+		"name": "chesnaught",
+		"abilities": [
+			"overgrow",
+			"bulletproof"
+		]
+	},
+	"653": {
+		"id": 653,
+		"name": "fennekin",
+		"abilities": [
+			"blaze",
+			"magician"
+		]
+	},
+	"654": {
+		"id": 654,
+		"name": "braixen",
+		"abilities": [
+			"blaze",
+			"magician"
+		]
+	},
+	"655": {
+		"id": 655,
+		"name": "delphox",
+		"abilities": [
+			"blaze",
+			"magician"
+		]
+	},
+	"656": {
+		"id": 656,
+		"name": "froakie",
+		"abilities": [
+			"torrent",
+			"protean"
+		]
+	},
+	"657": {
+		"id": 657,
+		"name": "frogadier",
+		"abilities": [
+			"torrent",
+			"protean"
+		]
+	},
+	"658": {
+		"id": 658,
+		"name": "greninja",
+		"abilities": [
+			"torrent",
+			"protean"
+		]
+	},
+	"659": {
+		"id": 659,
+		"name": "bunnelby",
+		"abilities": [
+			"pickup",
+			"cheek-pouch",
+			"huge-power"
+		]
+	},
+	"660": {
+		"id": 660,
+		"name": "diggersby",
+		"abilities": [
+			"pickup",
+			"cheek-pouch",
+			"huge-power"
+		]
+	},
+	"661": {
+		"id": 661,
+		"name": "fletchling",
+		"abilities": [
+			"big-pecks",
+			"gale-wings"
+		]
+	},
+	"662": {
+		"id": 662,
+		"name": "fletchinder",
+		"abilities": [
+			"flame-body",
+			"gale-wings"
+		]
+	},
+	"663": {
+		"id": 663,
+		"name": "talonflame",
+		"abilities": [
+			"flame-body",
+			"gale-wings"
+		]
+	},
+	"664": {
+		"id": 664,
+		"name": "scatterbug",
+		"abilities": [
+			"shield-dust",
+			"compound-eyes",
+			"friend-guard"
+		]
+	},
+	"665": {
+		"id": 665,
+		"name": "spewpa",
+		"abilities": [
+			"shed-skin",
+			"friend-guard"
+		]
+	},
+	"666": {
+		"id": 666,
+		"name": "vivillon",
+		"abilities": [
+			"shield-dust",
+			"compound-eyes",
+			"friend-guard"
+		]
+	},
+	"667": {
+		"id": 667,
+		"name": "litleo",
+		"abilities": [
+			"rivalry",
+			"unnerve",
+			"moxie"
+		]
+	},
+	"668": {
+		"id": 668,
+		"name": "pyroar",
+		"abilities": [
+			"rivalry",
+			"unnerve",
+			"moxie"
+		]
+	},
+	"669": {
+		"id": 669,
+		"name": "flabebe",
+		"abilities": [
+			"flower-veil",
+			"symbiosis"
+		]
+	},
+	"670": {
+		"id": 670,
+		"name": "floette",
+		"abilities": [
+			"flower-veil",
+			"symbiosis"
+		]
+	},
+	"671": {
+		"id": 671,
+		"name": "florges",
+		"abilities": [
+			"flower-veil",
+			"symbiosis"
+		]
+	},
+	"672": {
+		"id": 672,
+		"name": "skiddo",
+		"abilities": [
+			"sap-sipper",
+			"grass-pelt"
+		]
+	},
+	"673": {
+		"id": 673,
+		"name": "gogoat",
+		"abilities": [
+			"sap-sipper",
+			"grass-pelt"
+		]
+	},
+	"674": {
+		"id": 674,
+		"name": "pancham",
+		"abilities": [
+			"iron-fist",
+			"mold-breaker",
+			"scrappy"
+		]
+	},
+	"675": {
+		"id": 675,
+		"name": "pangoro",
+		"abilities": [
+			"iron-fist",
+			"mold-breaker",
+			"scrappy"
+		]
+	},
+	"676": {
+		"id": 676,
+		"name": "furfrou",
+		"abilities": [
+			"fur-coat"
+		]
+	},
+	"677": {
+		"id": 677,
+		"name": "espurr",
+		"abilities": [
+			"keen-eye",
+			"infiltrator",
+			"own-tempo"
+		]
+	},
+	"678": {
+		"id": 678,
+		"name": "meowstic-male",
+		"abilities": [
+			"keen-eye",
+			"infiltrator",
+			"prankster"
+		]
+	},
+	"679": {
+		"id": 679,
+		"name": "honedge",
+		"abilities": [
+			"no-guard"
+		]
+	},
+	"680": {
+		"id": 680,
+		"name": "doublade",
+		"abilities": [
+			"no-guard"
+		]
+	},
+	"681": {
+		"id": 681,
+		"name": "aegislash-shield",
+		"abilities": [
+			"stance-change"
+		]
+	},
+	"682": {
+		"id": 682,
+		"name": "spritzee",
+		"abilities": [
+			"healer",
+			"aroma-veil"
+		]
+	},
+	"683": {
+		"id": 683,
+		"name": "aromatisse",
+		"abilities": [
+			"healer",
+			"aroma-veil"
+		]
+	},
+	"684": {
+		"id": 684,
+		"name": "swirlix",
+		"abilities": [
+			"sweet-veil",
+			"unburden"
+		]
+	},
+	"685": {
+		"id": 685,
+		"name": "slurpuff",
+		"abilities": [
+			"sweet-veil",
+			"unburden"
+		]
+	},
+	"686": {
+		"id": 686,
+		"name": "inkay",
+		"abilities": [
+			"contrary",
+			"suction-cups",
+			"infiltrator"
+		]
+	},
+	"687": {
+		"id": 687,
+		"name": "malamar",
+		"abilities": [
+			"contrary",
+			"suction-cups",
+			"infiltrator"
+		]
+	},
+	"688": {
+		"id": 688,
+		"name": "binacle",
+		"abilities": [
+			"tough-claws",
+			"sniper",
+			"pickpocket"
+		]
+	},
+	"689": {
+		"id": 689,
+		"name": "barbaracle",
+		"abilities": [
+			"tough-claws",
+			"sniper",
+			"pickpocket"
+		]
+	},
+	"690": {
+		"id": 690,
+		"name": "skrelp",
+		"abilities": [
+			"poison-point",
+			"poison-touch",
+			"adaptability"
+		]
+	},
+	"691": {
+		"id": 691,
+		"name": "dragalge",
+		"abilities": [
+			"poison-point",
+			"poison-touch",
+			"adaptability"
+		]
+	},
+	"692": {
+		"id": 692,
+		"name": "clauncher",
+		"abilities": [
+			"mega-launcher"
+		]
+	},
+	"693": {
+		"id": 693,
+		"name": "clawitzer",
+		"abilities": [
+			"mega-launcher"
+		]
+	},
+	"694": {
+		"id": 694,
+		"name": "helioptile",
+		"abilities": [
+			"dry-skin",
+			"sand-veil",
+			"solar-power"
+		]
+	},
+	"695": {
+		"id": 695,
+		"name": "heliolisk",
+		"abilities": [
+			"dry-skin",
+			"sand-veil",
+			"solar-power"
+		]
+	},
+	"696": {
+		"id": 696,
+		"name": "tyrunt",
+		"abilities": [
+			"strong-jaw",
+			"sturdy"
+		]
+	},
+	"697": {
+		"id": 697,
+		"name": "tyrantrum",
+		"abilities": [
+			"strong-jaw",
+			"rock-head"
+		]
+	},
+	"698": {
+		"id": 698,
+		"name": "amaura",
+		"abilities": [
+			"refrigerate",
+			"snow-warning"
+		]
+	},
+	"699": {
+		"id": 699,
+		"name": "aurorus",
+		"abilities": [
+			"refrigerate",
+			"snow-warning"
+		]
+	},
+	"700": {
+		"id": 700,
+		"name": "sylveon",
+		"abilities": [
+			"cute-charm",
+			"pixilate"
+		]
+	},
+	"701": {
+		"id": 701,
+		"name": "hawlucha",
+		"abilities": [
+			"limber",
+			"unburden",
+			"mold-breaker"
+		]
+	},
+	"702": {
+		"id": 702,
+		"name": "dedenne",
+		"abilities": [
+			"cheek-pouch",
+			"pickup",
+			"plus"
+		]
+	},
+	"703": {
+		"id": 703,
+		"name": "carbink",
+		"abilities": [
+			"clear-body",
+			"sturdy"
+		]
+	},
+	"704": {
+		"id": 704,
+		"name": "goomy",
+		"abilities": [
+			"sap-sipper",
+			"hydration",
+			"gooey"
+		]
+	},
+	"705": {
+		"id": 705,
+		"name": "sliggoo",
+		"abilities": [
+			"sap-sipper",
+			"hydration",
+			"gooey"
+		]
+	},
+	"706": {
+		"id": 706,
+		"name": "goodra",
+		"abilities": [
+			"sap-sipper",
+			"hydration",
+			"gooey"
+		]
+	},
+	"707": {
+		"id": 707,
+		"name": "klefki",
+		"abilities": [
+			"prankster",
+			"magician"
+		]
+	},
+	"708": {
+		"id": 708,
+		"name": "phantump",
+		"abilities": [
+			"natural-cure",
+			"frisk",
+			"harvest"
+		]
+	},
+	"709": {
+		"id": 709,
+		"name": "trevenant",
+		"abilities": [
+			"natural-cure",
+			"frisk",
+			"harvest"
+		]
+	},
+	"710": {
+		"id": 710,
+		"name": "pumpkaboo-average",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"711": {
+		"id": 711,
+		"name": "gourgeist-average",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"712": {
+		"id": 712,
+		"name": "bergmite",
+		"abilities": [
+			"own-tempo",
+			"ice-body",
+			"sturdy"
+		]
+	},
+	"713": {
+		"id": 713,
+		"name": "avalugg",
+		"abilities": [
+			"own-tempo",
+			"ice-body",
+			"sturdy"
+		]
+	},
+	"714": {
+		"id": 714,
+		"name": "noibat",
+		"abilities": [
+			"frisk",
+			"infiltrator",
+			"telepathy"
+		]
+	},
+	"715": {
+		"id": 715,
+		"name": "noivern",
+		"abilities": [
+			"frisk",
+			"infiltrator",
+			"telepathy"
+		]
+	},
+	"716": {
+		"id": 716,
+		"name": "xerneas",
+		"abilities": [
+			"fairy-aura"
+		]
+	},
+	"717": {
+		"id": 717,
+		"name": "yveltal",
+		"abilities": [
+			"dark-aura"
+		]
+	},
+	"718": {
+		"id": 718,
+		"name": "zygarde-50",
+		"abilities": [
+			"aura-break"
+		]
+	},
+	"719": {
+		"id": 719,
+		"name": "diancie",
+		"abilities": [
+			"clear-body"
+		]
+	},
+	"720": {
+		"id": 720,
+		"name": "hoopa",
+		"abilities": [
+			"magician"
+		]
+	},
+	"721": {
+		"id": 721,
+		"name": "volcanion",
+		"abilities": [
+			"water-absorb"
+		]
+	},
+	"722": {
+		"id": 722,
+		"name": "rowlet",
+		"abilities": [
+			"overgrow",
+			"long-reach"
+		]
+	},
+	"723": {
+		"id": 723,
+		"name": "dartrix",
+		"abilities": [
+			"overgrow",
+			"long-reach"
+		]
+	},
+	"724": {
+		"id": 724,
+		"name": "decidueye",
+		"abilities": [
+			"overgrow",
+			"long-reach"
+		]
+	},
+	"725": {
+		"id": 725,
+		"name": "litten",
+		"abilities": [
+			"blaze",
+			"intimidate"
+		]
+	},
+	"726": {
+		"id": 726,
+		"name": "torracat",
+		"abilities": [
+			"blaze",
+			"intimidate"
+		]
+	},
+	"727": {
+		"id": 727,
+		"name": "incineroar",
+		"abilities": [
+			"blaze",
+			"intimidate"
+		]
+	},
+	"728": {
+		"id": 728,
+		"name": "popplio",
+		"abilities": [
+			"torrent",
+			"liquid-voice"
+		]
+	},
+	"729": {
+		"id": 729,
+		"name": "brionne",
+		"abilities": [
+			"torrent",
+			"liquid-voice"
+		]
+	},
+	"730": {
+		"id": 730,
+		"name": "primarina",
+		"abilities": [
+			"torrent",
+			"liquid-voice"
+		]
+	},
+	"731": {
+		"id": 731,
+		"name": "pikipek",
+		"abilities": [
+			"keen-eye",
+			"skill-link",
+			"pickup"
+		]
+	},
+	"732": {
+		"id": 732,
+		"name": "trumbeak",
+		"abilities": [
+			"keen-eye",
+			"skill-link",
+			"pickup"
+		]
+	},
+	"733": {
+		"id": 733,
+		"name": "toucannon",
+		"abilities": [
+			"keen-eye",
+			"skill-link",
+			"sheer-force"
+		]
+	},
+	"734": {
+		"id": 734,
+		"name": "yungoos",
+		"abilities": [
+			"stakeout",
+			"strong-jaw",
+			"adaptability"
+		]
+	},
+	"735": {
+		"id": 735,
+		"name": "gumshoos",
+		"abilities": [
+			"stakeout",
+			"strong-jaw",
+			"adaptability"
+		]
+	},
+	"736": {
+		"id": 736,
+		"name": "grubbin",
+		"abilities": [
+			"swarm"
+		]
+	},
+	"737": {
+		"id": 737,
+		"name": "charjabug",
+		"abilities": [
+			"battery"
+		]
+	},
+	"738": {
+		"id": 738,
+		"name": "vikavolt",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"739": {
+		"id": 739,
+		"name": "crabrawler",
+		"abilities": [
+			"hyper-cutter",
+			"iron-fist",
+			"anger-point"
+		]
+	},
+	"740": {
+		"id": 740,
+		"name": "crabominable",
+		"abilities": [
+			"hyper-cutter",
+			"iron-fist",
+			"anger-point"
+		]
+	},
+	"741": {
+		"id": 741,
+		"name": "oricorio-baile",
+		"abilities": [
+			"dancer"
+		]
+	},
+	"742": {
+		"id": 742,
+		"name": "cutiefly",
+		"abilities": [
+			"honey-gather",
+			"shield-dust",
+			"sweet-veil"
+		]
+	},
+	"743": {
+		"id": 743,
+		"name": "ribombee",
+		"abilities": [
+			"honey-gather",
+			"shield-dust",
+			"sweet-veil"
+		]
+	},
+	"744": {
+		"id": 744,
+		"name": "rockruff",
+		"abilities": [
+			"keen-eye",
+			"vital-spirit",
+			"steadfast"
+		]
+	},
+	"745": {
+		"id": 745,
+		"name": "lycanroc-midday",
+		"abilities": [
+			"keen-eye",
+			"sand-rush",
+			"steadfast"
+		]
+	},
+	"746": {
+		"id": 746,
+		"name": "wishiwashi-solo",
+		"abilities": [
+			"schooling"
+		]
+	},
+	"747": {
+		"id": 747,
+		"name": "mareanie",
+		"abilities": [
+			"merciless",
+			"limber",
+			"regenerator"
+		]
+	},
+	"748": {
+		"id": 748,
+		"name": "toxapex",
+		"abilities": [
+			"merciless",
+			"limber",
+			"regenerator"
+		]
+	},
+	"749": {
+		"id": 749,
+		"name": "mudbray",
+		"abilities": [
+			"own-tempo",
+			"stamina",
+			"inner-focus"
+		]
+	},
+	"750": {
+		"id": 750,
+		"name": "mudsdale",
+		"abilities": [
+			"own-tempo",
+			"stamina",
+			"inner-focus"
+		]
+	},
+	"751": {
+		"id": 751,
+		"name": "dewpider",
+		"abilities": [
+			"water-bubble",
+			"water-absorb"
+		]
+	},
+	"752": {
+		"id": 752,
+		"name": "araquanid",
+		"abilities": [
+			"water-bubble",
+			"water-absorb"
+		]
+	},
+	"753": {
+		"id": 753,
+		"name": "fomantis",
+		"abilities": [
+			"leaf-guard",
+			"contrary"
+		]
+	},
+	"754": {
+		"id": 754,
+		"name": "lurantis",
+		"abilities": [
+			"leaf-guard",
+			"contrary"
+		]
+	},
+	"755": {
+		"id": 755,
+		"name": "morelull",
+		"abilities": [
+			"illuminate",
+			"effect-spore",
+			"rain-dish"
+		]
+	},
+	"756": {
+		"id": 756,
+		"name": "shiinotic",
+		"abilities": [
+			"illuminate",
+			"effect-spore",
+			"rain-dish"
+		]
+	},
+	"757": {
+		"id": 757,
+		"name": "salandit",
+		"abilities": [
+			"corrosion",
+			"oblivious"
+		]
+	},
+	"758": {
+		"id": 758,
+		"name": "salazzle",
+		"abilities": [
+			"corrosion",
+			"oblivious"
+		]
+	},
+	"759": {
+		"id": 759,
+		"name": "stufful",
+		"abilities": [
+			"fluffy",
+			"klutz",
+			"cute-charm"
+		]
+	},
+	"760": {
+		"id": 760,
+		"name": "bewear",
+		"abilities": [
+			"fluffy",
+			"klutz",
+			"unnerve"
+		]
+	},
+	"761": {
+		"id": 761,
+		"name": "bounsweet",
+		"abilities": [
+			"leaf-guard",
+			"oblivious",
+			"sweet-veil"
+		]
+	},
+	"762": {
+		"id": 762,
+		"name": "steenee",
+		"abilities": [
+			"leaf-guard",
+			"oblivious",
+			"sweet-veil"
+		]
+	},
+	"763": {
+		"id": 763,
+		"name": "tsareena",
+		"abilities": [
+			"leaf-guard",
+			"queenly-majesty",
+			"sweet-veil"
+		]
+	},
+	"764": {
+		"id": 764,
+		"name": "comfey",
+		"abilities": [
+			"flower-veil",
+			"triage",
+			"natural-cure"
+		]
+	},
+	"765": {
+		"id": 765,
+		"name": "oranguru",
+		"abilities": [
+			"inner-focus",
+			"telepathy",
+			"symbiosis"
+		]
+	},
+	"766": {
+		"id": 766,
+		"name": "passimian",
+		"abilities": [
+			"receiver",
+			"defiant"
+		]
+	},
+	"767": {
+		"id": 767,
+		"name": "wimpod",
+		"abilities": [
+			"wimp-out"
+		]
+	},
+	"768": {
+		"id": 768,
+		"name": "golisopod",
+		"abilities": [
+			"emergency-exit"
+		]
+	},
+	"769": {
+		"id": 769,
+		"name": "sandygast",
+		"abilities": [
+			"water-compaction",
+			"sand-veil"
+		]
+	},
+	"770": {
+		"id": 770,
+		"name": "palossand",
+		"abilities": [
+			"water-compaction",
+			"sand-veil"
+		]
+	},
+	"771": {
+		"id": 771,
+		"name": "pyukumuku",
+		"abilities": [
+			"innards-out",
+			"unaware"
+		]
+	},
+	"772": {
+		"id": 772,
+		"name": "type-null",
+		"abilities": [
+			"battle-armor"
+		]
+	},
+	"773": {
+		"id": 773,
+		"name": "silvally",
+		"abilities": [
+			"rks-system"
+		]
+	},
+	"774": {
+		"id": 774,
+		"name": "minior-red-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"775": {
+		"id": 775,
+		"name": "komala",
+		"abilities": [
+			"comatose"
+		]
+	},
+	"776": {
+		"id": 776,
+		"name": "turtonator",
+		"abilities": [
+			"shell-armor"
+		]
+	},
+	"777": {
+		"id": 777,
+		"name": "togedemaru",
+		"abilities": [
+			"iron-barbs",
+			"lightning-rod",
+			"sturdy"
+		]
+	},
+	"778": {
+		"id": 778,
+		"name": "mimikyu-disguised",
+		"abilities": [
+			"disguise"
+		]
+	},
+	"779": {
+		"id": 779,
+		"name": "bruxish",
+		"abilities": [
+			"dazzling",
+			"strong-jaw",
+			"wonder-skin"
+		]
+	},
+	"780": {
+		"id": 780,
+		"name": "drampa",
+		"abilities": [
+			"berserk",
+			"sap-sipper",
+			"cloud-nine"
+		]
+	},
+	"781": {
+		"id": 781,
+		"name": "dhelmise",
+		"abilities": [
+			"steelworker"
+		]
+	},
+	"782": {
+		"id": 782,
+		"name": "jangmo-o",
+		"abilities": [
+			"bulletproof",
+			"soundproof",
+			"overcoat"
+		]
+	},
+	"783": {
+		"id": 783,
+		"name": "hakamo-o",
+		"abilities": [
+			"bulletproof",
+			"soundproof",
+			"overcoat"
+		]
+	},
+	"784": {
+		"id": 784,
+		"name": "kommo-o",
+		"abilities": [
+			"bulletproof",
+			"soundproof",
+			"overcoat"
+		]
+	},
+	"785": {
+		"id": 785,
+		"name": "tapu-koko",
+		"abilities": [
+			"electric-surge",
+			"telepathy"
+		]
+	},
+	"786": {
+		"id": 786,
+		"name": "tapu-lele",
+		"abilities": [
+			"psychic-surge",
+			"telepathy"
+		]
+	},
+	"787": {
+		"id": 787,
+		"name": "tapu-bulu",
+		"abilities": [
+			"grassy-surge",
+			"telepathy"
+		]
+	},
+	"788": {
+		"id": 788,
+		"name": "tapu-fini",
+		"abilities": [
+			"misty-surge",
+			"telepathy"
+		]
+	},
+	"789": {
+		"id": 789,
+		"name": "cosmog",
+		"abilities": [
+			"unaware"
+		]
+	},
+	"790": {
+		"id": 790,
+		"name": "cosmoem",
+		"abilities": [
+			"sturdy"
+		]
+	},
+	"791": {
+		"id": 791,
+		"name": "solgaleo",
+		"abilities": [
+			"full-metal-body"
+		]
+	},
+	"792": {
+		"id": 792,
+		"name": "lunala",
+		"abilities": [
+			"shadow-shield"
+		]
+	},
+	"793": {
+		"id": 793,
+		"name": "nihilego",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"794": {
+		"id": 794,
+		"name": "buzzwole",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"795": {
+		"id": 795,
+		"name": "pheromosa",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"796": {
+		"id": 796,
+		"name": "xurkitree",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"797": {
+		"id": 797,
+		"name": "celesteela",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"798": {
+		"id": 798,
+		"name": "kartana",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"799": {
+		"id": 799,
+		"name": "guzzlord",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"800": {
+		"id": 800,
+		"name": "necrozma",
+		"abilities": [
+			"prism-armor"
+		]
+	},
+	"801": {
+		"id": 801,
+		"name": "magearna",
+		"abilities": [
+			"soul-heart"
+		]
+	},
+	"802": {
+		"id": 802,
+		"name": "marshadow",
+		"abilities": [
+			"technician"
+		]
+	},
+	"803": {
+		"id": 803,
+		"name": "poipole",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"804": {
+		"id": 804,
+		"name": "naganadel",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"805": {
+		"id": 805,
+		"name": "stakataka",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"806": {
+		"id": 806,
+		"name": "blacephalon",
+		"abilities": [
+			"beast-boost"
+		]
+	},
+	"807": {
+		"id": 807,
+		"name": "zeraora",
+		"abilities": [
+			"volt-absorb"
+		]
+	},
+	"808": {
+		"id": 808,
+		"name": "meltan",
+		"abilities": [
+			"magnet-pull"
+		]
+	},
+	"809": {
+		"id": 809,
+		"name": "melmetal",
+		"abilities": [
+			"iron-fist"
+		]
+	},
+	"810": {
+		"id": 810,
+		"name": "grookey",
+		"abilities": [
+			"overgrow",
+			"grassy-surge"
+		]
+	},
+	"811": {
+		"id": 811,
+		"name": "thwackey",
+		"abilities": [
+			"overgrow",
+			"grassy-surge"
+		]
+	},
+	"812": {
+		"id": 812,
+		"name": "rillaboom",
+		"abilities": [
+			"overgrow",
+			"grassy-surge"
+		]
+	},
+	"813": {
+		"id": 813,
+		"name": "scorbunny",
+		"abilities": [
+			"blaze",
+			"libero"
+		]
+	},
+	"814": {
+		"id": 814,
+		"name": "raboot",
+		"abilities": [
+			"blaze",
+			"libero"
+		]
+	},
+	"815": {
+		"id": 815,
+		"name": "cinderace",
+		"abilities": [
+			"blaze",
+			"libero"
+		]
+	},
+	"816": {
+		"id": 816,
+		"name": "sobble",
+		"abilities": [
+			"torrent",
+			"sniper"
+		]
+	},
+	"817": {
+		"id": 817,
+		"name": "drizzile",
+		"abilities": [
+			"torrent",
+			"sniper"
+		]
+	},
+	"818": {
+		"id": 818,
+		"name": "inteleon",
+		"abilities": [
+			"torrent",
+			"sniper"
+		]
+	},
+	"819": {
+		"id": 819,
+		"name": "skwovet",
+		"abilities": [
+			"cheek-pouch",
+			"gluttony"
+		]
+	},
+	"820": {
+		"id": 820,
+		"name": "greedent",
+		"abilities": [
+			"cheek-pouch",
+			"gluttony"
+		]
+	},
+	"821": {
+		"id": 821,
+		"name": "rookidee",
+		"abilities": [
+			"keen-eye",
+			"unnerve",
+			"big-pecks"
+		]
+	},
+	"822": {
+		"id": 822,
+		"name": "corvisquire",
+		"abilities": [
+			"keen-eye",
+			"unnerve",
+			"big-pecks"
+		]
+	},
+	"823": {
+		"id": 823,
+		"name": "corviknight",
+		"abilities": [
+			"pressure",
+			"unnerve",
+			"mirror-armor"
+		]
+	},
+	"824": {
+		"id": 824,
+		"name": "blipbug",
+		"abilities": [
+			"swarm",
+			"compound-eyes",
+			"telepathy"
+		]
+	},
+	"825": {
+		"id": 825,
+		"name": "dottler",
+		"abilities": [
+			"swarm",
+			"compound-eyes",
+			"telepathy"
+		]
+	},
+	"826": {
+		"id": 826,
+		"name": "orbeetle",
+		"abilities": [
+			"swarm",
+			"frisk",
+			"telepathy"
+		]
+	},
+	"827": {
+		"id": 827,
+		"name": "nickit",
+		"abilities": [
+			"run-away",
+			"unburden",
+			"stakeout"
+		]
+	},
+	"828": {
+		"id": 828,
+		"name": "thievul",
+		"abilities": [
+			"run-away",
+			"unburden",
+			"stakeout"
+		]
+	},
+	"829": {
+		"id": 829,
+		"name": "gossifleur",
+		"abilities": [
+			"cotton-down",
+			"regenerator",
+			"effect-spore"
+		]
+	},
+	"830": {
+		"id": 830,
+		"name": "eldegoss",
+		"abilities": [
+			"cotton-down",
+			"regenerator",
+			"effect-spore"
+		]
+	},
+	"831": {
+		"id": 831,
+		"name": "wooloo",
+		"abilities": [
+			"fluffy",
+			"run-away",
+			"bulletproof"
+		]
+	},
+	"832": {
+		"id": 832,
+		"name": "dubwool",
+		"abilities": [
+			"fluffy",
+			"steadfast",
+			"bulletproof"
+		]
+	},
+	"833": {
+		"id": 833,
+		"name": "chewtle",
+		"abilities": [
+			"strong-jaw",
+			"shell-armor",
+			"swift-swim"
+		]
+	},
+	"834": {
+		"id": 834,
+		"name": "drednaw",
+		"abilities": [
+			"strong-jaw",
+			"shell-armor",
+			"swift-swim"
+		]
+	},
+	"835": {
+		"id": 835,
+		"name": "yamper",
+		"abilities": [
+			"ball-fetch",
+			"rattled"
+		]
+	},
+	"836": {
+		"id": 836,
+		"name": "boltund",
+		"abilities": [
+			"strong-jaw",
+			"competitive"
+		]
+	},
+	"837": {
+		"id": 837,
+		"name": "rolycoly",
+		"abilities": [
+			"steam-engine",
+			"heatproof",
+			"flash-fire"
+		]
+	},
+	"838": {
+		"id": 838,
+		"name": "carkol",
+		"abilities": [
+			"steam-engine",
+			"flame-body",
+			"flash-fire"
+		]
+	},
+	"839": {
+		"id": 839,
+		"name": "coalossal",
+		"abilities": [
+			"steam-engine",
+			"flame-body",
+			"flash-fire"
+		]
+	},
+	"840": {
+		"id": 840,
+		"name": "applin",
+		"abilities": [
+			"ripen",
+			"gluttony",
+			"bulletproof"
+		]
+	},
+	"841": {
+		"id": 841,
+		"name": "flapple",
+		"abilities": [
+			"ripen",
+			"gluttony",
+			"hustle"
+		]
+	},
+	"842": {
+		"id": 842,
+		"name": "appletun",
+		"abilities": [
+			"ripen",
+			"gluttony",
+			"thick-fat"
+		]
+	},
+	"843": {
+		"id": 843,
+		"name": "silicobra",
+		"abilities": [
+			"sand-spit",
+			"shed-skin",
+			"sand-veil"
+		]
+	},
+	"844": {
+		"id": 844,
+		"name": "sandaconda",
+		"abilities": [
+			"sand-spit",
+			"shed-skin",
+			"sand-veil"
+		]
+	},
+	"845": {
+		"id": 845,
+		"name": "cramorant",
+		"abilities": [
+			"gulp-missile"
+		]
+	},
+	"846": {
+		"id": 846,
+		"name": "arrokuda",
+		"abilities": [
+			"swift-swim",
+			"propeller-tail"
+		]
+	},
+	"847": {
+		"id": 847,
+		"name": "barraskewda",
+		"abilities": [
+			"swift-swim",
+			"propeller-tail"
+		]
+	},
+	"848": {
+		"id": 848,
+		"name": "toxel",
+		"abilities": [
+			"rattled",
+			"static",
+			"klutz"
+		]
+	},
+	"849": {
+		"id": 849,
+		"name": "toxtricity-amped",
+		"abilities": [
+			"punk-rock",
+			"plus",
+			"technician"
+		]
+	},
+	"850": {
+		"id": 850,
+		"name": "sizzlipede",
+		"abilities": [
+			"flash-fire",
+			"white-smoke",
+			"flame-body"
+		]
+	},
+	"851": {
+		"id": 851,
+		"name": "centiskorch",
+		"abilities": [
+			"flash-fire",
+			"white-smoke",
+			"flame-body"
+		]
+	},
+	"852": {
+		"id": 852,
+		"name": "clobbopus",
+		"abilities": [
+			"limber",
+			"technician"
+		]
+	},
+	"853": {
+		"id": 853,
+		"name": "grapploct",
+		"abilities": [
+			"limber",
+			"technician"
+		]
+	},
+	"854": {
+		"id": 854,
+		"name": "sinistea",
+		"abilities": [
+			"weak-armor",
+			"cursed-body"
+		]
+	},
+	"855": {
+		"id": 855,
+		"name": "polteageist",
+		"abilities": [
+			"weak-armor",
+			"cursed-body"
+		]
+	},
+	"856": {
+		"id": 856,
+		"name": "hatenna",
+		"abilities": [
+			"healer",
+			"anticipation",
+			"magic-bounce"
+		]
+	},
+	"857": {
+		"id": 857,
+		"name": "hattrem",
+		"abilities": [
+			"healer",
+			"anticipation",
+			"magic-bounce"
+		]
+	},
+	"858": {
+		"id": 858,
+		"name": "hatterene",
+		"abilities": [
+			"healer",
+			"anticipation",
+			"magic-bounce"
+		]
+	},
+	"859": {
+		"id": 859,
+		"name": "impidimp",
+		"abilities": [
+			"prankster",
+			"frisk",
+			"pickpocket"
+		]
+	},
+	"860": {
+		"id": 860,
+		"name": "morgrem",
+		"abilities": [
+			"prankster",
+			"frisk",
+			"pickpocket"
+		]
+	},
+	"861": {
+		"id": 861,
+		"name": "grimmsnarl",
+		"abilities": [
+			"prankster",
+			"frisk",
+			"pickpocket"
+		]
+	},
+	"862": {
+		"id": 862,
+		"name": "obstagoon",
+		"abilities": [
+			"reckless",
+			"guts",
+			"defiant"
+		]
+	},
+	"863": {
+		"id": 863,
+		"name": "perrserker",
+		"abilities": [
+			"battle-armor",
+			"tough-claws",
+			"steely-spirit"
+		]
+	},
+	"864": {
+		"id": 864,
+		"name": "cursola",
+		"abilities": [
+			"weak-armor",
+			"perish-body"
+		]
+	},
+	"865": {
+		"id": 865,
+		"name": "sirfetchd",
+		"abilities": [
+			"steadfast",
+			"scrappy"
+		]
+	},
+	"866": {
+		"id": 866,
+		"name": "mr-rime",
+		"abilities": [
+			"tangled-feet",
+			"screen-cleaner",
+			"ice-body"
+		]
+	},
+	"867": {
+		"id": 867,
+		"name": "runerigus",
+		"abilities": [
+			"wandering-spirit"
+		]
+	},
+	"868": {
+		"id": 868,
+		"name": "milcery",
+		"abilities": [
+			"sweet-veil",
+			"aroma-veil"
+		]
+	},
+	"869": {
+		"id": 869,
+		"name": "alcremie",
+		"abilities": [
+			"sweet-veil",
+			"aroma-veil"
+		]
+	},
+	"870": {
+		"id": 870,
+		"name": "falinks",
+		"abilities": [
+			"battle-armor",
+			"defiant"
+		]
+	},
+	"871": {
+		"id": 871,
+		"name": "pincurchin",
+		"abilities": [
+			"lightning-rod",
+			"electric-surge"
+		]
+	},
+	"872": {
+		"id": 872,
+		"name": "snom",
+		"abilities": [
+			"shield-dust",
+			"ice-scales"
+		]
+	},
+	"873": {
+		"id": 873,
+		"name": "frosmoth",
+		"abilities": [
+			"shield-dust",
+			"ice-scales"
+		]
+	},
+	"874": {
+		"id": 874,
+		"name": "stonjourner",
+		"abilities": [
+			"power-spot"
+		]
+	},
+	"875": {
+		"id": 875,
+		"name": "eiscue-ice",
+		"abilities": [
+			"ice-face"
+		]
+	},
+	"876": {
+		"id": 876,
+		"name": "indeedee-male",
+		"abilities": [
+			"inner-focus",
+			"synchronize",
+			"psychic-surge"
+		]
+	},
+	"877": {
+		"id": 877,
+		"name": "morpeko-full-belly",
+		"abilities": [
+			"hunger-switch"
+		]
+	},
+	"878": {
+		"id": 878,
+		"name": "cufant",
+		"abilities": [
+			"sheer-force",
+			"heavy-metal"
+		]
+	},
+	"879": {
+		"id": 879,
+		"name": "copperajah",
+		"abilities": [
+			"sheer-force",
+			"heavy-metal"
+		]
+	},
+	"880": {
+		"id": 880,
+		"name": "dracozolt",
+		"abilities": [
+			"volt-absorb",
+			"hustle",
+			"sand-rush"
+		]
+	},
+	"881": {
+		"id": 881,
+		"name": "arctozolt",
+		"abilities": [
+			"volt-absorb",
+			"static",
+			"slush-rush"
+		]
+	},
+	"882": {
+		"id": 882,
+		"name": "dracovish",
+		"abilities": [
+			"water-absorb",
+			"strong-jaw",
+			"sand-rush"
+		]
+	},
+	"883": {
+		"id": 883,
+		"name": "arctovish",
+		"abilities": [
+			"water-absorb",
+			"ice-body",
+			"slush-rush"
+		]
+	},
+	"884": {
+		"id": 884,
+		"name": "duraludon",
+		"abilities": [
+			"light-metal",
+			"heavy-metal",
+			"stalwart"
+		]
+	},
+	"885": {
+		"id": 885,
+		"name": "dreepy",
+		"abilities": [
+			"clear-body",
+			"infiltrator",
+			"cursed-body"
+		]
+	},
+	"886": {
+		"id": 886,
+		"name": "drakloak",
+		"abilities": [
+			"clear-body",
+			"infiltrator",
+			"cursed-body"
+		]
+	},
+	"887": {
+		"id": 887,
+		"name": "dragapult",
+		"abilities": [
+			"clear-body",
+			"infiltrator",
+			"cursed-body"
+		]
+	},
+	"888": {
+		"id": 888,
+		"name": "zacian",
+		"abilities": [
+			"intrepid-sword"
+		]
+	},
+	"889": {
+		"id": 889,
+		"name": "zamazenta",
+		"abilities": [
+			"dauntless-shield"
+		]
+	},
+	"890": {
+		"id": 890,
+		"name": "eternatus",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"891": {
+		"id": 891,
+		"name": "kubfu",
+		"abilities": [
+			"inner-focus"
+		]
+	},
+	"892": {
+		"id": 892,
+		"name": "urshifu-single-strike",
+		"abilities": [
+			"unseen-fist"
+		]
+	},
+	"893": {
+		"id": 893,
+		"name": "zarude",
+		"abilities": [
+			"leaf-guard"
+		]
+	},
+	"894": {
+		"id": 894,
+		"name": "regieleki",
+		"abilities": [
+			"transistor"
+		]
+	},
+	"895": {
+		"id": 895,
+		"name": "regidrago",
+		"abilities": [
+			"dragons-maw"
+		]
+	},
+	"896": {
+		"id": 896,
+		"name": "glastrier",
+		"abilities": [
+			"chilling-neigh"
+		]
+	},
+	"897": {
+		"id": 897,
+		"name": "spectrier",
+		"abilities": [
+			"grim-neigh"
+		]
+	},
+	"898": {
+		"id": 898,
+		"name": "calyrex",
+		"abilities": [
+			"unnerve"
+		]
+	},
+	"899": {
+		"id": 899,
+		"name": "wyrdeer",
+		"abilities": [
+			"intimidate",
+			"frisk",
+			"sap-sipper"
+		]
+	},
+	"900": {
+		"id": 900,
+		"name": "kleavor",
+		"abilities": [
+			"swarm",
+			"sheer-force",
+			"sharpness"
+		]
+	},
+	"901": {
+		"id": 901,
+		"name": "ursaluna",
+		"abilities": [
+			"guts",
+			"bulletproof",
+			"unnerve"
+		]
+	},
+	"902": {
+		"id": 902,
+		"name": "basculegion-male",
+		"abilities": [
+			"swift-swim",
+			"adaptability",
+			"mold-breaker"
+		]
+	},
+	"903": {
+		"id": 903,
+		"name": "sneasler",
+		"abilities": [
+			"pressure",
+			"unburden",
+			"poison-touch"
+		]
+	},
+	"904": {
+		"id": 904,
+		"name": "overqwil",
+		"abilities": [
+			"poison-point",
+			"swift-swim",
+			"intimidate"
+		]
+	},
+	"905": {
+		"id": 905,
+		"name": "enamorus-incarnate",
+		"abilities": [
+			"cute-charm",
+			"contrary"
+		]
+	},
+	"906": {
+		"id": 906,
+		"name": "sprigatito",
+		"abilities": [
+			"overgrow",
+			"protean"
+		]
+	},
+	"907": {
+		"id": 907,
+		"name": "floragato",
+		"abilities": [
+			"overgrow",
+			"protean"
+		]
+	},
+	"908": {
+		"id": 908,
+		"name": "meowscarada",
+		"abilities": [
+			"overgrow",
+			"protean"
+		]
+	},
+	"909": {
+		"id": 909,
+		"name": "fuecoco",
+		"abilities": [
+			"blaze",
+			"unaware"
+		]
+	},
+	"910": {
+		"id": 910,
+		"name": "crocalor",
+		"abilities": [
+			"blaze",
+			"unaware"
+		]
+	},
+	"911": {
+		"id": 911,
+		"name": "skeledirge",
+		"abilities": [
+			"blaze",
+			"unaware"
+		]
+	},
+	"912": {
+		"id": 912,
+		"name": "quaxly",
+		"abilities": [
+			"torrent",
+			"moxie"
+		]
+	},
+	"913": {
+		"id": 913,
+		"name": "quaxwell",
+		"abilities": [
+			"torrent",
+			"moxie"
+		]
+	},
+	"914": {
+		"id": 914,
+		"name": "quaquaval",
+		"abilities": [
+			"torrent",
+			"moxie"
+		]
+	},
+	"915": {
+		"id": 915,
+		"name": "lechonk",
+		"abilities": [
+			"aroma-veil",
+			"gluttony",
+			"thick-fat"
+		]
+	},
+	"916": {
+		"id": 916,
+		"name": "oinkologne-male",
+		"abilities": [
+			"lingering-aroma",
+			"gluttony",
+			"thick-fat"
+		]
+	},
+	"917": {
+		"id": 917,
+		"name": "tarountula",
+		"abilities": [
+			"insomnia",
+			"stakeout"
+		]
+	},
+	"918": {
+		"id": 918,
+		"name": "spidops",
+		"abilities": [
+			"insomnia",
+			"stakeout"
+		]
+	},
+	"919": {
+		"id": 919,
+		"name": "nymble",
+		"abilities": [
+			"swarm",
+			"tinted-lens"
+		]
+	},
+	"920": {
+		"id": 920,
+		"name": "lokix",
+		"abilities": [
+			"swarm",
+			"tinted-lens"
+		]
+	},
+	"921": {
+		"id": 921,
+		"name": "pawmi",
+		"abilities": [
+			"static",
+			"natural-cure",
+			"iron-fist"
+		]
+	},
+	"922": {
+		"id": 922,
+		"name": "pawmo",
+		"abilities": [
+			"volt-absorb",
+			"natural-cure",
+			"iron-fist"
+		]
+	},
+	"923": {
+		"id": 923,
+		"name": "pawmot",
+		"abilities": [
+			"volt-absorb",
+			"natural-cure",
+			"iron-fist"
+		]
+	},
+	"924": {
+		"id": 924,
+		"name": "tandemaus",
+		"abilities": [
+			"run-away",
+			"pickup",
+			"own-tempo"
+		]
+	},
+	"925": {
+		"id": 925,
+		"name": "maushold-family-of-four",
+		"abilities": [
+			"friend-guard",
+			"cheek-pouch",
+			"technician"
+		]
+	},
+	"926": {
+		"id": 926,
+		"name": "fidough",
+		"abilities": [
+			"own-tempo",
+			"klutz"
+		]
+	},
+	"927": {
+		"id": 927,
+		"name": "dachsbun",
+		"abilities": [
+			"well-baked-body",
+			"aroma-veil"
+		]
+	},
+	"928": {
+		"id": 928,
+		"name": "smoliv",
+		"abilities": [
+			"early-bird",
+			"harvest"
+		]
+	},
+	"929": {
+		"id": 929,
+		"name": "dolliv",
+		"abilities": [
+			"early-bird",
+			"harvest"
+		]
+	},
+	"930": {
+		"id": 930,
+		"name": "arboliva",
+		"abilities": [
+			"seed-sower",
+			"harvest"
+		]
+	},
+	"931": {
+		"id": 931,
+		"name": "squawkabilly-green-plumage",
+		"abilities": [
+			"intimidate",
+			"hustle",
+			"guts"
+		]
+	},
+	"932": {
+		"id": 932,
+		"name": "nacli",
+		"abilities": [
+			"purifying-salt",
+			"sturdy",
+			"clear-body"
+		]
+	},
+	"933": {
+		"id": 933,
+		"name": "naclstack",
+		"abilities": [
+			"purifying-salt",
+			"sturdy",
+			"clear-body"
+		]
+	},
+	"934": {
+		"id": 934,
+		"name": "garganacl",
+		"abilities": [
+			"purifying-salt",
+			"sturdy",
+			"clear-body"
+		]
+	},
+	"935": {
+		"id": 935,
+		"name": "charcadet",
+		"abilities": [
+			"flash-fire",
+			"flame-body"
+		]
+	},
+	"936": {
+		"id": 936,
+		"name": "armarouge",
+		"abilities": [
+			"flash-fire",
+			"weak-armor"
+		]
+	},
+	"937": {
+		"id": 937,
+		"name": "ceruledge",
+		"abilities": [
+			"flash-fire",
+			"weak-armor"
+		]
+	},
+	"938": {
+		"id": 938,
+		"name": "tadbulb",
+		"abilities": [
+			"own-tempo",
+			"static",
+			"damp"
+		]
+	},
+	"939": {
+		"id": 939,
+		"name": "bellibolt",
+		"abilities": [
+			"electromorphosis",
+			"static",
+			"damp"
+		]
+	},
+	"940": {
+		"id": 940,
+		"name": "wattrel",
+		"abilities": [
+			"wind-power",
+			"volt-absorb",
+			"competitive"
+		]
+	},
+	"941": {
+		"id": 941,
+		"name": "kilowattrel",
+		"abilities": [
+			"wind-power",
+			"volt-absorb",
+			"competitive"
+		]
+	},
+	"942": {
+		"id": 942,
+		"name": "maschiff",
+		"abilities": [
+			"intimidate",
+			"run-away",
+			"stakeout"
+		]
+	},
+	"943": {
+		"id": 943,
+		"name": "mabosstiff",
+		"abilities": [
+			"intimidate",
+			"guard-dog",
+			"stakeout"
+		]
+	},
+	"944": {
+		"id": 944,
+		"name": "shroodle",
+		"abilities": [
+			"unburden",
+			"pickpocket",
+			"prankster"
+		]
+	},
+	"945": {
+		"id": 945,
+		"name": "grafaiai",
+		"abilities": [
+			"unburden",
+			"poison-touch",
+			"prankster"
+		]
+	},
+	"946": {
+		"id": 946,
+		"name": "bramblin",
+		"abilities": [
+			"wind-rider",
+			"infiltrator"
+		]
+	},
+	"947": {
+		"id": 947,
+		"name": "brambleghast",
+		"abilities": [
+			"wind-rider",
+			"infiltrator"
+		]
+	},
+	"948": {
+		"id": 948,
+		"name": "toedscool",
+		"abilities": [
+			"mycelium-might",
+			"mycelium-might"
+		]
+	},
+	"949": {
+		"id": 949,
+		"name": "toedscruel",
+		"abilities": [
+			"mycelium-might",
+			"mycelium-might"
+		]
+	},
+	"950": {
+		"id": 950,
+		"name": "klawf",
+		"abilities": [
+			"anger-shell",
+			"shell-armor",
+			"regenerator"
+		]
+	},
+	"951": {
+		"id": 951,
+		"name": "capsakid",
+		"abilities": [
+			"chlorophyll",
+			"insomnia",
+			"klutz"
+		]
+	},
+	"952": {
+		"id": 952,
+		"name": "scovillain",
+		"abilities": [
+			"chlorophyll",
+			"insomnia",
+			"moody"
+		]
+	},
+	"953": {
+		"id": 953,
+		"name": "rellor",
+		"abilities": [
+			"compound-eyes",
+			"shed-skin"
+		]
+	},
+	"954": {
+		"id": 954,
+		"name": "rabsca",
+		"abilities": [
+			"synchronize",
+			"telepathy"
+		]
+	},
+	"955": {
+		"id": 955,
+		"name": "flittle",
+		"abilities": [
+			"anticipation",
+			"frisk",
+			"speed-boost"
+		]
+	},
+	"956": {
+		"id": 956,
+		"name": "espathra",
+		"abilities": [
+			"opportunist",
+			"frisk",
+			"speed-boost"
+		]
+	},
+	"957": {
+		"id": 957,
+		"name": "tinkatink",
+		"abilities": [
+			"mold-breaker",
+			"own-tempo",
+			"pickpocket"
+		]
+	},
+	"958": {
+		"id": 958,
+		"name": "tinkatuff",
+		"abilities": [
+			"mold-breaker",
+			"own-tempo",
+			"pickpocket"
+		]
+	},
+	"959": {
+		"id": 959,
+		"name": "tinkaton",
+		"abilities": [
+			"mold-breaker",
+			"own-tempo",
+			"pickpocket"
+		]
+	},
+	"960": {
+		"id": 960,
+		"name": "wiglett",
+		"abilities": [
+			"gooey",
+			"rattled",
+			"sand-veil"
+		]
+	},
+	"961": {
+		"id": 961,
+		"name": "wugtrio",
+		"abilities": [
+			"gooey",
+			"rattled",
+			"sand-veil"
+		]
+	},
+	"962": {
+		"id": 962,
+		"name": "bombirdier",
+		"abilities": [
+			"big-pecks",
+			"keen-eye",
+			"rocky-payload"
+		]
+	},
+	"963": {
+		"id": 963,
+		"name": "finizen",
+		"abilities": [
+			"water-veil",
+			"water-veil"
+		]
+	},
+	"964": {
+		"id": 964,
+		"name": "palafin-zero",
+		"abilities": [
+			"zero-to-hero",
+			"zero-to-hero"
+		]
+	},
+	"965": {
+		"id": 965,
+		"name": "varoom",
+		"abilities": [
+			"overcoat",
+			"slow-start"
+		]
+	},
+	"966": {
+		"id": 966,
+		"name": "revavroom",
+		"abilities": [
+			"overcoat",
+			"filter"
+		]
+	},
+	"967": {
+		"id": 967,
+		"name": "cyclizar",
+		"abilities": [
+			"shed-skin",
+			"regenerator"
+		]
+	},
+	"968": {
+		"id": 968,
+		"name": "orthworm",
+		"abilities": [
+			"earth-eater",
+			"sand-veil"
+		]
+	},
+	"969": {
+		"id": 969,
+		"name": "glimmet",
+		"abilities": [
+			"toxic-debris",
+			"corrosion"
+		]
+	},
+	"970": {
+		"id": 970,
+		"name": "glimmora",
+		"abilities": [
+			"toxic-debris",
+			"corrosion"
+		]
+	},
+	"971": {
+		"id": 971,
+		"name": "greavard",
+		"abilities": [
+			"pickup",
+			"fluffy"
+		]
+	},
+	"972": {
+		"id": 972,
+		"name": "houndstone",
+		"abilities": [
+			"sand-rush",
+			"fluffy"
+		]
+	},
+	"973": {
+		"id": 973,
+		"name": "flamigo",
+		"abilities": [
+			"scrappy",
+			"tangled-feet",
+			"costar"
+		]
+	},
+	"974": {
+		"id": 974,
+		"name": "cetoddle",
+		"abilities": [
+			"thick-fat",
+			"snow-cloak",
+			"sheer-force"
+		]
+	},
+	"975": {
+		"id": 975,
+		"name": "cetitan",
+		"abilities": [
+			"thick-fat",
+			"slush-rush",
+			"sheer-force"
+		]
+	},
+	"976": {
+		"id": 976,
+		"name": "veluza",
+		"abilities": [
+			"mold-breaker",
+			"sharpness"
+		]
+	},
+	"977": {
+		"id": 977,
+		"name": "dondozo",
+		"abilities": [
+			"unaware",
+			"oblivious",
+			"water-veil"
+		]
+	},
+	"978": {
+		"id": 978,
+		"name": "tatsugiri-curly",
+		"abilities": [
+			"commander",
+			"storm-drain"
+		]
+	},
+	"979": {
+		"id": 979,
+		"name": "annihilape",
+		"abilities": [
+			"vital-spirit",
+			"inner-focus",
+			"defiant"
+		]
+	},
+	"980": {
+		"id": 980,
+		"name": "clodsire",
+		"abilities": [
+			"poison-point",
+			"water-absorb",
+			"unaware"
+		]
+	},
+	"981": {
+		"id": 981,
+		"name": "farigiraf",
+		"abilities": [
+			"cud-chew",
+			"armor-tail",
+			"sap-sipper"
+		]
+	},
+	"982": {
+		"id": 982,
+		"name": "dudunsparce-two-segment",
+		"abilities": [
+			"serene-grace",
+			"run-away",
+			"rattled"
+		]
+	},
+	"983": {
+		"id": 983,
+		"name": "kingambit",
+		"abilities": [
+			"defiant",
+			"supreme-overlord",
+			"pressure"
+		]
+	},
+	"984": {
+		"id": 984,
+		"name": "great-tusk",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"985": {
+		"id": 985,
+		"name": "scream-tail",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"986": {
+		"id": 986,
+		"name": "brute-bonnet",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"987": {
+		"id": 987,
+		"name": "flutter-mane",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"988": {
+		"id": 988,
+		"name": "slither-wing",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"989": {
+		"id": 989,
+		"name": "sandy-shocks",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"990": {
+		"id": 990,
+		"name": "iron-treads",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"991": {
+		"id": 991,
+		"name": "iron-bundle",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"992": {
+		"id": 992,
+		"name": "iron-hands",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"993": {
+		"id": 993,
+		"name": "iron-jugulis",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"994": {
+		"id": 994,
+		"name": "iron-moth",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"995": {
+		"id": 995,
+		"name": "iron-thorns",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"996": {
+		"id": 996,
+		"name": "frigibax",
+		"abilities": [
+			"thermal-exchange",
+			"ice-body"
+		]
+	},
+	"997": {
+		"id": 997,
+		"name": "arctibax",
+		"abilities": [
+			"thermal-exchange",
+			"ice-body"
+		]
+	},
+	"998": {
+		"id": 998,
+		"name": "baxcalibur",
+		"abilities": [
+			"thermal-exchange",
+			"ice-body"
+		]
+	},
+	"999": {
+		"id": 999,
+		"name": "gimmighoul",
+		"abilities": [
+			"rattled",
+			"rattled"
+		]
+	},
+	"1000": {
+		"id": 1000,
+		"name": "gholdengo",
+		"abilities": [
+			"good-as-gold",
+			"good-as-gold"
+		]
+	},
+	"1001": {
+		"id": 1001,
+		"name": "wo-chien",
+		"abilities": [
+			"tablets-of-ruin",
+			"tablets-of-ruin"
+		]
+	},
+	"1002": {
+		"id": 1002,
+		"name": "chien-pao",
+		"abilities": [
+			"sword-of-ruin",
+			"sword-of-ruin"
+		]
+	},
+	"1003": {
+		"id": 1003,
+		"name": "ting-lu",
+		"abilities": [
+			"vessel-of-ruin",
+			"vessel-of-ruin"
+		]
+	},
+	"1004": {
+		"id": 1004,
+		"name": "chi-yu",
+		"abilities": [
+			"beads-of-ruin",
+			"beads-of-ruin"
+		]
+	},
+	"1005": {
+		"id": 1005,
+		"name": "roaring-moon",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"1006": {
+		"id": 1006,
+		"name": "iron-valiant",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"1007": {
+		"id": 1007,
+		"name": "koraidon",
+		"abilities": [
+			"orichalcum-pulse",
+			"orichalcum-pulse"
+		]
+	},
+	"1008": {
+		"id": 1008,
+		"name": "miraidon",
+		"abilities": [
+			"hadron-engine",
+			"hadron-engine"
+		]
+	},
+	"1009": {
+		"id": 1009,
+		"name": "walking-wake",
+		"abilities": [
+			"protosynthesis",
+			"protosynthesis"
+		]
+	},
+	"1010": {
+		"id": 1010,
+		"name": "iron-leaves",
+		"abilities": [
+			"quark-drive",
+			"quark-drive"
+		]
+	},
+	"1011": {
+		"id": 1011,
+		"name": "dipplin",
+		"abilities": [
+			"supersweet-syrup",
+			"gluttony",
+			"sticky-hold"
+		]
+	},
+	"1012": {
+		"id": 1012,
+		"name": "poltchageist",
+		"abilities": [
+			"hospitality",
+			"heatproof"
+		]
+	},
+	"1013": {
+		"id": 1013,
+		"name": "sinistcha",
+		"abilities": [
+			"hospitality",
+			"heatproof"
+		]
+	},
+	"1014": {
+		"id": 1014,
+		"name": "okidogi",
+		"abilities": [
+			"toxic-chain",
+			"guard-dog"
+		]
+	},
+	"1015": {
+		"id": 1015,
+		"name": "munkidori",
+		"abilities": [
+			"toxic-chain",
+			"frisk"
+		]
+	},
+	"1016": {
+		"id": 1016,
+		"name": "fezandipiti",
+		"abilities": [
+			"toxic-chain",
+			"technician"
+		]
+	},
+	"1017": {
+		"id": 1017,
+		"name": "ogerpon",
+		"abilities": [
+			"defiant"
+		]
+	},
+	"1018": {
+		"id": 1018,
+		"name": "archaludon",
+		"abilities": [
+			"stamina",
+			"sturdy",
+			"stalwart"
+		]
+	},
+	"1019": {
+		"id": 1019,
+		"name": "hydrapple",
+		"abilities": [
+			"supersweet-syrup",
+			"regenerator",
+			"sticky-hold"
+		]
+	},
+	"1020": {
+		"id": 1020,
+		"name": "gouging-fire",
+		"abilities": [
+			"protosynthesis"
+		]
+	},
+	"1021": {
+		"id": 1021,
+		"name": "raging-bolt",
+		"abilities": [
+			"protosynthesis"
+		]
+	},
+	"1022": {
+		"id": 1022,
+		"name": "iron-boulder",
+		"abilities": [
+			"quark-drive"
+		]
+	},
+	"1023": {
+		"id": 1023,
+		"name": "iron-crown",
+		"abilities": [
+			"quark-drive"
+		]
+	},
+	"1024": {
+		"id": 1024,
+		"name": "terapagos",
+		"abilities": [
+			"tera-shift"
+		]
+	},
+	"1025": {
+		"id": 1025,
+		"name": "pecharunt",
+		"abilities": [
+			"poison-puppeteer"
+		]
+	},
+	"10001": {
+		"id": 10001,
+		"name": "deoxys-attack",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"10002": {
+		"id": 10002,
+		"name": "deoxys-defense",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"10003": {
+		"id": 10003,
+		"name": "deoxys-speed",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"10004": {
+		"id": 10004,
+		"name": "wormadam-sandy",
+		"abilities": [
+			"anticipation",
+			"overcoat"
+		]
+	},
+	"10005": {
+		"id": 10005,
+		"name": "wormadam-trash",
+		"abilities": [
+			"anticipation",
+			"overcoat"
+		]
+	},
+	"10006": {
+		"id": 10006,
+		"name": "shaymin-sky",
+		"abilities": [
+			"serene-grace"
+		]
+	},
+	"10007": {
+		"id": 10007,
+		"name": "giratina-origin",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10008": {
+		"id": 10008,
+		"name": "rotom-heat",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10009": {
+		"id": 10009,
+		"name": "rotom-wash",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10010": {
+		"id": 10010,
+		"name": "rotom-frost",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10011": {
+		"id": 10011,
+		"name": "rotom-fan",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10012": {
+		"id": 10012,
+		"name": "rotom-mow",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10013": {
+		"id": 10013,
+		"name": "castform-sunny",
+		"abilities": [
+			"forecast"
+		]
+	},
+	"10014": {
+		"id": 10014,
+		"name": "castform-rainy",
+		"abilities": [
+			"forecast"
+		]
+	},
+	"10015": {
+		"id": 10015,
+		"name": "castform-snowy",
+		"abilities": [
+			"forecast"
+		]
+	},
+	"10016": {
+		"id": 10016,
+		"name": "basculin-blue-striped",
+		"abilities": [
+			"rock-head",
+			"adaptability",
+			"mold-breaker"
+		]
+	},
+	"10017": {
+		"id": 10017,
+		"name": "darmanitan-zen",
+		"abilities": [
+			"sheer-force",
+			"zen-mode"
+		]
+	},
+	"10018": {
+		"id": 10018,
+		"name": "meloetta-pirouette",
+		"abilities": [
+			"serene-grace"
+		]
+	},
+	"10019": {
+		"id": 10019,
+		"name": "tornadus-therian",
+		"abilities": [
+			"regenerator"
+		]
+	},
+	"10020": {
+		"id": 10020,
+		"name": "thundurus-therian",
+		"abilities": [
+			"volt-absorb"
+		]
+	},
+	"10021": {
+		"id": 10021,
+		"name": "landorus-therian",
+		"abilities": [
+			"intimidate"
+		]
+	},
+	"10022": {
+		"id": 10022,
+		"name": "kyurem-black",
+		"abilities": [
+			"teravolt"
+		]
+	},
+	"10023": {
+		"id": 10023,
+		"name": "kyurem-white",
+		"abilities": [
+			"turboblaze"
+		]
+	},
+	"10024": {
+		"id": 10024,
+		"name": "keldeo-resolute",
+		"abilities": [
+			"justified"
+		]
+	},
+	"10025": {
+		"id": 10025,
+		"name": "meowstic-female",
+		"abilities": [
+			"keen-eye",
+			"infiltrator",
+			"competitive"
+		]
+	},
+	"10026": {
+		"id": 10026,
+		"name": "aegislash-blade",
+		"abilities": [
+			"stance-change"
+		]
+	},
+	"10027": {
+		"id": 10027,
+		"name": "pumpkaboo-small",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10028": {
+		"id": 10028,
+		"name": "pumpkaboo-large",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10029": {
+		"id": 10029,
+		"name": "pumpkaboo-super",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10030": {
+		"id": 10030,
+		"name": "gourgeist-small",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10031": {
+		"id": 10031,
+		"name": "gourgeist-large",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10032": {
+		"id": 10032,
+		"name": "gourgeist-super",
+		"abilities": [
+			"pickup",
+			"frisk",
+			"insomnia"
+		]
+	},
+	"10033": {
+		"id": 10033,
+		"name": "venusaur-mega",
+		"abilities": [
+			"thick-fat"
+		]
+	},
+	"10034": {
+		"id": 10034,
+		"name": "charizard-mega-x",
+		"abilities": [
+			"tough-claws"
+		]
+	},
+	"10035": {
+		"id": 10035,
+		"name": "charizard-mega-y",
+		"abilities": [
+			"drought"
+		]
+	},
+	"10036": {
+		"id": 10036,
+		"name": "blastoise-mega",
+		"abilities": [
+			"mega-launcher"
+		]
+	},
+	"10037": {
+		"id": 10037,
+		"name": "alakazam-mega",
+		"abilities": [
+			"trace"
+		]
+	},
+	"10038": {
+		"id": 10038,
+		"name": "gengar-mega",
+		"abilities": [
+			"shadow-tag"
+		]
+	},
+	"10039": {
+		"id": 10039,
+		"name": "kangaskhan-mega",
+		"abilities": [
+			"parental-bond"
+		]
+	},
+	"10040": {
+		"id": 10040,
+		"name": "pinsir-mega",
+		"abilities": [
+			"aerilate"
+		]
+	},
+	"10041": {
+		"id": 10041,
+		"name": "gyarados-mega",
+		"abilities": [
+			"mold-breaker"
+		]
+	},
+	"10042": {
+		"id": 10042,
+		"name": "aerodactyl-mega",
+		"abilities": [
+			"tough-claws"
+		]
+	},
+	"10043": {
+		"id": 10043,
+		"name": "mewtwo-mega-x",
+		"abilities": [
+			"steadfast"
+		]
+	},
+	"10044": {
+		"id": 10044,
+		"name": "mewtwo-mega-y",
+		"abilities": [
+			"insomnia"
+		]
+	},
+	"10045": {
+		"id": 10045,
+		"name": "ampharos-mega",
+		"abilities": [
+			"mold-breaker"
+		]
+	},
+	"10046": {
+		"id": 10046,
+		"name": "scizor-mega",
+		"abilities": [
+			"technician"
+		]
+	},
+	"10047": {
+		"id": 10047,
+		"name": "heracross-mega",
+		"abilities": [
+			"skill-link"
+		]
+	},
+	"10048": {
+		"id": 10048,
+		"name": "houndoom-mega",
+		"abilities": [
+			"solar-power"
+		]
+	},
+	"10049": {
+		"id": 10049,
+		"name": "tyranitar-mega",
+		"abilities": [
+			"sand-stream"
+		]
+	},
+	"10050": {
+		"id": 10050,
+		"name": "blaziken-mega",
+		"abilities": [
+			"speed-boost"
+		]
+	},
+	"10051": {
+		"id": 10051,
+		"name": "gardevoir-mega",
+		"abilities": [
+			"pixilate"
+		]
+	},
+	"10052": {
+		"id": 10052,
+		"name": "mawile-mega",
+		"abilities": [
+			"huge-power"
+		]
+	},
+	"10053": {
+		"id": 10053,
+		"name": "aggron-mega",
+		"abilities": [
+			"filter"
+		]
+	},
+	"10054": {
+		"id": 10054,
+		"name": "medicham-mega",
+		"abilities": [
+			"pure-power"
+		]
+	},
+	"10055": {
+		"id": 10055,
+		"name": "manectric-mega",
+		"abilities": [
+			"intimidate"
+		]
+	},
+	"10056": {
+		"id": 10056,
+		"name": "banette-mega",
+		"abilities": [
+			"prankster"
+		]
+	},
+	"10057": {
+		"id": 10057,
+		"name": "absol-mega",
+		"abilities": [
+			"magic-bounce"
+		]
+	},
+	"10058": {
+		"id": 10058,
+		"name": "garchomp-mega",
+		"abilities": [
+			"sand-force"
+		]
+	},
+	"10059": {
+		"id": 10059,
+		"name": "lucario-mega",
+		"abilities": [
+			"adaptability"
+		]
+	},
+	"10060": {
+		"id": 10060,
+		"name": "abomasnow-mega",
+		"abilities": [
+			"snow-warning"
+		]
+	},
+	"10061": {
+		"id": 10061,
+		"name": "floette-eternal",
+		"abilities": [
+			"flower-veil",
+			"symbiosis"
+		]
+	},
+	"10062": {
+		"id": 10062,
+		"name": "latias-mega",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10063": {
+		"id": 10063,
+		"name": "latios-mega",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10064": {
+		"id": 10064,
+		"name": "swampert-mega",
+		"abilities": [
+			"swift-swim"
+		]
+	},
+	"10065": {
+		"id": 10065,
+		"name": "sceptile-mega",
+		"abilities": [
+			"lightning-rod"
+		]
+	},
+	"10066": {
+		"id": 10066,
+		"name": "sableye-mega",
+		"abilities": [
+			"magic-bounce"
+		]
+	},
+	"10067": {
+		"id": 10067,
+		"name": "altaria-mega",
+		"abilities": [
+			"pixilate"
+		]
+	},
+	"10068": {
+		"id": 10068,
+		"name": "gallade-mega",
+		"abilities": [
+			"inner-focus"
+		]
+	},
+	"10069": {
+		"id": 10069,
+		"name": "audino-mega",
+		"abilities": [
+			"healer"
+		]
+	},
+	"10070": {
+		"id": 10070,
+		"name": "sharpedo-mega",
+		"abilities": [
+			"strong-jaw"
+		]
+	},
+	"10071": {
+		"id": 10071,
+		"name": "slowbro-mega",
+		"abilities": [
+			"shell-armor"
+		]
+	},
+	"10072": {
+		"id": 10072,
+		"name": "steelix-mega",
+		"abilities": [
+			"sand-force"
+		]
+	},
+	"10073": {
+		"id": 10073,
+		"name": "pidgeot-mega",
+		"abilities": [
+			"no-guard"
+		]
+	},
+	"10074": {
+		"id": 10074,
+		"name": "glalie-mega",
+		"abilities": [
+			"refrigerate"
+		]
+	},
+	"10075": {
+		"id": 10075,
+		"name": "diancie-mega",
+		"abilities": [
+			"magic-bounce"
+		]
+	},
+	"10076": {
+		"id": 10076,
+		"name": "metagross-mega",
+		"abilities": [
+			"tough-claws"
+		]
+	},
+	"10077": {
+		"id": 10077,
+		"name": "kyogre-primal",
+		"abilities": [
+			"primordial-sea"
+		]
+	},
+	"10078": {
+		"id": 10078,
+		"name": "groudon-primal",
+		"abilities": [
+			"desolate-land"
+		]
+	},
+	"10079": {
+		"id": 10079,
+		"name": "rayquaza-mega",
+		"abilities": [
+			"delta-stream"
+		]
+	},
+	"10080": {
+		"id": 10080,
+		"name": "pikachu-rock-star",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10081": {
+		"id": 10081,
+		"name": "pikachu-belle",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10082": {
+		"id": 10082,
+		"name": "pikachu-pop-star",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10083": {
+		"id": 10083,
+		"name": "pikachu-phd",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10084": {
+		"id": 10084,
+		"name": "pikachu-libre",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10085": {
+		"id": 10085,
+		"name": "pikachu-cosplay",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10086": {
+		"id": 10086,
+		"name": "hoopa-unbound",
+		"abilities": [
+			"magician"
+		]
+	},
+	"10087": {
+		"id": 10087,
+		"name": "camerupt-mega",
+		"abilities": [
+			"sheer-force"
+		]
+	},
+	"10088": {
+		"id": 10088,
+		"name": "lopunny-mega",
+		"abilities": [
+			"scrappy"
+		]
+	},
+	"10089": {
+		"id": 10089,
+		"name": "salamence-mega",
+		"abilities": [
+			"aerilate"
+		]
+	},
+	"10090": {
+		"id": 10090,
+		"name": "beedrill-mega",
+		"abilities": [
+			"adaptability"
+		]
+	},
+	"10091": {
+		"id": 10091,
+		"name": "rattata-alola",
+		"abilities": [
+			"gluttony",
+			"hustle",
+			"thick-fat"
+		]
+	},
+	"10092": {
+		"id": 10092,
+		"name": "raticate-alola",
+		"abilities": [
+			"gluttony",
+			"hustle",
+			"thick-fat"
+		]
+	},
+	"10093": {
+		"id": 10093,
+		"name": "raticate-totem-alola",
+		"abilities": [
+			"gluttony",
+			"hustle",
+			"thick-fat"
+		]
+	},
+	"10094": {
+		"id": 10094,
+		"name": "pikachu-original-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10095": {
+		"id": 10095,
+		"name": "pikachu-hoenn-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10096": {
+		"id": 10096,
+		"name": "pikachu-sinnoh-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10097": {
+		"id": 10097,
+		"name": "pikachu-unova-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10098": {
+		"id": 10098,
+		"name": "pikachu-kalos-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10099": {
+		"id": 10099,
+		"name": "pikachu-alola-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10100": {
+		"id": 10100,
+		"name": "raichu-alola",
+		"abilities": [
+			"surge-surfer"
+		]
+	},
+	"10101": {
+		"id": 10101,
+		"name": "sandshrew-alola",
+		"abilities": [
+			"snow-cloak",
+			"slush-rush"
+		]
+	},
+	"10102": {
+		"id": 10102,
+		"name": "sandslash-alola",
+		"abilities": [
+			"snow-cloak",
+			"slush-rush"
+		]
+	},
+	"10103": {
+		"id": 10103,
+		"name": "vulpix-alola",
+		"abilities": [
+			"snow-cloak",
+			"snow-warning"
+		]
+	},
+	"10104": {
+		"id": 10104,
+		"name": "ninetales-alola",
+		"abilities": [
+			"snow-cloak",
+			"snow-warning"
+		]
+	},
+	"10105": {
+		"id": 10105,
+		"name": "diglett-alola",
+		"abilities": [
+			"sand-veil",
+			"tangling-hair",
+			"sand-force"
+		]
+	},
+	"10106": {
+		"id": 10106,
+		"name": "dugtrio-alola",
+		"abilities": [
+			"sand-veil",
+			"tangling-hair",
+			"sand-force"
+		]
+	},
+	"10107": {
+		"id": 10107,
+		"name": "meowth-alola",
+		"abilities": [
+			"pickup",
+			"technician",
+			"rattled"
+		]
+	},
+	"10108": {
+		"id": 10108,
+		"name": "persian-alola",
+		"abilities": [
+			"fur-coat",
+			"technician",
+			"rattled"
+		]
+	},
+	"10109": {
+		"id": 10109,
+		"name": "geodude-alola",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"galvanize"
+		]
+	},
+	"10110": {
+		"id": 10110,
+		"name": "graveler-alola",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"galvanize"
+		]
+	},
+	"10111": {
+		"id": 10111,
+		"name": "golem-alola",
+		"abilities": [
+			"magnet-pull",
+			"sturdy",
+			"galvanize"
+		]
+	},
+	"10112": {
+		"id": 10112,
+		"name": "grimer-alola",
+		"abilities": [
+			"poison-touch",
+			"gluttony",
+			"power-of-alchemy"
+		]
+	},
+	"10113": {
+		"id": 10113,
+		"name": "muk-alola",
+		"abilities": [
+			"poison-touch",
+			"gluttony",
+			"power-of-alchemy"
+		]
+	},
+	"10114": {
+		"id": 10114,
+		"name": "exeggutor-alola",
+		"abilities": [
+			"frisk",
+			"harvest"
+		]
+	},
+	"10115": {
+		"id": 10115,
+		"name": "marowak-alola",
+		"abilities": [
+			"cursed-body",
+			"lightning-rod",
+			"rock-head"
+		]
+	},
+	"10116": {
+		"id": 10116,
+		"name": "greninja-battle-bond",
+		"abilities": [
+			"battle-bond"
+		]
+	},
+	"10117": {
+		"id": 10117,
+		"name": "greninja-ash",
+		"abilities": [
+			"battle-bond"
+		]
+	},
+	"10118": {
+		"id": 10118,
+		"name": "zygarde-10-power-construct",
+		"abilities": [
+			"power-construct"
+		]
+	},
+	"10119": {
+		"id": 10119,
+		"name": "zygarde-50-power-construct",
+		"abilities": [
+			"power-construct"
+		]
+	},
+	"10120": {
+		"id": 10120,
+		"name": "zygarde-complete",
+		"abilities": [
+			"power-construct"
+		]
+	},
+	"10121": {
+		"id": 10121,
+		"name": "gumshoos-totem",
+		"abilities": [
+			"stakeout",
+			"strong-jaw",
+			"adaptability"
+		]
+	},
+	"10122": {
+		"id": 10122,
+		"name": "vikavolt-totem",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"10123": {
+		"id": 10123,
+		"name": "oricorio-pom-pom",
+		"abilities": [
+			"dancer"
+		]
+	},
+	"10124": {
+		"id": 10124,
+		"name": "oricorio-pau",
+		"abilities": [
+			"dancer"
+		]
+	},
+	"10125": {
+		"id": 10125,
+		"name": "oricorio-sensu",
+		"abilities": [
+			"dancer"
+		]
+	},
+	"10126": {
+		"id": 10126,
+		"name": "lycanroc-midnight",
+		"abilities": [
+			"keen-eye",
+			"vital-spirit",
+			"no-guard"
+		]
+	},
+	"10127": {
+		"id": 10127,
+		"name": "wishiwashi-school",
+		"abilities": [
+			"schooling"
+		]
+	},
+	"10128": {
+		"id": 10128,
+		"name": "lurantis-totem",
+		"abilities": [
+			"leaf-guard",
+			"contrary"
+		]
+	},
+	"10129": {
+		"id": 10129,
+		"name": "salazzle-totem",
+		"abilities": [
+			"corrosion",
+			"oblivious"
+		]
+	},
+	"10130": {
+		"id": 10130,
+		"name": "minior-orange-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10131": {
+		"id": 10131,
+		"name": "minior-yellow-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10132": {
+		"id": 10132,
+		"name": "minior-green-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10133": {
+		"id": 10133,
+		"name": "minior-blue-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10134": {
+		"id": 10134,
+		"name": "minior-indigo-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10135": {
+		"id": 10135,
+		"name": "minior-violet-meteor",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10136": {
+		"id": 10136,
+		"name": "minior-red",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10137": {
+		"id": 10137,
+		"name": "minior-orange",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10138": {
+		"id": 10138,
+		"name": "minior-yellow",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10139": {
+		"id": 10139,
+		"name": "minior-green",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10140": {
+		"id": 10140,
+		"name": "minior-blue",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10141": {
+		"id": 10141,
+		"name": "minior-indigo",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10142": {
+		"id": 10142,
+		"name": "minior-violet",
+		"abilities": [
+			"shields-down"
+		]
+	},
+	"10143": {
+		"id": 10143,
+		"name": "mimikyu-busted",
+		"abilities": [
+			"disguise"
+		]
+	},
+	"10144": {
+		"id": 10144,
+		"name": "mimikyu-totem-disguised",
+		"abilities": [
+			"disguise"
+		]
+	},
+	"10145": {
+		"id": 10145,
+		"name": "mimikyu-totem-busted",
+		"abilities": [
+			"disguise"
+		]
+	},
+	"10146": {
+		"id": 10146,
+		"name": "kommo-o-totem",
+		"abilities": [
+			"bulletproof",
+			"soundproof",
+			"overcoat"
+		]
+	},
+	"10147": {
+		"id": 10147,
+		"name": "magearna-original",
+		"abilities": [
+			"soul-heart"
+		]
+	},
+	"10148": {
+		"id": 10148,
+		"name": "pikachu-partner-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10149": {
+		"id": 10149,
+		"name": "marowak-totem",
+		"abilities": [
+			"cursed-body",
+			"lightning-rod",
+			"rock-head"
+		]
+	},
+	"10150": {
+		"id": 10150,
+		"name": "ribombee-totem",
+		"abilities": [
+			"honey-gather",
+			"shield-dust",
+			"sweet-veil"
+		]
+	},
+	"10151": {
+		"id": 10151,
+		"name": "rockruff-own-tempo",
+		"abilities": [
+			"own-tempo"
+		]
+	},
+	"10152": {
+		"id": 10152,
+		"name": "lycanroc-dusk",
+		"abilities": [
+			"tough-claws"
+		]
+	},
+	"10153": {
+		"id": 10153,
+		"name": "araquanid-totem",
+		"abilities": [
+			"water-bubble",
+			"water-absorb"
+		]
+	},
+	"10154": {
+		"id": 10154,
+		"name": "togedemaru-totem",
+		"abilities": [
+			"iron-barbs",
+			"lightning-rod",
+			"sturdy"
+		]
+	},
+	"10155": {
+		"id": 10155,
+		"name": "necrozma-dusk",
+		"abilities": [
+			"prism-armor"
+		]
+	},
+	"10156": {
+		"id": 10156,
+		"name": "necrozma-dawn",
+		"abilities": [
+			"prism-armor"
+		]
+	},
+	"10157": {
+		"id": 10157,
+		"name": "necrozma-ultra",
+		"abilities": [
+			"neuroforce"
+		]
+	},
+	"10158": {
+		"id": 10158,
+		"name": "pikachu-starter",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10159": {
+		"id": 10159,
+		"name": "eevee-starter",
+		"abilities": [
+			"run-away",
+			"adaptability",
+			"anticipation"
+		]
+	},
+	"10160": {
+		"id": 10160,
+		"name": "pikachu-world-cap",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10161": {
+		"id": 10161,
+		"name": "meowth-galar",
+		"abilities": [
+			"pickup",
+			"tough-claws",
+			"unnerve"
+		]
+	},
+	"10162": {
+		"id": 10162,
+		"name": "ponyta-galar",
+		"abilities": [
+			"run-away",
+			"pastel-veil",
+			"anticipation"
+		]
+	},
+	"10163": {
+		"id": 10163,
+		"name": "rapidash-galar",
+		"abilities": [
+			"run-away",
+			"pastel-veil",
+			"anticipation"
+		]
+	},
+	"10164": {
+		"id": 10164,
+		"name": "slowpoke-galar",
+		"abilities": [
+			"gluttony",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"10165": {
+		"id": 10165,
+		"name": "slowbro-galar",
+		"abilities": [
+			"quick-draw",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"10166": {
+		"id": 10166,
+		"name": "farfetchd-galar",
+		"abilities": [
+			"steadfast",
+			"scrappy"
+		]
+	},
+	"10167": {
+		"id": 10167,
+		"name": "weezing-galar",
+		"abilities": [
+			"levitate",
+			"neutralizing-gas",
+			"misty-surge"
+		]
+	},
+	"10168": {
+		"id": 10168,
+		"name": "mr-mime-galar",
+		"abilities": [
+			"vital-spirit",
+			"screen-cleaner",
+			"ice-body"
+		]
+	},
+	"10169": {
+		"id": 10169,
+		"name": "articuno-galar",
+		"abilities": [
+			"competitive"
+		]
+	},
+	"10170": {
+		"id": 10170,
+		"name": "zapdos-galar",
+		"abilities": [
+			"defiant"
+		]
+	},
+	"10171": {
+		"id": 10171,
+		"name": "moltres-galar",
+		"abilities": [
+			"berserk"
+		]
+	},
+	"10172": {
+		"id": 10172,
+		"name": "slowking-galar",
+		"abilities": [
+			"curious-medicine",
+			"own-tempo",
+			"regenerator"
+		]
+	},
+	"10173": {
+		"id": 10173,
+		"name": "corsola-galar",
+		"abilities": [
+			"weak-armor",
+			"cursed-body"
+		]
+	},
+	"10174": {
+		"id": 10174,
+		"name": "zigzagoon-galar",
+		"abilities": [
+			"pickup",
+			"gluttony",
+			"quick-feet"
+		]
+	},
+	"10175": {
+		"id": 10175,
+		"name": "linoone-galar",
+		"abilities": [
+			"pickup",
+			"gluttony",
+			"quick-feet"
+		]
+	},
+	"10176": {
+		"id": 10176,
+		"name": "darumaka-galar",
+		"abilities": [
+			"hustle",
+			"inner-focus"
+		]
+	},
+	"10177": {
+		"id": 10177,
+		"name": "darmanitan-galar-standard",
+		"abilities": [
+			"gorilla-tactics",
+			"zen-mode"
+		]
+	},
+	"10178": {
+		"id": 10178,
+		"name": "darmanitan-galar-zen",
+		"abilities": [
+			"gorilla-tactics",
+			"zen-mode"
+		]
+	},
+	"10179": {
+		"id": 10179,
+		"name": "yamask-galar",
+		"abilities": [
+			"wandering-spirit"
+		]
+	},
+	"10180": {
+		"id": 10180,
+		"name": "stunfisk-galar",
+		"abilities": [
+			"mimicry"
+		]
+	},
+	"10181": {
+		"id": 10181,
+		"name": "zygarde-10",
+		"abilities": [
+			"aura-break"
+		]
+	},
+	"10182": {
+		"id": 10182,
+		"name": "cramorant-gulping",
+		"abilities": [
+			"gulp-missile"
+		]
+	},
+	"10183": {
+		"id": 10183,
+		"name": "cramorant-gorging",
+		"abilities": [
+			"gulp-missile"
+		]
+	},
+	"10184": {
+		"id": 10184,
+		"name": "toxtricity-low-key",
+		"abilities": [
+			"punk-rock",
+			"minus",
+			"technician"
+		]
+	},
+	"10185": {
+		"id": 10185,
+		"name": "eiscue-noice",
+		"abilities": [
+			"ice-face"
+		]
+	},
+	"10186": {
+		"id": 10186,
+		"name": "indeedee-female",
+		"abilities": [
+			"own-tempo",
+			"synchronize",
+			"psychic-surge"
+		]
+	},
+	"10187": {
+		"id": 10187,
+		"name": "morpeko-hangry",
+		"abilities": [
+			"hunger-switch"
+		]
+	},
+	"10188": {
+		"id": 10188,
+		"name": "zacian-crowned",
+		"abilities": [
+			"intrepid-sword"
+		]
+	},
+	"10189": {
+		"id": 10189,
+		"name": "zamazenta-crowned",
+		"abilities": [
+			"dauntless-shield"
+		]
+	},
+	"10190": {
+		"id": 10190,
+		"name": "eternatus-eternamax",
+		"abilities": [
+			"pressure"
+		]
+	},
+	"10191": {
+		"id": 10191,
+		"name": "urshifu-rapid-strike",
+		"abilities": [
+			"unseen-fist"
+		]
+	},
+	"10192": {
+		"id": 10192,
+		"name": "zarude-dada",
+		"abilities": [
+			"leaf-guard"
+		]
+	},
+	"10193": {
+		"id": 10193,
+		"name": "calyrex-ice",
+		"abilities": [
+			"as-one-glastrier"
+		]
+	},
+	"10194": {
+		"id": 10194,
+		"name": "calyrex-shadow",
+		"abilities": [
+			"as-one-spectrier"
+		]
+	},
+	"10195": {
+		"id": 10195,
+		"name": "venusaur-gmax",
+		"abilities": [
+			"overgrow",
+			"chlorophyll"
+		]
+	},
+	"10196": {
+		"id": 10196,
+		"name": "charizard-gmax",
+		"abilities": [
+			"blaze",
+			"solar-power"
+		]
+	},
+	"10197": {
+		"id": 10197,
+		"name": "blastoise-gmax",
+		"abilities": [
+			"torrent",
+			"rain-dish"
+		]
+	},
+	"10198": {
+		"id": 10198,
+		"name": "butterfree-gmax",
+		"abilities": [
+			"compound-eyes",
+			"tinted-lens"
+		]
+	},
+	"10199": {
+		"id": 10199,
+		"name": "pikachu-gmax",
+		"abilities": [
+			"static",
+			"lightning-rod"
+		]
+	},
+	"10200": {
+		"id": 10200,
+		"name": "meowth-gmax",
+		"abilities": [
+			"pickup",
+			"technician",
+			"unnerve"
+		]
+	},
+	"10201": {
+		"id": 10201,
+		"name": "machamp-gmax",
+		"abilities": [
+			"guts",
+			"no-guard",
+			"steadfast"
+		]
+	},
+	"10202": {
+		"id": 10202,
+		"name": "gengar-gmax",
+		"abilities": [
+			"cursed-body"
+		]
+	},
+	"10203": {
+		"id": 10203,
+		"name": "kingler-gmax",
+		"abilities": [
+			"hyper-cutter",
+			"shell-armor",
+			"sheer-force"
+		]
+	},
+	"10204": {
+		"id": 10204,
+		"name": "lapras-gmax",
+		"abilities": [
+			"water-absorb",
+			"shell-armor",
+			"hydration"
+		]
+	},
+	"10205": {
+		"id": 10205,
+		"name": "eevee-gmax",
+		"abilities": [
+			"run-away",
+			"adaptability",
+			"anticipation"
+		]
+	},
+	"10206": {
+		"id": 10206,
+		"name": "snorlax-gmax",
+		"abilities": [
+			"immunity",
+			"thick-fat",
+			"gluttony"
+		]
+	},
+	"10207": {
+		"id": 10207,
+		"name": "garbodor-gmax",
+		"abilities": [
+			"stench",
+			"weak-armor",
+			"aftermath"
+		]
+	},
+	"10208": {
+		"id": 10208,
+		"name": "melmetal-gmax",
+		"abilities": [
+			"iron-fist"
+		]
+	},
+	"10209": {
+		"id": 10209,
+		"name": "rillaboom-gmax",
+		"abilities": [
+			"overgrow",
+			"grassy-surge"
+		]
+	},
+	"10210": {
+		"id": 10210,
+		"name": "cinderace-gmax",
+		"abilities": [
+			"blaze",
+			"libero"
+		]
+	},
+	"10211": {
+		"id": 10211,
+		"name": "inteleon-gmax",
+		"abilities": [
+			"torrent",
+			"sniper"
+		]
+	},
+	"10212": {
+		"id": 10212,
+		"name": "corviknight-gmax",
+		"abilities": [
+			"pressure",
+			"unnerve",
+			"mirror-armor"
+		]
+	},
+	"10213": {
+		"id": 10213,
+		"name": "orbeetle-gmax",
+		"abilities": [
+			"swarm",
+			"frisk",
+			"telepathy"
+		]
+	},
+	"10214": {
+		"id": 10214,
+		"name": "drednaw-gmax",
+		"abilities": [
+			"strong-jaw",
+			"shell-armor",
+			"swift-swim"
+		]
+	},
+	"10215": {
+		"id": 10215,
+		"name": "coalossal-gmax",
+		"abilities": [
+			"steam-engine",
+			"flame-body",
+			"flash-fire"
+		]
+	},
+	"10216": {
+		"id": 10216,
+		"name": "flapple-gmax",
+		"abilities": [
+			"ripen",
+			"gluttony",
+			"hustle"
+		]
+	},
+	"10217": {
+		"id": 10217,
+		"name": "appletun-gmax",
+		"abilities": [
+			"ripen",
+			"gluttony",
+			"thick-fat"
+		]
+	},
+	"10218": {
+		"id": 10218,
+		"name": "sandaconda-gmax",
+		"abilities": [
+			"sand-spit",
+			"shed-skin",
+			"sand-veil"
+		]
+	},
+	"10219": {
+		"id": 10219,
+		"name": "toxtricity-amped-gmax",
+		"abilities": [
+			"punk-rock",
+			"plus",
+			"technician"
+		]
+	},
+	"10220": {
+		"id": 10220,
+		"name": "centiskorch-gmax",
+		"abilities": [
+			"flash-fire",
+			"white-smoke",
+			"flame-body"
+		]
+	},
+	"10221": {
+		"id": 10221,
+		"name": "hatterene-gmax",
+		"abilities": [
+			"healer",
+			"anticipation",
+			"magic-bounce"
+		]
+	},
+	"10222": {
+		"id": 10222,
+		"name": "grimmsnarl-gmax",
+		"abilities": [
+			"prankster",
+			"frisk",
+			"pickpocket"
+		]
+	},
+	"10223": {
+		"id": 10223,
+		"name": "alcremie-gmax",
+		"abilities": [
+			"sweet-veil",
+			"aroma-veil"
+		]
+	},
+	"10224": {
+		"id": 10224,
+		"name": "copperajah-gmax",
+		"abilities": [
+			"sheer-force",
+			"heavy-metal"
+		]
+	},
+	"10225": {
+		"id": 10225,
+		"name": "duraludon-gmax",
+		"abilities": [
+			"light-metal",
+			"heavy-metal",
+			"stalwart"
+		]
+	},
+	"10226": {
+		"id": 10226,
+		"name": "urshifu-single-strike-gmax",
+		"abilities": [
+			"unseen-fist"
+		]
+	},
+	"10227": {
+		"id": 10227,
+		"name": "urshifu-rapid-strike-gmax",
+		"abilities": [
+			"unseen-fist"
+		]
+	},
+	"10228": {
+		"id": 10228,
+		"name": "toxtricity-low-key-gmax",
+		"abilities": [
+			"punk-rock",
+			"minus",
+			"technician"
+		]
+	},
+	"10229": {
+		"id": 10229,
+		"name": "growlithe-hisui",
+		"abilities": [
+			"intimidate",
+			"flash-fire",
+			"rock-head"
+		]
+	},
+	"10230": {
+		"id": 10230,
+		"name": "arcanine-hisui",
+		"abilities": [
+			"intimidate",
+			"flash-fire",
+			"rock-head"
+		]
+	},
+	"10231": {
+		"id": 10231,
+		"name": "voltorb-hisui",
+		"abilities": [
+			"soundproof",
+			"static",
+			"aftermath"
+		]
+	},
+	"10232": {
+		"id": 10232,
+		"name": "electrode-hisui",
+		"abilities": [
+			"soundproof",
+			"static",
+			"aftermath"
+		]
+	},
+	"10233": {
+		"id": 10233,
+		"name": "typhlosion-hisui",
+		"abilities": [
+			"blaze",
+			"frisk"
+		]
+	},
+	"10234": {
+		"id": 10234,
+		"name": "qwilfish-hisui",
+		"abilities": [
+			"poison-point",
+			"swift-swim",
+			"intimidate"
+		]
+	},
+	"10235": {
+		"id": 10235,
+		"name": "sneasel-hisui",
+		"abilities": [
+			"inner-focus",
+			"keen-eye",
+			"pickpocket"
+		]
+	},
+	"10236": {
+		"id": 10236,
+		"name": "samurott-hisui",
+		"abilities": [
+			"torrent",
+			"sharpness"
+		]
+	},
+	"10237": {
+		"id": 10237,
+		"name": "lilligant-hisui",
+		"abilities": [
+			"chlorophyll",
+			"hustle",
+			"leaf-guard"
+		]
+	},
+	"10238": {
+		"id": 10238,
+		"name": "zorua-hisui",
+		"abilities": [
+			"illusion"
+		]
+	},
+	"10239": {
+		"id": 10239,
+		"name": "zoroark-hisui",
+		"abilities": [
+			"illusion"
+		]
+	},
+	"10240": {
+		"id": 10240,
+		"name": "braviary-hisui",
+		"abilities": [
+			"keen-eye",
+			"sheer-force",
+			"tinted-lens"
+		]
+	},
+	"10241": {
+		"id": 10241,
+		"name": "sliggoo-hisui",
+		"abilities": [
+			"sap-sipper",
+			"shell-armor",
+			"gooey"
+		]
+	},
+	"10242": {
+		"id": 10242,
+		"name": "goodra-hisui",
+		"abilities": [
+			"sap-sipper",
+			"shell-armor",
+			"gooey"
+		]
+	},
+	"10243": {
+		"id": 10243,
+		"name": "avalugg-hisui",
+		"abilities": [
+			"strong-jaw",
+			"ice-body",
+			"sturdy"
+		]
+	},
+	"10244": {
+		"id": 10244,
+		"name": "decidueye-hisui",
+		"abilities": [
+			"overgrow",
+			"scrappy"
+		]
+	},
+	"10245": {
+		"id": 10245,
+		"name": "dialga-origin",
+		"abilities": [
+			"pressure",
+			"telepathy"
+		]
+	},
+	"10246": {
+		"id": 10246,
+		"name": "palkia-origin",
+		"abilities": [
+			"pressure",
+			"telepathy"
+		]
+	},
+	"10247": {
+		"id": 10247,
+		"name": "basculin-white-striped",
+		"abilities": [
+			"rattled",
+			"adaptability",
+			"mold-breaker"
+		]
+	},
+	"10248": {
+		"id": 10248,
+		"name": "basculegion-female",
+		"abilities": [
+			"swift-swim",
+			"adaptability",
+			"mold-breaker"
+		]
+	},
+	"10249": {
+		"id": 10249,
+		"name": "enamorus-therian",
+		"abilities": [
+			"overcoat"
+		]
+	},
+	"10250": {
+		"id": 10250,
+		"name": "tauros-paldea-combat-breed",
+		"abilities": [
+			"intimidate",
+			"anger-point",
+			"cud-chew"
+		]
+	},
+	"10251": {
+		"id": 10251,
+		"name": "tauros-paldea-blaze-breed",
+		"abilities": [
+			"intimidate",
+			"anger-point",
+			"cud-chew"
+		]
+	},
+	"10252": {
+		"id": 10252,
+		"name": "tauros-paldea-aqua-breed",
+		"abilities": [
+			"intimidate",
+			"anger-point",
+			"cud-chew"
+		]
+	},
+	"10253": {
+		"id": 10253,
+		"name": "wooper-paldea",
+		"abilities": [
+			"poison-point",
+			"water-absorb",
+			"unaware"
+		]
+	},
+	"10254": {
+		"id": 10254,
+		"name": "oinkologne-female",
+		"abilities": [
+			"aroma-veil",
+			"gluttony",
+			"thick-fat"
+		]
+	},
+	"10255": {
+		"id": 10255,
+		"name": "dudunsparce-three-segment",
+		"abilities": [
+			"serene-grace",
+			"run-away",
+			"rattled"
+		]
+	},
+	"10256": {
+		"id": 10256,
+		"name": "palafin-hero",
+		"abilities": [
+			"zero-to-hero",
+			"zero-to-hero"
+		]
+	},
+	"10257": {
+		"id": 10257,
+		"name": "maushold-family-of-three",
+		"abilities": [
+			"friend-guard",
+			"cheek-pouch",
+			"technician"
+		]
+	},
+	"10258": {
+		"id": 10258,
+		"name": "tatsugiri-droopy",
+		"abilities": [
+			"commander",
+			"storm-drain"
+		]
+	},
+	"10259": {
+		"id": 10259,
+		"name": "tatsugiri-stretchy",
+		"abilities": [
+			"commander",
+			"storm-drain"
+		]
+	},
+	"10260": {
+		"id": 10260,
+		"name": "squawkabilly-blue-plumage",
+		"abilities": [
+			"intimidate",
+			"hustle",
+			"guts"
+		]
+	},
+	"10261": {
+		"id": 10261,
+		"name": "squawkabilly-yellow-plumage",
+		"abilities": [
+			"intimidate",
+			"hustle",
+			"sheer-force"
+		]
+	},
+	"10262": {
+		"id": 10262,
+		"name": "squawkabilly-white-plumage",
+		"abilities": [
+			"intimidate",
+			"hustle",
+			"sheer-force"
+		]
+	},
+	"10263": {
+		"id": 10263,
+		"name": "gimmighoul-roaming",
+		"abilities": [
+			"run-away",
+			"run-away"
+		]
+	},
+	"10264": {
+		"id": 10264,
+		"name": "koraidon-limited-build",
+		"abilities": [
+			"orichalcum-pulse",
+			"orichalcum-pulse"
+		]
+	},
+	"10265": {
+		"id": 10265,
+		"name": "koraidon-sprinting-build",
+		"abilities": [
+			"orichalcum-pulse",
+			"orichalcum-pulse"
+		]
+	},
+	"10266": {
+		"id": 10266,
+		"name": "koraidon-swimming-build",
+		"abilities": [
+			"orichalcum-pulse",
+			"orichalcum-pulse"
+		]
+	},
+	"10267": {
+		"id": 10267,
+		"name": "koraidon-gliding-build",
+		"abilities": [
+			"orichalcum-pulse",
+			"orichalcum-pulse"
+		]
+	},
+	"10268": {
+		"id": 10268,
+		"name": "miraidon-low-power-mode",
+		"abilities": [
+			"hadron-engine",
+			"hadron-engine"
+		]
+	},
+	"10269": {
+		"id": 10269,
+		"name": "miraidon-drive-mode",
+		"abilities": [
+			"hadron-engine",
+			"hadron-engine"
+		]
+	},
+	"10270": {
+		"id": 10270,
+		"name": "miraidon-aquatic-mode",
+		"abilities": [
+			"hadron-engine",
+			"hadron-engine"
+		]
+	},
+	"10271": {
+		"id": 10271,
+		"name": "miraidon-glide-mode",
+		"abilities": [
+			"hadron-engine",
+			"hadron-engine"
+		]
+	},
+	"10272": {
+		"id": 10272,
+		"name": "ursaluna-bloodmoon",
+		"abilities": [
+			"minds-eye"
+		]
+	},
+	"10273": {
+		"id": 10273,
+		"name": "ogerpon-wellspring-mask",
+		"abilities": [
+			"water-absorb"
+		]
+	},
+	"10274": {
+		"id": 10274,
+		"name": "ogerpon-hearthflame-mask",
+		"abilities": [
+			"mold-breaker"
+		]
+	},
+	"10275": {
+		"id": 10275,
+		"name": "ogerpon-cornerstone-mask",
+		"abilities": [
+			"sturdy"
+		]
+	},
+	"10276": {
+		"id": 10276,
+		"name": "terapagos-terastal",
+		"abilities": [
+			"tera-shell"
+		]
+	},
+	"10277": {
+		"id": 10277,
+		"name": "terapagos-stellar",
+		"abilities": [
+			"teraform-zero"
+		]
+	}
+}

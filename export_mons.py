@@ -4,8 +4,8 @@ from rr_parser import load_radical_red_game
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Export of radical red save data for use in showdown calcs')
-    parser.add_argument('sav_filename', type=str)
-    parser.add_argument('output_directory', type=str)
+    parser.add_argument('--sav_filename', type=str, default="C:\\Users\\Jackson\\Dropbox\\Radical Red\\RadRedNUZLOCKE.sav")
+    parser.add_argument('--output_directory', type=str, default='out.txt')
     parser.add_argument('--skip_boxes', nargs='*', type=int)
     parser.add_argument('--box_min', type=int, default=0)
     parser.add_argument('--box_max', type=int, default=25) # TODO Update with max boxes

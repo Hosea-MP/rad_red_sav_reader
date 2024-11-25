@@ -1,0 +1,877 @@
+0001	Pound
+0002	Karate Chop
+0003	Double Slap
+0004	Comet Punch
+0005	Mega Punch
+0006	Pay Day
+0007	Fire Punch
+0008	Ice Punch
+0009	Thunder Punch
+000A	Scratch
+000B	Vise Grip
+000C	Guillotine
+000D	Razor Wind
+000E	Swords Dance
+000F	Cut
+0010	Gust
+0011	Wing Attack
+0012	Whirlwind
+0013	Fly
+0014	Bind
+0015	Slam
+0016	Vine Whip
+0017	Stomp
+0018	Double Kick
+0019	Mega Kick
+001A	Jump Kick
+001B	Rolling Kick
+001C	Sand Attack
+001D	Headbutt
+001E	Horn Attack
+001F	Fury Attack
+0020	Horn Drill
+0021	Tackle
+0022	Body Slam
+0023	Wrap
+0024	Take Down
+0025	Thrash
+0026	Double-Edge
+0027	Tail Whip
+0028	Poison Sting
+0029	Twineedle
+002A	Pin Missile
+002B	Leer
+002C	Bite
+002D	Growl
+002E	Roar
+002F	Sing
+0030	Supersonic
+0031	Sonic Boom
+0032	Disable
+0033	Acid
+0034	Ember
+0035	Flamethrower
+0036	Mist
+0037	Water Gun
+0038	Hydro Pump
+0039	Surf
+003A	Ice Beam
+003B	Blizzard
+003C	Psybeam
+003D	Bubble Beam
+003E	Aurora Beam
+003F	Hyper Beam
+0040	Peck
+0041	Drill Peck
+0042	Submission
+0043	Low Kick
+0044	Counter
+0045	Seismic Toss
+0046	Strength
+0047	Absorb
+0048	Mega Drain
+0049	Leech Seed
+004A	Growth
+004B	Razor Leaf
+004C	Solar Beam
+004D	Poison Powder
+004E	Stun Spore
+004F	Sleep Powder
+0050	Petal Dance
+0051	String Shot
+0052	Dragon Rage
+0053	Fire Spin
+0054	Thunder Shock
+0055	Thunderbolt
+0056	Thunder Wave
+0057	Thunder
+0058	Rock Throw
+0059	Earthquake
+005A	Soul Robbery
+005B	Dig
+005C	Toxic
+005D	Confusion
+005E	Psychic
+005F	Hypnosis
+0060	Meditate
+0061	Agility
+0062	Quick Attack
+0063	Rage
+0064	Teleport
+0065	Night Shade
+0066	Mimic
+0067	Screech
+0068	Double Team
+0069	Recover
+006A	Harden
+006B	Minimize
+006C	Smokescreen
+006D	Confuse Ray
+006E	Withdraw
+006F	Defense Curl
+0070	Barrier
+0071	Light Screen
+0072	Haze
+0073	Reflect
+0074	Focus Energy
+0075	Bide
+0076	Metronome
+0077	Mirror Move
+0078	Self-Destruct
+0079	Egg Bomb
+007A	Lick
+007B	Smog
+007C	Sludge
+007D	Bone Club
+007E	Fire Blast
+007F	Waterfall
+0080	Clamp
+0081	Swift
+0082	Skull Bash
+0083	Spike Cannon
+0084	Constrict
+0085	Amnesia
+0086	Kinesis
+0087	Soft-Boiled
+0088	High Jump Kick
+0088	Odor Sleuth
+0089	Glare
+008A	Drea Eater
+008B	Poison Gas
+008C	Barrage
+008D	Leech Life
+008E	Lovely Kiss
+008F	Sky Attack
+0090	Transform
+0091	Bubble
+0092	Dizzy Punch
+0093	Spore
+0094	Flash
+0095	Psywave
+0096	Splash
+0097	Acid Armor
+0098	Crabhammer
+0099	Explosion
+009A	Fury Swipes
+009B	Bonemerang
+009C	Rest
+009D	Rock Slide
+009E	Hyper Fang
+009F	Sharpen
+00A0	Conversion
+00A1	Tri Attack
+00A2	Super Fang
+00A3	Slash
+00A4	Substitute
+00A5	Struggle
+00A6	Sketch
+00A7	Triple Kick
+00A8	Thief
+00A9	Spider Web
+00AA	Mind Reader
+00AB	Nightmare
+00AC	Flame Wheel
+00AD	Snore
+00AE	Curse
+00AF	Flail
+00B0	Conversion 2
+00B1	Aeroblast
+00B2	Cotton Spore
+00B3	Reversal
+00B4	Spite
+00B5	Powder Snow
+00B6	Protect
+00B7	Mach Punch
+00B8	Scary Face
+00B9	Feint Attack
+00BA	Sweet Kiss
+00BB	Belly Drum
+00BC	Sludge Bomb
+00BD	Mud-Slap
+00BE	Octazooka
+00BF	Spikes
+00C0	Zap Cannon
+00C1	Foresight
+00C2	destiny bond
+00C3	Perish Song
+00C4	Icy Wind
+00C5	Detect
+00C6	Bone Rush
+00C7	Lock-On
+00C8	Outrage
+00C9	Sandstorm
+00CA	Giga Drain
+00CB	Endure
+00CC	Charm
+00CD	Rollout
+00CE	False Swipe
+00CF	Swagger
+00D0	Milk Drink
+00D1	Spark
+00D2	Fury Cutter
+00D3	Steel Wing
+00D4	Mean Look
+00D5	Attract
+00D6	Sleep Talk
+00D7	Heal Bell
+00D8	Return
+00D9	Present
+00DA	Frustration
+00DB	Safeguard
+00DC	Pain Split
+00DD	Sacred Fire
+00DE	Magnitude
+00DF	Dynamic Punch
+00E0	Megahorn
+00E1	Dragon Breath
+00E2	Baton Pass
+00E3	Encore
+00E4	Pursuit
+00E5	Rapid Spin
+00E6	Sweet Scent
+00E7	Iron Tail
+00E8	Metal Claw
+00E9	Vital Throw
+00EA	Morning Sun
+00EB	Synthesis
+00EC	Moonlight
+00ED	Hidden Power
+00EE	Cross Chop
+00EF	Twister
+00F0	Rain Dance
+00F1	Sunny Day
+00F2	Crunch
+00F3	Mirror Coat
+00F4	Psych Up
+00F5	Extreme Speed
+00F6	Ancient Power
+00F7	Shadow Ball
+00F8	Future Sight
+00F9	Rock Smash
+00FA	Whirlpool
+00FB	Beat Up
+00FC	Fake Out
+00FD	Uproar
+00FE	Stockpile
+00FF	Spit Up
+0100	Swallow
+0101	Heat Wave
+0102	Hail
+0103	Torment
+0104	Flatter
+0105	Will-O-Wisp
+0106	Memento
+0107	Facade
+0108	Focus Punch
+0109	Smelling Salts
+010A	Follow me
+010B	Nature Power
+010C	Charge
+010D	Taunt
+010E	Helping Hand
+010F	Trick
+0110	Role Play
+0111	Wish
+0112	Assist
+0113	Ingrain
+0114	Superpower
+0115	Magic Coat
+0116	Recycle
+0117	Revenge
+0118	Brick Break
+0119	Yawn
+011A	Knock Off
+011B	Endeavor
+011C	Eruption
+011D	Skill Swap
+011E	Imprison
+011F	Refresh
+0120	Grudge
+0121	Snatch
+0122	Secret Power
+0123	Dive
+0124	Arm Thrust
+0125	Caouflage
+0126	Tail Glow
+0127	Luster Purge
+0128	Mist Ball
+0129	Feather Dance
+012A	Teeter Dance
+012B	Blaze Kick
+012C	Mud Sport
+012D	Ice Ball
+012E	Needle Arm
+012F	Slack Off
+0130	Hyper Voice
+0131	Poison Fang
+0132	Crush Claw
+0133	Blast Burn
+0134	Hydro Cannon
+0135	Meteor Mash
+0136	Astonish
+0137	Weather Ball
+0138	Aromatherapy
+0139	Fake Tears
+013A	Air Cutter
+013B	Overheat
+013D	Rock Tomb
+013E	Silver Wind
+013F	Metal Sound
+0140	Grass Whistle
+0141	Tickle
+0142	Cosmic Power
+0143	Water Spout
+0144	Signal Beam
+0145	Shadow Punch
+0146	Extrasensory
+0147	Sky Uppercut
+0148	Sand Tomb
+0149	Sheer Cold
+014A	Muddy Water
+014B	Bullet Seed
+014C	Aerial Ace
+014D	Icicle Spear
+014E	Iron Defense
+014F	Block
+0150	howl
+0151	dragon claw
+0152	frenzy plant
+0153	bulk up
+0154	bounce
+0155	mud shot
+0156	poison tail
+0157	covet
+0158	volt tackle
+0159	magical leaf
+015A	water sport
+015B	calm mind
+015C	leaf blade
+015D	dragon dance
+015E	rock blast
+015F	shock wave
+0160	water pulse
+0161	doom desire
+0162	psycho boost
+0163	leech fang
+0164	air slash
+0165	aqua jet
+0166	aqua tail
+0167	aura sphere
+0168	avalanche
+0169	brave bird
+016A	bug buzz
+016B	bullet punch
+016C	charge beam
+016D	close combat
+016E	cross poison
+016F	dark pulse
+0170	discharge
+0171	Draco Meteor
+0173	drain punch
+0174	earth power
+0175	energy ball
+0176	focus blast
+0177	force palm
+0178	giga impact
+0179	grass knot
+017A	gunk shot
+017B	hammer arm
+017C	head smash
+017D	ice shard
+017E	iron head
+017F	lava plume
+0180	magnet bomb
+0181	mud bomb
+0182	nasty plot
+0183	night slash
+0184	ominous wind
+0185	power gem
+0186	power whip
+0187	psycho cut
+0188	rock climb
+0189	rock polish
+018A	rock wrecker
+018B	roost
+018C	seed bomb
+018D	shadow claw
+018E	shadow sneak
+018F	vacuum wave
+0190	x scissor
+0191	zen headbutt
+0192	switcheroo
+0193	drill run
+0194	bulldoze
+0195	electroweb
+0196	flame charge
+0197	frost breath
+0198	heart stamp
+0199	hone claws
+019A	horn leech
+019B	coil
+019C	hurricane
+019D	icicle crash
+019E	work up
+019F	quiver dance
+01A0	leaf tornado
+01A1	low sweep
+01A2	snarl
+01A3	stuggle bug
+01A4	steamroller
+01A5	storm throw
+01A6	venoshock
+01A7	wild charge
+01A8	poison jab
+01A9	Acid spray
+01AA	fiery dance
+01AB	clear smog
+01AC	leaf storm
+01AD	stone edge
+01AE	payback
+01AF	fire fang
+01B0	ice fang
+01B1	thunder fang
+01B2	flare blitz
+01B3	inferno
+01B4	hex
+01B5	dual chop
+01B6	double hit
+01B7	cotton guard
+01B8	acrobatics
+01B9	flame burst
+01BA	u-turn
+01BB	volt switch
+01BC	dragon tail
+01BD	circle throw
+01BE	mirror shot
+01BF	wood hammer
+01C0	heal pulse
+01C1	flash cannon
+01C2	bug bite
+01C3	pluck
+01C4	shell smash
+01C5	rage powder
+01C6	wake-up slap
+01C7	razor shell
+01C8	copycat
+01C9	miracle eye
+01CA	sucker punch
+01CB	scald
+01CC	brine
+01CD	fairy wind
+01CE	doll eyes
+01CF	play rough
+01D0	moonblast
+01D1	drain kiss
+01D2	dazzle gleam
+01D3	disarm cry
+01D4	stealth rock
+01D6	healing wish
+01D7	lunar dance
+01D8	tailwind
+01D9	boomburst
+01DA	incinerate
+01DB	worry seed
+01DC	gastro acid
+01DD	geomancy
+01DE	flower guard
+01DF	rototiller
+01E0	shift gear
+01E1	sticky web
+01E2	stored power
+01E3	acupressure
+01E4	punishment
+01E5	assuarance
+01E6	dragon rush
+01E7	dark void
+01E8	feint
+01E9	phantom force
+01EA	petal storm
+01EB	play nice
+01EC	roar of time
+01ED	spacial rend
+01EE	Magma strom
+01EF	final gambit
+01F0	shadow force
+01F1	nuzzle
+01F2	retaliate
+01F3	metal bash
+01F4	judgement
+01F5	freeze dry
+01F6	psyshock
+01F7	round
+01F8	tail slap
+01F9	gear grind
+01FA	natural gift
+01FB	chip away
+01FC	smack down
+01FD	space hole
+01FE	gyro ball
+01FF	space fury
+0200	Attack Order
+0201	defend order
+0202	heal order
+0203	captivate
+0204	defog
+0205	origin pulse
+0206	cliff blade
+0207	guard swap
+0208	steam pump
+0209	metal burst
+020A	me first
+020B	power swap
+020C	power trick
+020D	psycho shift
+020E	wring out
+020F	king shield
+0210	psystrike
+0211	Autotomize
+0212	Diamond Storm
+0213	sludge wave
+0214	heavy slam
+0215	synchronoise
+0216	electro ball
+0217	foul play
+0218	Entrainment
+0219	Night Daze
+021A	echoed voice
+021B	Land wrath
+021C	oblivion wing
+021D	heart swap
+021E	aqua fang
+021F	sacred sword
+0220	heat crash
+0221	head charge
+0222	techno blast
+0223	relic song
+0224	secret sword
+0225	glaciate
+0226	bolt strike
+0227	blue flare
+0228	freeze shock
+0229	ice burn
+022A	v-create
+022B	fusion fire
+022C	fusion bolt
+022D	fell stinger
+022E	noble roar
+022F	dragon ascent
+0230	parting shot
+0231	topsy turvy
+0232	core enforcer
+0233	chatter
+0234	confide
+0235	water star
+0236	mystical fire
+0237	spiky shield
+0238	eerie impulse
+0239	Hold Back
+023A	infestation
+023B	powerup punch
+023C	1000 Arrows
+023D	1000 Waves
+023E	Para Charge
+023F	Searing Shot
+0240	Seed Flare
+0241	Accelerock
+0242	Anchor Shot
+0243	Aurora Veil
+0244	Baneful Bunk
+0245	Beak Blast
+0246	Brutal Swing
+0247	Burn Up
+0248	Clang Scale
+0249	Dark Lariat
+024A	draco meteor
+024B	Fire Lash
+024C	First Impression
+024D	Fleur Cannon
+024E	Floral Heal
+024F	Gear Up
+0250	HiHorsePower
+0251	Ice hammer
+0252	Laser Focus
+0253	Leafage
+0254	Liquidation
+0255	Lunge
+0256	Moongeist Beam
+0257	Multi-Attack
+0258	Nature's Mad
+0259	Pollen Puff
+025A	Power Trip
+025B	Prism Laser
+025C	Psychic Fang
+025D	Purify
+025E	Revelation Dance
+025F	Shadow Bone
+0260	Shell Trap
+0261	Shore Up
+0262	Smart Strike
+0263	Solar Blade
+0264	Sparkle Aria
+0265	Spectral Thief
+0266	Speed swap
+0267	Spirit Lock
+0268	Spotlight
+0269	Bad Tantrum
+026A	Strength Sap
+026B	Sunsteel Ram
+026C	Teary Look
+026D	throat chop
+026E	toxic thread
+026F	trop kick
+0270	Zing Zap
+0271	Elec Terrain
+0272	Grass Terrain
+0273	Mist Terrain
+0274	Psyc Terrain
+0275	Grass Pledge
+0276	Fire Pledge
+0277	Water Pledge
+0278	Trick Room
+0279	Magic room
+027A	wonder room
+027B	crafty guard
+027C	Mat block
+027D	quick guard
+027E	wide guard
+027F	aqua ring
+0280	Aroma mist
+0281	belch
+0282	bestow
+0283	fling
+0284	flying press
+0285	gravity
+0286	guard split
+0287	Heal Block
+0288	Ion Deluge
+0289	Lucky chant
+028A	magnet rise
+028B	magnet flux
+028C	powder
+028D	power split
+028E	reflect type
+028F	simple beam
+0290	Soak
+0291	Telekinesis
+0292	TrickoTreat
+0293	Venom Drench
+0294	Wood Curse
+0295	Mind Blown
+0296	Photon Geyser
+0297	Plasma Fist
+0298	Electrify
+0299	Embargo
+029A	Fairy Lock
+029B	Light of Ruin
+029C	Trump Card
+029D	After You
+029E	Instruct
+029F	Quash
+02A0	Happy Hour
+02A1	Dbl IronBash
+02A2	Last Resort
+02A3	Sky Drop
+02A4	Celebrate
+02A5	Hold Hands
+02A6	Dmax Cannon
+02A7	Snipe Shot
+02A8	Jaw Lock
+02A9	Stuff Cheeks
+02AA	No Retreat
+02AB	Tar Shot
+02AC	Magic Powder
+02AD	Dragon Darts
+0172	dragon pulse
+02AE	Teatime
+02AF	Octolock
+02B0	Bolt Beak
+02B1	Fishious Rend
+02B2	Court Change
+02B3	Clang Soul
+02B4	Body Press
+02B5	Decorate
+02B6	Drum Beating
+02B7	Snap Trap
+02B8	Pyro Ball
+02B9	Giant Blade
+02BA	Giant Bash
+02BB	Aura Wheel
+02BC	Breaking Swipe
+02BD	Branch Poke
+02BE	Overdrive
+02BF	Apple Acid
+02C0	Grav Apple
+02C1	Spirit Break
+02C2	Strange Steam
+02C3	Life Dew
+02C4	Obstruct
+02C5	False Yield
+02C6	Meteor Rush
+02C7	Eternabeam
+02C8	Steel Beam
+02C9	Expanding Force
+02CA	Steel Roller
+02CB	Scale Shot
+02CC	Meteor Beam
+02CD	Shell Side Arm
+02CE	Misty Explosion
+02CF	Grassy Glide
+02D0	Rising Volt
+02D1	Terrain Pulse
+02D2	Skitter Smack
+02D3	Jealous Burn
+02D4	Lash Out
+02D5	Poltergeist
+02D6	Corrosive Gas
+02D7	Coaching
+02D8	Flip Turn
+02D9	Triple Axel
+02DA	Dual Wingbeat
+02DB	Scorch Sands
+02DC	Jungle Heal
+02DD	Wicked Blow
+02DE	Surge Strikes
+02DF	Freeze Glare
+02E0	Thunder Kick
+02E1	Fiery Wrath
+02E2	Thunder Cage
+02E3	Dragon Energy
+02E4	Astral Bomb
+02E5	Glacial Lance
+02E6	Banned Spell
+02E7	Zippy Zap
+02E8	Sappy Seed
+02E9	Freezy Frost
+02EA	Sparkly Swirl
+02EB	Bouncy Bubble
+02EC	Sonic Slash
+02ED	Draco Barrage
+02EE	Stone Axe
+02EF	HeadlongRush
+02F0	VictoryDance
+02F1	Inferno march
+02F2	Cease Edge
+02F3	Trip Arrow
+02F4	Barb Barrage
+02F5	Chloroblast
+02F6	Bitter malice
+02F7	Esper wing
+02F8	Dire Claw
+02F9	Mountain Gale
+02FA	Psyshield Bash
+02FB	Mystical Power
+02FC	Wave Crash
+02FD	Flower Trick
+02FE	Torch Song
+02FF	Aqua Step
+0300	Hyper Drill
+0301	Armor Cannon
+0302	Bitter Blade
+0303	Aqua Cutter
+0304	Rage Fist
+0305	Glaive Rush
+0306	Last Respects
+0307	Shed Tail
+0308	Jet Punch
+0309	Spin Out
+030A	Collision Course
+030B	Electro Drift
+030C	Revival Blessing
+030D	Gigaton Hammer
+030E	Raging Bull
+030F	Twin Beam
+0310	Kowtow Cleave
+0311	Double Shock
+0312	Trailblaze
+0313	Pounce
+0314	Make It Rain
+0315	Population Bomb
+0316	Lunar Blessing
+0317	Take Heart
+0318	Silk Trap
+0319	Axe Kick
+031A	Lumina Crash
+031B	Ice Spinner
+031C	Salt Cure
+031D	Triple Dive
+031E	Mortal Spin
+031F	Fillet Away
+0320	Chilly Reception
+0321	Chilling Water
+0322	Comeuppance
+0323	Tidy Up
+0324	Ruination
+0325	Psyblade
+0326	Hydro Steam
+0327	Bleakwind Storm
+0328	Wildbolt Storm
+0329	Sandsear Storm
+032A	Springtide Storm
+032B	Blood Moon
+032C	Macha Gotcha
+032D	Ivy Cudgel
+032E	Elctor Shot
+032F	Thunderclap
+0330	Tachyon Cutter
+0331	Psychic Noise
+0332	Upper Hand
+0333	Fickle Beam
+0334	Burning Bulwark
+0338	Dragon Cheer
+0339	Alluring Voice
+033A	Temper Flare
+033B	Supercell Slam
+033C	Malignant Chain
+0350	Z-Move 1
+0351	Z-Move 2
+0352	Z-Move 3
+0353	Z-Move 4
+0354	Z-Move 5
+0355	Z-Move 6
+0356	Z-Move 7
+0357	Z-Move 8
+0358	Z-Move 9
+0359	Z-Move 10
+035A	Z-Move 11
+035B	Z-Move 12
+035C	Z-Move 13
+035D	Z-Move 14
+035E	Z-Move 15
+035F	Z-Move 16
+0360	Z-Move 17
+0361	Z-Move 18
+0362	Z-Move 19
+0363	Z-Move 20
+0364	Z-Move 21
+0365	Z-Move 22
+0366	Z-Move 23
+0367	Z-Move 24
+0368	Z-Move 25
+0369	Z-Move 26
+036A	Z-Move 27
+036B	Z-Move 28
+036C	Z-Move 29
+036D	Z-Move 30
+036E	Z-Move 31
+036F	Z-Move 32
+0370	Z-Move 33
+0371	Z-Move 34
+0372	Z-Move 35
+0373	Z-Move 36
+0374	Z-Move 37
+0375	Z-Move 38
+0376	Z-Move 39
+0377	Z-Move 40
+0378	Z-Move 41
+0379	Z-Move 42
+037A	Z-Move 43
+037B	Z-Move 44
+037C	Z-Move 45
+037D	Z-Move 46
+037E	Z-Move 47
+037F	Z-Move 48
+0380	Z-Move 49
+0381	Z-Move 50
+0382	Z-Move 51
+0383	Z-Move 52
+0384	Z-Move 53

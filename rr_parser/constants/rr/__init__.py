@@ -5,6 +5,7 @@ from . import _learnset as module_learnset
 from . import _pps as module_pps
 from . import _abilities as module_abilities
 from . import _pokedex as module_pokedex
+from . import _items as module_items
 
 from typing import Optional, List
 import re

@@ -1,4 +1,5 @@
 from typing import Union, Optional
+import csv
 
 from .games import Gen3, RadicalRed
 from .pkms import Pokemon
@@ -74,12 +75,23 @@ def species_rr_to_nat_dex(species_rr):
     return 'ERROR'
 
 def move_rr_to_name(move_rr):
-    for v in dir(constants.rr._moves):
-        if getattr(constants.rr._moves, v) == move_rr:
-            name = v[v.find('_')+1:].capitalize()
-            return name
-    return 'ERROR'
+    if move_rr == 0:
+        return None
+    
+    FP = 'rr_parser\\constants\\rr\\move_names.tsv'
 
+    with open(FP, 'r') as f:
+        rd = csv.reader(f, delimiter='\t')
+        for row in rd:
+            if int(row[0], 16) == move_rr:
+                return row[1].title()
+
+def item_rr_to_name(item_rr):
+    return constants.rr._items.items_dict[str(item_rr)]
+
+import json
+with open('rr_parser\\constants\\rr\\_pokemon.json') as f:
+    PKM_DB = json.load(f)
 def pkm_set_to_text(pkm: Pokemon):
     """Example Output:
             Piplup @ Oran Berry
@@ -93,19 +105,18 @@ def pkm_set_to_text(pkm: Pokemon):
 
     Notes:
     """
-    species = species_rr_to_nat_dex(pkm.sub_data_decrypted.species)
-    print(f'Querying for pokemon {species}')
-    pb_pkm = pb.pokemon(species)
-    species = pb_pkm.name.capitalize()
+    pkm = PKM_DB[species_rr_to_nat_dex(pkm.sub_data_decrypted.species)]
+    species = pkm.name
     nature = list(NATURES.keys())[pkm.sub_data_decrypted.nature].capitalize()
-    item = pb.item(pkm.sub_data_decrypted.growth.item).name if pkm.sub_data_decrypted.growth.item != 0 else 0
+    item = pkm.sub_data_decrypted.growth.item
 
-    ability = pb_pkm.abilities[2*pkm.sub_data_decrypted.hidden_ab + pkm.sub_data_decrypted.ability].ability.name
+
+    ability = pkm.abilities[pkm.sub_data_decrypted.ability] if not pkm.sub_data_decrypted.hidden_ab else pkm.abilities[-1]
     ability = ability.replace('-', ' ').title()
 
 
     set_str = f'{species}'
-    set_str += f' @ {item}\n' if item != 0 else '\n'
+    set_str += f' @ {item_rr_to_name(item)}\n' if item != 0 else '\n'
     set_str += f'Level: {pkm.level}\n'
     set_str += f'{nature} Nature\n'
     set_str += f'Ability: {ability}\n'
