@@ -2,13 +2,14 @@ from typing import Union, Optional
 import csv
 
 from .games import Gen3, RadicalRed
-from .pkms import Pokemon
+from .pkms import Pokemon, BoxPokemon
 from .pkm_builder import pkm_builder
 from .exceptions import InvalidSizeException
 from .constants.rr import get_species_pokedex_id
 from .enums import PokedexEntryState, GameType
 
 from .pkm_builder import NATURES
+from .sections import MAX_BOXES
 
 from . import constants
 
@@ -92,7 +93,7 @@ def item_rr_to_name(item_rr):
 import json
 with open('rr_parser\\constants\\rr\\_pokemon.json') as f:
     PKM_DB = json.load(f)
-def pkm_set_to_text(pkm: Pokemon):
+def pkm_set_to_text(pkm: Union[Pokemon, BoxPokemon], level:int = None):
     """Example Output:
             Piplup @ Oran Berry
             Rash Nature
@@ -105,19 +106,21 @@ def pkm_set_to_text(pkm: Pokemon):
 
     Notes:
     """
-    pkm = PKM_DB[species_rr_to_nat_dex(pkm.sub_data_decrypted.species)]
-    species = pkm.name
+    pkm_db_entry = PKM_DB[str(species_rr_to_nat_dex(pkm.sub_data_decrypted.species))]
+    species = pkm_db_entry['name'].replace('-', ' ').title()
     nature = list(NATURES.keys())[pkm.sub_data_decrypted.nature].capitalize()
     item = pkm.sub_data_decrypted.growth.item
+    if level is None:
+        level = pkm.level
 
-
-    ability = pkm.abilities[pkm.sub_data_decrypted.ability] if not pkm.sub_data_decrypted.hidden_ab else pkm.abilities[-1]
+    ability = pkm_db_entry['abilities'][pkm.sub_data_decrypted.misc.ability] if pkm.sub_data_decrypted.hidden_ab==0 \
+          else pkm_db_entry['abilities'][-1]
     ability = ability.replace('-', ' ').title()
 
 
     set_str = f'{species}'
     set_str += f' @ {item_rr_to_name(item)}\n' if item != 0 else '\n'
-    set_str += f'Level: {pkm.level}\n'
+    set_str += f'Level: {level}\n'
     set_str += f'{nature} Nature\n'
     set_str += f'Ability: {ability}\n'
 
@@ -133,10 +136,9 @@ def pkm_set_to_text(pkm: Pokemon):
                             "HP", "Atk", "Def",
                             "Spe", "SpA", "SpD"
                         ],
-                        pkm.sub_data.ivs))
+                        pkm.sub_data.misc.IVs))
     set_str+='\n'
-    move_data = pkm.sub_data_decrypted.attacks.data
-    moves = [int.from_bytes(move_data[i*2: (i+1)*2], 'little') for i in range(4)]
+    moves = pkm.sub_data_decrypted.attacks.moves
     for move in moves:
         if move != 0:
             set_str+=f'- {move_rr_to_name(move)}\n'
@@ -145,7 +147,8 @@ def pkm_set_to_text(pkm: Pokemon):
 
 def export_pkm_sets_for_calc(game: Gen3, output: str, 
                    box_range: tuple[int, int]=None, 
-                   skip_boxes:list[int]=None):
+                   skip_boxes:list[int]=None,
+                   level: int = None):
     """Export all pokemon in the player team plus all of the pokemon in the PC
     
     """
@@ -157,17 +160,28 @@ def export_pkm_sets_for_calc(game: Gen3, output: str,
             f.write(set_str)
             f.write('\n\n')
         
-        # boxes = np.arange(25) # TODO: Check max number of boxes in PC
-        # if box_range is not None:
-        #     boxes = np.intersect1d(boxes, np.arange(box_range))
-        # if skip_boxes is not None:
-        #     boxes = set(boxes.flatten()) - set(skip_boxes)
         
-        # for box in boxes: # TODO Fix this psuedo code
-        #     for pokemon in box: #TODO Fix this pseudo code
-        #         set_str = pkm_set_to_text(pokemon)
-        #         f.write(set_str)
-        #         f.write('\n\n')
+        boxes = set(range(MAX_BOXES))
+        if box_range is not None:
+            boxes = boxes.intersection(set(range(*box_range)))
+        if skip_boxes is not None:
+            boxes = boxes - set(skip_boxes)
+        boxes = list(boxes)
+        boxes.sort()
+
+        if len(boxes) > 0 and level is None:
+            raise NotImplementedError('Box exports need a fixed level. Please pass `level`')
+
+        for box_id in boxes:
+            box = game.game_save.pc.boxes[box_id]
+            for pokemon in box.pokemon:
+                # Empty slot
+                if pokemon.sub_data_decrypted.growth.species == 0:
+                    continue
+                set_str = pkm_set_to_text(pokemon, level)
+                f.write(set_str)
+                f.write('\n\n')
+                
             
 
     print(f'Exported pokemon sets to ``{output}``')

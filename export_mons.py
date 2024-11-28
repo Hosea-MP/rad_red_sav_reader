@@ -9,6 +9,7 @@ def parse_args():
     parser.add_argument('--skip_boxes', nargs='*', type=int)
     parser.add_argument('--box_min', type=int, default=0)
     parser.add_argument('--box_max', type=int, default=25) # TODO Update with max boxes
+    parser.add_argument('--level', '-l', type=int)
 
     args = parser.parse_args()
 
@@ -22,11 +23,13 @@ def parse_args():
         g,
         args.output_directory,
         box_range,
-        args.skip_boxes
+        args.skip_boxes,
+        args.level
     ]
 
-def main(g, output_dir, box_range, skip_boxes):
-    export_pkm_sets_for_calc(g, output_dir, box_range, skip_boxes)
+def main(g, output_dir, box_range, skip_boxes, level):
+    export_pkm_sets_for_calc(g, output_dir, box_range, skip_boxes, level)
+    print('Successfully exported!')
 
 
 if __name__ == '__main__':

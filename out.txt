@@ -1,71 +1,115 @@
-Piplup
-Level: 15
-Rash Nature
-Ability: Competitive
-EVs: 10 HP / 5 Atk / 2 Def / 3 Spe / 4 SpA / 2 SpD
-IVs: 6 HP / 6 Atk / 6 Def / 2 Spe / 0 SpA / 6 SpD
-- Pluck
-- Doll Eyes
-- Bubble
-- Bubble Beam
-
-
-Tentacool
-Level: 15
-Docile Nature
-Ability: Liquid Ooze
-EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
-IVs: 6 HP / 2 Atk / 6 Def / 4 Spe / 4 SpA / 4 SpD
-- Rapid Spin
-- Water Gun
-- None
-- Acid
-
-
-Marill
-Level: 15
-Quiet Nature
-Ability: Huge Power
-EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
-IVs: 0 HP / 2 Atk / 2 Def / 0 Spe / 4 SpA / 6 SpD
-- Rollout
-- Aqua Jet
-- Defense Curl
-- Body Slam
-
-
-Furret
-Level: 15
-Hardy Nature
-Ability: Keen Eye
-EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
-IVs: 0 HP / 4 Atk / 0 Def / 2 Spe / 4 SpA / 6 SpD
-- Headbutt
-- Agility
-- Defense Curl
-- Quick Attack
-
-
 Morelull @ Tiny Mushroom
 Level: 15
 Timid Nature
 Ability: Illuminate
-EVs: 7 HP / 2 Atk / 2 Def / 1 Spe / 3 SpA / 0 SpD
-IVs: 0 HP / 0 Atk / 2 Def / 6 Spe / 6 SpA / 6 SpD
+EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
+IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
 - Mega Drain
 - Drain Kiss
 - Flash
 - Moonlight
 
 
+Tentacool
+Level: 15
+Docile Nature
+Ability: Clear Body
+EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
+IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
+- Rapid Spin
+- Water Gun
+- None
+- Acid
+
+
+Furret
+Level: 15
+Hardy Nature
+Ability: Run Away
+EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
+IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
+- Headbutt
+- Agility
+- Defense Curl
+- Quick Attack
+
+
+Weedle
+Level: 15
+Gentle Nature
+Ability: Shield Dust
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 31 HP / 15 Atk / 2 Def / 29 Spe / 27 SpA / 25 SpD
+- Poison Sting
+- String Shot
+
+
+Numel @ Rawst Berry
+Level: 15
+Serious Nature
+Ability: Oblivious
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
+- Growl
+- Tackle
+- Ember
+- Focus Energy
+
+
+Pidgey
+Level: 15
+Hasty Nature
+Ability: Frisk
+EVs: 6 HP / 2 Atk / 1 Def / 1 Spe / 3 SpA / 0 SpD
+IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
+- Gust
+- Take Down
+- Quick Attack
+- Feather Dance
+
+
 Scraggy
-Level: 5
+Level: 15
 Sassy Nature
 Ability: Intimidate
-EVs: 1 HP / 0 Atk / 1 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 0 HP / 6 Atk / 2 Def / 6 Spe / 6 SpA / 2 SpD
+EVs: 2 HP / 1 Atk / 3 Def / 4 Spe / 1 SpA / 0 SpD
+IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
 - Leer
 - Low Sweep
 - Headbutt
+
+
+Piplup
+Level: 15
+Rash Nature
+Ability: Torrent
+EVs: 10 HP / 5 Atk / 2 Def / 3 Spe / 4 SpA / 2 SpD
+IVs: 22 HP / 6 Atk / 30 Def / 27 Spe / 8 SpA / 23 SpD
+- Pluck
+- Doll Eyes
+- Bubble
+- Bubble Beam
+
+
+Marill
+Level: 15
+Quiet Nature
+Ability: Thick Fat
+EVs: 7 HP / 2 Atk / 2 Def / 3 Spe / 3 SpA / 0 SpD
+IVs: 24 HP / 3 Atk / 19 Def / 24 Spe / 20 SpA / 7 SpD
+- Rollout
+- Aqua Jet
+- Defense Curl
+- Body Slam
+
+
+Caterpie @ Gengarite
+Level: 15
+Bashful Nature
+Ability: Shield Dust
+EVs: 0 HP / 0 Atk / 0 Def / 1 Spe / 0 SpA / 0 SpD
+IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
+- Tackle
+- String Shot
 
 

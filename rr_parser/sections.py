@@ -1,9 +1,9 @@
 from typing import Optional, Union
 
 from .charsets import Gen3Charset
-from .pkms import Pokemon
+from .pkms import Pokemon, BoxPokemon
 from .enums import GameType
-from .abstracts import Section as ABCSection
+from .abstracts import Section as ABCSection, GameSave
 from .checksums import RRSectionChecksum, Gen3SectionChecksum
 
 DATA_SIZES = [
@@ -46,11 +46,11 @@ class Section(Gen3Charset, ABCSection):
         pass
 
     def update_from_data(self):
-        self._data: bytes = self._section[0x0000:0x0000 + 3968]
         self._section_id: int = int.from_bytes(
             self._section[0x0FF4:0x0FF4 + 2],
             'little'
         )
+        self._data: bytes = self._section[0x0000:0x0000 + DATA_SIZES[self._section_id]]
         self._checksum: bytes = self._section[0x0FF6:0x0FF6 + 2]
         self._security: bytes = self._section[0x0FF8:0x0FF8 + 4]
         self._save_index: int = int.from_bytes(
@@ -200,7 +200,7 @@ class Section(Gen3Charset, ABCSection):
 
 class TrainerInfo(Section):
     def __init__(self, b: bytes, gt: GameType):
-        super(TrainerInfo, self).__init__(b, gt)
+        super().__init__(b, gt)
 
         self.player_name: str = ""
         self.player_gender: str = ""
@@ -232,7 +232,7 @@ class TrainerInfo(Section):
 
 class Team(Section):
     def __init__(self, b: bytes, gt: GameType):
-        super(Team, self).__init__(b, gt)
+        super().__init__(b, gt)
 
         self.team_size: int = 0
         self.team_pokemon_list: list[Pokemon] = list()
@@ -311,8 +311,54 @@ class Team(Section):
 
     pass
 
+# There are 25 boxes, but idk where the other 6 are lol, just look at PC buffer
+MAX_BOXES = 18
+BYTES_PER_PKM = 58
+PKM_PER_BOX = 30
 
 class PC(Section):
-    def __init__(self, data):
-        pass
-    pass
+    class Box():
+        def __init__(self, id, data, gt=GameType.RR):
+            self.gt = gt
+            self.id = id
+            self.capacity = 30
+            self.num_pkm = None
+            self.pokemon = [None for i in range(self.capacity)]
+            self._data = data
+
+            self.update_from_data()
+
+        def update_from_data(self):
+            for i in range(0,BYTES_PER_PKM * PKM_PER_BOX, BYTES_PER_PKM):
+                pkm_data = self._data[i:i+BYTES_PER_PKM]
+
+                self.pokemon[i//BYTES_PER_PKM] = BoxPokemon(pkm_data, self.gt)
+
+
+            #self.num_pkm = sum(p.sub_data_decrypted.growth.species != 0 for p in self.pokemon)
+        
+    def update_from_data(self):
+        self._data = b''.join([self.game_save.sections[i]._data for i in range(5, 14)])
+        
+        assert(len(self._data) == 33744)
+        
+        self.current_pc_box = int.from_bytes(self.data[0:4], 'little')
+        self.box_names = [str(self._data[i:i+9]) for i in range(0x8344, 0x83C2, 9)]
+        # self.box_wallpapers = [int(self._data[i]) for i in range(0x83C2, 0x83C2+14)]    
+
+        self.boxes = []
+        for i in range(0x4, 0x8344, BYTES_PER_PKM*PKM_PER_BOX):
+            box_data = self._data[i:i+BYTES_PER_PKM*PKM_PER_BOX]
+            if(i//(BYTES_PER_PKM*PKM_PER_BOX) < MAX_BOXES):
+                self.boxes.append(self.Box(i//(BYTES_PER_PKM*PKM_PER_BOX), box_data, self.gt))
+
+
+    def __init__(self, gt: GameType, game_save: GameSave):
+        self.game_save = game_save
+        self.gt = gt
+        self.current_pc_box = None
+        self.box_names = None
+        self.box_wallpapers = None
+        self.boxes = []
+
+        self.update_from_data()

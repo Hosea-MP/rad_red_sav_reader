@@ -5,6 +5,7 @@ from .abstracts import Pokemon as ABCPokemon, UpdatableData, \
 from .checksums import Gen3PokemonChecksum
 from .enums import GameType
 from .exceptions import InvalidSizeException, ChecksumException
+from .charsets import Gen3Charset
 
 SUBSTRUCTURE_ORDER = {
         0: "GAEM",
@@ -94,14 +95,31 @@ class Growth(UpdatableData):
     @property
     def item(self) -> int:
         return int.from_bytes(self.data[2:4], 'little')
+    
+    @property
+    def exp(self):
+        return int.from_bytes(self.data[4:8], 'little')
+    
+    @property
+    def pp_bonuses(self):
+        return [
+            self.data[8] & 0x3,
+            self.data[8] >> 2 & 0x3,
+            self.data[8] >> 4 & 0x3,
+            self.data[8] >> 6 & 0x3,
+        ]
 
-    pass
+    @property
+    def friendship(self):
+        return self.data[9]
 
 
 class Attacks(UpdatableData):
-    def __init__(self, d: bytes):
+    def __init__(self, d: bytes, isBoxMon=False):
         self._data: bytes = d
-        pass
+        self.isBoxMon = isBoxMon
+        self.moves = None
+        self.update_from_data()
 
     @property
     def data(self) -> bytes:
@@ -110,7 +128,7 @@ class Attacks(UpdatableData):
     @data.setter
     def data(self, val: bytes):
         assert (isinstance(val, bytes))
-        assert (len(val) == 12)
+        # assert (len(val) == 12) Not always true with revamped box structure
         self._data = val
         pass
 
@@ -118,7 +136,16 @@ class Attacks(UpdatableData):
         pass
 
     def update_from_data(self):
-        pass
+        if self.isBoxMon:
+            move_data = int.from_bytes(self._data, 'little')
+            self.moves = [
+                move_data & 0x3FF,
+                move_data >> 10 & 0x3FF,
+                move_data >> 20 & 0x3FF,
+                move_data >> 30 & 0x3FF,
+            ]
+        else:
+            self.moves = [int.from_bytes(self._data[i*2: (i+1)*2], 'little') for i in range(4)]
 
     pass
 
@@ -126,13 +153,10 @@ class Attacks(UpdatableData):
 class EVs(UpdatableData):
     def __init__(self, d: bytes):
         self._data: bytes = d
-        # self._hp: int = self._data[0]
-        # self._attack: int = self._data[1]
-        # self._defense: int = self._data[2]
-        # self._speed: int = self._data[3]
-        # self._special_attack: int = self._data[4]
-        # self._special_defense: int = self._data[5]
-        pass
+        self._evs = None
+        self._evs_dict = None
+
+        self.update_from_data()
 
     @property
     def data(self) -> bytes:
@@ -140,8 +164,9 @@ class EVs(UpdatableData):
 
     @data.setter
     def data(self, val: bytes):
-        assert (len(val) == 12)
-        self._data = val
+        # Note: This is deprecated bc I didn't want to implement insertion
+        # assert (len(val) == 12) # Not always true with revamped box structure
+        # self._data = val
         pass
 
     def _set_ev(self, idx: int, val: int):
@@ -217,7 +242,17 @@ class EVs(UpdatableData):
         pass
 
     def update_from_data(self):
-        pass
+        self._evs = [
+            self._data[0],
+            self._data[1],
+            self._data[2],
+            self._data[3],
+            self._data[4],
+            self._data[5],
+        ]
+        self._evs_dict = dict(zip(
+            ['HP', 'Atk', 'Def', 'Spe', 'SpA', 'SpD'], self._evs
+        ))
 
     def update_from_sub_data(self):
         pass
@@ -228,24 +263,69 @@ class EVs(UpdatableData):
 class Misc(UpdatableData):
     def __init__(self, d: bytes):
         self._data = d
-        pass
+        self.pokerus_days_left: int = None
+        self.pokerus_strain: int = None
+        self.met_location: int = None
+        self.ot_gender: int = None # 0 = male, 1 = female
+        self.ball_caught: int = None
+        self.origin_game: int = None
+        self.level_met: int = None
+        self.hatched: bool = None
+        self.IVs: list[int] = None
+        self.IVs_dict: dict[str, int] = None
+        self.ability: int = None
+        self.is_egg: int = None
+
+        self.update_from_data()
 
     @property
     def data(self) -> bytes:
         return self._data
 
     def update_from_data(self):
-        pass
+        pokerus = self._data[0]
+        self.pokerus_days_left = pokerus & 0b00000111
+        self.pokerus_strain    = pokerus & 0b11111000
+        self.met_location = self._data[1]
+
+        # Parse origin info
+        origins = int.from_bytes(self._data[2:4], 'little')
+        self.ot_gender = origins >> 15
+        self.ball_caught = (origins >> 11) & 0xF
+        self.origin_game = (origins >> 7) & 0xF
+        self.level_met = origins & 0x7F
+        self.hatched = self.level_met > 0
+
+        # Parse IVs
+        iv_data = int.from_bytes(self._data[4:8], 'little')
+        self.ability = iv_data >> 31
+        self.is_egg = (iv_data >> 30 )& 1
+
+        _hp = iv_data & 0x1F
+        _atk = (iv_data >> 5) & 0x1F
+        _def = (iv_data >> 10) & 0x1F
+        _spe = (iv_data >> 15) & 0x1F
+        _spa = (iv_data >> 20) & 0x1F
+        _spd = (iv_data >> 25) & 0x1F
+
+        self.IVs = [_hp, _atk, _def, _spe, _spa, _spd]
+        self.IVs_dict = dict(zip([
+            'HP', 'Atk', 'Def', 'Spe', 'SpA', 'SpD'
+        ], self.IVs))
+
+        # Ribbons and obedience data not implemented
 
     def update_from_sub_data(self):
         pass
 
-    pass
-
 
 class DecryptedData(ABCPokemonSubData):
-    def __init__(self, b: bytes, pid: int, ot_id: int):
+    def __init__(self, b: bytes, pid: int, ot_id: int, isBoxMon=False):
         self._data: bytes = b
+
+        if isBoxMon:
+            return #different structure, different update
+        
         self._pid: int = pid
         self._ot: int = ot_id
         self._decrypt_key = (pid ^ ot_id) & ((1 << 32) - 1)
@@ -748,4 +828,48 @@ class Pokemon(ABCPokemon):
     pass
 
 
+class BoxPokemon(ABCPokemon):
+    def __init__(self, data, gt: Optional[GameType] = GameType.RR):
+        if gt != GameType.RR:
+            print(gt)
+            raise NotImplementedError
+        
+        self._data = data
+        self.sub_data: Optional[ABCPokemonSubData] = None
+
+        self.update_from_data()
+
+        self.sub_data_decrypted = self.sub_data
+
+    def update_from_data(self):
+        self.sub_data = DecryptedData(self.data, -1, -1, True)
+        self.sub_data._pid = int.from_bytes(self._data[:0x4], 'little') # self.personality_value = self._data[:0x4]
+        self.sub_data._ot = int.from_bytes(self._data[0x4:0x8], 'little') # self.ot_id = self._data[0x4:0x8]
+
+        nickname = self._data[0x8:0x12]
+        self.nickname = Gen3Charset.bin2char3(nickname)
+
+        self.lang = self._data[0x12]
+        self.misc_flags = self._data[0x13]
+        ot_name = self._data[0x14:0x1B]
+        self.ot_name = Gen3Charset.bin2char3(ot_name)
+        self.markings = self._data[0x1B]
+
+        substruct_data = self._data[0x1C:]
+        self.sub_data.growth = Growth(substruct_data[:10])
+        self.sub_data.attacks = Attacks(substruct_data[11:16], isBoxMon=True)
+        self.sub_data._evs = EVs(substruct_data[16:22])
+        self.sub_data.misc = Misc(substruct_data[22:30])
+        
+
+    def check(self):
+        raise NotImplementedError
+    
+    def update_from_sub_data(self):
+        self.update_from_data()
+    
+    @property
+    def data(self):
+        return self._data
+    
 __all__ = ["Pokemon", "DecryptedData"]

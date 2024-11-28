@@ -1,12 +1,7 @@
-- Update move and species name conversion functions to use files in CFRU/strings
-
-- Add in typing for export
-- Add in gender for export
-
 - Add support for RR changes to ability ids
     - Current: Checked up to (not including) Chikorita (152)
 
-- Add functionality for box export
-    - https://bulbapedia.bulbagarden.net/wiki/Save_data_structure_(Generation_III)#Sections_5-13_-_PC_buffer
-
 - Add support for chillet...?
+
+- Bug: Game reads Caterpie's coba berry as a Gengarite
+    Caterpie is in the box for this

@@ -2,7 +2,7 @@ from typing import Optional
 
 from .abstracts import GameSave as ABCGameSave
 from .enums import GameType
-from .sections import Section, Team, TrainerInfo
+from .sections import Section, Team, TrainerInfo, PC
 from .pkms import Pokemon
 from .pokedex import Pokedex
 
@@ -20,6 +20,7 @@ class GameSave(ABCGameSave):
         self.trainer_info: Optional[TrainerInfo] = None
         self.team: Optional[Team] = None
         self.pokedex: Optional[Pokedex] = None
+        self.pc: Optional[PC] = None
 
         # Fill attributes.
         self.update_from_data()
@@ -62,7 +63,10 @@ class GameSave(ABCGameSave):
         # Create Pokedex.
         if self._is_used:
             self.pokedex = Pokedex(self.gt, self)
-        pass
+
+        # Create PC
+        if self._is_used:
+            self.pc = PC(self.gt, self)
 
     def update_from_sub_data(self):
         """Update game save.
