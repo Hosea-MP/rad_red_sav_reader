@@ -10522,7 +10522,7 @@
 	},
 	"10250": {
 		"id": 10250,
-		"name": "tauros-paldea-combat-breed",
+		"name": "tauros-paldea-combat",
 		"abilities": [
 			"intimidate",
 			"anger-point",
@@ -10531,7 +10531,7 @@
 	},
 	"10251": {
 		"id": 10251,
-		"name": "tauros-paldea-blaze-breed",
+		"name": "tauros-paldea-blaze",
 		"abilities": [
 			"intimidate",
 			"anger-point",
@@ -10540,7 +10540,7 @@
 	},
 	"10252": {
 		"id": 10252,
-		"name": "tauros-paldea-aqua-breed",
+		"name": "tauros-paldea-aqua",
 		"abilities": [
 			"intimidate",
 			"anger-point",
@@ -10558,7 +10558,7 @@
 	},
 	"10254": {
 		"id": 10254,
-		"name": "oinkologne-female",
+		"name": "oinkologne-f",
 		"abilities": [
 			"aroma-veil",
 			"gluttony",

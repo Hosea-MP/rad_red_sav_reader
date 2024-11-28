@@ -1,32 +1,8 @@
-Morelull @ Tiny Mushroom
+Furret @ Shell Bell
 Level: 15
-Timid Nature
-Ability: Illuminate
-EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
-IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
-- Mega Drain
-- Drain Kiss
-- Flash
-- Moonlight
-
-
-Tentacool
-Level: 15
-Docile Nature
-Ability: Clear Body
-EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
-IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
-- Rapid Spin
-- Water Gun
-- None
-- Acid
-
-
-Furret
-Level: 15
-Hardy Nature
+Adamant Nature
 Ability: Run Away
-EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
+EVs: 23 HP / 10 Atk / 19 Def / 23 Spe / 15 SpA / 9 SpD
 IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
 - Headbutt
 - Agility
@@ -34,49 +10,76 @@ IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
 - Quick Attack
 
 
-Weedle
+Nacli
+Level: 15
+Naughty Nature
+Ability: Purifying Salt
+EVs: 12 HP / 5 Atk / 4 Def / 10 Spe / 9 SpA / 6 SpD
+IVs: 3 HP / 7 Atk / 2 Def / 31 Spe / 31 SpA / 24 SpD
+- Tackle
+- Harden
+- Rock Polish
+- Smack Down
+
+
+Beedrill
 Level: 15
 Gentle Nature
-Ability: Shield Dust
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+Ability: Swarm
+EVs: 15 HP / 7 Atk / 15 Def / 18 Spe / 11 SpA / 9 SpD
 IVs: 31 HP / 15 Atk / 2 Def / 29 Spe / 27 SpA / 25 SpD
-- Poison Sting
+- Cross Poison
 - String Shot
-
-
-Numel @ Rawst Berry
-Level: 15
-Serious Nature
-Ability: Oblivious
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
-- Growl
-- Tackle
-- Ember
-- Focus Energy
-
-
-Pidgey
-Level: 15
-Hasty Nature
-Ability: Frisk
-EVs: 6 HP / 2 Atk / 1 Def / 1 Spe / 3 SpA / 0 SpD
-IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
-- Gust
-- Take Down
-- Quick Attack
-- Feather Dance
+- Bug Bite
+- Twineedle
 
 
 Scraggy
 Level: 15
 Sassy Nature
 Ability: Intimidate
-EVs: 2 HP / 1 Atk / 3 Def / 4 Spe / 1 SpA / 0 SpD
+EVs: 17 HP / 8 Atk / 18 Def / 22 Spe / 12 SpA / 9 SpD
 IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
-- Leer
+- Swagger
 - Low Sweep
 - Headbutt
+- Feint Attack
+
+
+Butterfree
+Level: 15
+Bashful Nature
+Ability: Compound Eyes
+EVs: 15 HP / 7 Atk / 15 Def / 19 Spe / 11 SpA / 9 SpD
+IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
+- Gust
+- String Shot
+- Sleep Powder
+- Psybeam
+
+
+Numel @ Rawst Berry
+Level: 15
+Serious Nature
+Ability: Oblivious
+EVs: 15 HP / 7 Atk / 15 Def / 18 Spe / 11 SpA / 9 SpD
+IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
+- Growl
+- Magnitude
+- Flame Burst
+- Focus Energy
+
+
+Tentacool
+Level: 15
+Docile Nature
+Ability: Clear Body
+EVs: 11 HP / 5 Atk / 15 Def / 13 Spe / 6 SpA / 3 SpD
+IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
+- Rapid Spin
+- Water Gun
+- None
+- Acid
 
 
 Piplup
@@ -103,13 +106,27 @@ IVs: 24 HP / 3 Atk / 19 Def / 24 Spe / 20 SpA / 7 SpD
 - Body Slam
 
 
-Caterpie @ Gengarite
+Morelull @ Tiny Mushroom
 Level: 15
-Bashful Nature
-Ability: Shield Dust
-EVs: 0 HP / 0 Atk / 0 Def / 1 Spe / 0 SpA / 0 SpD
-IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
-- Tackle
-- String Shot
+Timid Nature
+Ability: Illuminate
+EVs: 8 HP / 3 Atk / 4 Def / 5 Spe / 4 SpA / 0 SpD
+IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
+- Mega Drain
+- Drain Kiss
+- Flash
+- Moonlight
+
+
+Pidgey
+Level: 15
+Hasty Nature
+Ability: Frisk
+EVs: 6 HP / 2 Atk / 1 Def / 1 Spe / 3 SpA / 0 SpD
+IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
+- Gust
+- Take Down
+- Quick Attack
+- Feather Dance
 
 

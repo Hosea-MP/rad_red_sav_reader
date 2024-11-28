@@ -8,7 +8,7 @@ def parse_args():
     parser.add_argument('--output_directory', type=str, default='out.txt')
     parser.add_argument('--skip_boxes', nargs='*', type=int)
     parser.add_argument('--box_min', type=int, default=0)
-    parser.add_argument('--box_max', type=int, default=25) # TODO Update with max boxes
+    parser.add_argument('--box_max', type=int, default=2) # TODO Update with max boxes
     parser.add_argument('--level', '-l', type=int)
 
     args = parser.parse_args()

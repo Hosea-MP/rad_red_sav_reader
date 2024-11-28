@@ -69,11 +69,24 @@ def export_first_team_pkm(game: Gen3, output: str):
     pass
 
 def species_rr_to_nat_dex(species_rr):
+    assert(species_rr < constants.rr._species.NUM_SPECIES)
+
     for v in dir(constants.rr._species):
         if getattr(constants.rr._species, v) == species_rr:
             name = v[v.find('_')+1:]
             return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name}')
     return 'ERROR'
+
+def species_rr_to_str(species_rr):
+    assert(species_rr < constants.rr._species.NUM_SPECIES)
+    for v in dir(constants.rr._species):
+        if getattr(constants.rr._species, v) == species_rr:
+            name = v[v.find('_')+1:]
+            return name.replace('__', '-').replace('_', ' ').title()
+    return 'ERROR'
+
+def species_rr_str_to_nat_dex(name):
+    return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name.replace('-', '__').replace(' ', '_').upper()}')
 
 def move_rr_to_name(move_rr):
     if move_rr == 0:
@@ -106,8 +119,8 @@ def pkm_set_to_text(pkm: Union[Pokemon, BoxPokemon], level:int = None):
 
     Notes:
     """
-    pkm_db_entry = PKM_DB[str(species_rr_to_nat_dex(pkm.sub_data_decrypted.species))]
-    species = pkm_db_entry['name'].replace('-', ' ').title()
+    species = species_rr_to_str(pkm.sub_data_decrypted.species)
+    pkm_db_entry = PKM_DB[str(species_rr_str_to_nat_dex(species))]
     nature = list(NATURES.keys())[pkm.sub_data_decrypted.nature].capitalize()
     item = pkm.sub_data_decrypted.growth.item
     if level is None:
