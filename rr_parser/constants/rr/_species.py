@@ -1311,9 +1311,10 @@ SPECIES_Rellor: int         =0x526
 SPECIES_Rabsca: int         =0x527
 SPECIES_Flittle:    int         =0x528
 SPECIES_Espathra:   int         =0x529
-SPECIES_Tinkatink:  int         =0x348
-SPECIES_Tinkatuff:  int         =0x349
-SPECIES_Tinkaton	=0x034A
+
+SPECIES_TINKATINK:  int         =0x348
+SPECIES_TINKATUFF:  int         =0x349
+SPECIES_TINKATON	=0x034A
 SPECIES_Wiglett	=0x03A4
 SPECIES_Wugtrio	=0x03A5
 SPECIES_Bombidier	=0x0539

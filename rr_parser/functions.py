@@ -71,7 +71,7 @@ def export_first_team_pkm(game: Gen3, output: str):
 def species_rr_to_nat_dex(species_rr):
     assert(species_rr < constants.rr._species.NUM_SPECIES)
 
-    for v in dir(constants.rr._species):
+    for v in dir(constants.rr._species)[::-1]:
         if getattr(constants.rr._species, v) == species_rr:
             name = v[v.find('_')+1:]
             return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name}')
@@ -79,7 +79,7 @@ def species_rr_to_nat_dex(species_rr):
 
 def species_rr_to_str(species_rr):
     assert(species_rr < constants.rr._species.NUM_SPECIES)
-    for v in dir(constants.rr._species):
+    for v in dir(constants.rr._species)[::-1]:
         if getattr(constants.rr._species, v) == species_rr:
             name = v[v.find('_')+1:]
             return name.replace('__', '-').replace('_', ' ').title()
