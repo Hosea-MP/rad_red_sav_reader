@@ -2978,6 +2978,15 @@
 			"adaptability"
 		]
 	},
+	"1285":{
+		"id":1285,
+		"name": "feebas-sevii",
+		"abilities":[
+			"swift-swim",
+			"oblivious",
+			"adaptability"
+		]
+	},
 	"350": {
 		"id": 350,
 		"name": "milotic",
