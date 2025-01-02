@@ -7798,7 +7798,7 @@
 	},
 	"931": {
 		"id": 931,
-		"name": "squawkabilly-green-plumage",
+		"name": "squawkabilly-green",
 		"abilities": [
 			"intimidate",
 			"hustle",
@@ -10609,7 +10609,7 @@
 	},
 	"10260": {
 		"id": 10260,
-		"name": "squawkabilly-blue-plumage",
+		"name": "squawkabilly-blue",
 		"abilities": [
 			"intimidate",
 			"hustle",
@@ -10618,7 +10618,7 @@
 	},
 	"10261": {
 		"id": 10261,
-		"name": "squawkabilly-yellow-plumage",
+		"name": "squawkabilly-yellow",
 		"abilities": [
 			"intimidate",
 			"hustle",
@@ -10627,7 +10627,7 @@
 	},
 	"10262": {
 		"id": 10262,
-		"name": "squawkabilly-white-plumage",
+		"name": "squawkabilly-white",
 		"abilities": [
 			"intimidate",
 			"hustle",
@@ -10746,6 +10746,144 @@
 		"name": "terapagos-stellar",
 		"abilities": [
 			"teraform-zero"
+		]
+	},
+	"99001":{
+		"id": 99001,
+		"name": "noibat-sevii",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"levitate"
+		]
+	},
+	"99002":{
+		"id": 99002,
+		"name": "noivern-sevii",
+		"abilities": [
+			"rock-head",
+			"sturdy",
+			"levitate"
+		]
+	},
+	"99003":{
+		"id": 99003,
+		"name": "lokix-sevii",
+		"abilities": [
+			"swarm",
+			"tinted-lens"
+		]
+	},
+	"99004":{
+		"id": 99004,
+		"name": "nymble-sevii",
+		"abilities": [
+			"swarm",
+			"tinted-lens"
+		]
+	},
+	"99005":{
+		"id": 99005,
+		"name": "blitzle-sevii",
+		"abilities": [
+			"lightning-rod",
+			"illuminate",
+			"ice-body"
+		]
+	},
+	"99006":{
+		"id": 99006,
+		"name": "zebstrika-sevii",
+		"abilities": [
+			"lightning-rod",
+			"illuminate",
+			"ice-body"
+		]
+	},
+	"99007":{
+		"id": 99007,
+		"name": "doduo-sevii",
+		"abilities": [
+			"rock-head",
+			"early-bird",
+			"anger-point"
+		]
+	},
+	"99008":{
+		"id": 99008,
+		"name": "dodrio-sevii",
+		"abilities": [
+			"rock-head",
+			"early-bird",
+			"anger-point"
+		]
+	},
+	"99009":{
+		"id": 99009,
+		"name": "teddiursa-sevii",
+		"abilities": [
+			"pickup",
+			"quick-feet",
+			"iron-fist"
+		]
+	},
+	"99010":{
+		"id": 99010,
+		"name": "ursaring-sevii",
+		"abilities": [
+			"guts",
+			"quick-feet",
+			"iron-fist"
+		]
+	},
+	"99011":{
+		"id": 99011,
+		"name": "carnivine-sevii",
+		"abilities": [
+			"levitate"
+		]
+	},
+	"99012":{
+		"id": 99012,
+		"name": "mantyke-sevii",
+		"abilities": [
+			"static",
+			"storm-drain",
+			"hydration"
+		]
+	},
+	"99013":{
+		"id": 99013,
+		"name": "mantine-sevii",
+		"abilities": [
+			"static",
+			"storm-drain",
+			"hydration"
+		]
+	},
+	"99014":{
+		"id": 99014,
+		"name": "feebas-sevii",
+		"abilities": [
+			"swift-swim",
+			"oblivious",
+			"adaptability"
+		]
+	},
+	"99015":{
+		"id": 99015,
+		"name": "milotic-sevii",
+		"abilities": [
+			"marvel-scale",
+			"competitive",
+			"serene-grace"
+		]
+	},
+	"99016":{
+		"id": 99016,
+		"name": "clauncher-sevii",
+		"abilities": [
+			"mega-launcher"
 		]
 	}
 }

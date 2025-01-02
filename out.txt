@@ -1,102 +1,20 @@
-Beedrill @ Berry Juice
-Level: 27
-Gentle Nature
-Ability: Swarm
-EVs: 15 HP / 13 Atk / 16 Def / 23 Spe / 11 SpA / 9 SpD
-IVs: 31 HP / 15 Atk / 2 Def / 29 Spe / 27 SpA / 25 SpD
-- Cross Poison
-- Pursuit
-- Bug Bite
-- Roost
-
-
-Scraggy @ Steelixite
-Level: 27
-Sassy Nature
-Ability: Intimidate
-EVs: 17 HP / 11 Atk / 22 Def / 28 Spe / 13 SpA / 15 SpD
-IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
-- Swagger
-- Brick Break
-- Low Kick
-- Payback
-
-
-Tentacool @ Berry Juice
-Level: 27
-Docile Nature
-Ability: Clear Body
-EVs: 11 HP / 10 Atk / 16 Def / 16 Spe / 6 SpA / 3 SpD
-IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
-- Sludge
-- Bubble Beam
-- None
-- Acid Spray
-
-
-Naclstack @ Hard Stone
+Gyarados @ Sitrus Berry
 Level: 27
 Adamant Nature
-Ability: Purifying Salt
-EVs: 12 HP / 8 Atk / 8 Def / 16 Spe / 10 SpA / 12 SpD
-IVs: 3 HP / 7 Atk / 2 Def / 31 Spe / 31 SpA / 24 SpD
-- Salt Cure
-- Iron Defense
-- Rock Polish
-- Smack Down
-
-
-Numel @ Berry Juice
-Level: 27
-Calm Nature
-Ability: Oblivious
-EVs: 15 HP / 12 Atk / 19 Def / 24 Spe / 14 SpA / 15 SpD
-IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
-- Amnesia
-- Earth Power
-- Lava Plume
-- Focus Energy
-
-
-Tinkatuff
-Level: 27
-Bashful Nature
-Ability: Mold Breaker
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 5 HP / 10 Atk / 1 Def / 19 Spe / 4 SpA / 20 SpD
-- Doll Eyes
-- Metal Claw
-- Covet
-- Fake Out
-
-
-Feebas
-Level: 27
-Bold Nature
-Ability: Adaptability
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 11 HP / 31 Atk / 28 Def / 31 Spe / 31 SpA / 7 SpD
-- Splash
+Ability: Intimidate
+EVs: 16 HP / 137 Atk / 8 Def / 119 Spe / 11 SpA / 7 SpD
+IVs: 22 HP / 23 Atk / 28 Def / 8 Spe / 27 SpA / 11 SpD
+- Twister
 - Tackle
+- Bite
+- Ice Fang
 
 
-Prinplup @ Berry Juice
+Butterfree @ Sitrus Berry
 Level: 27
 Modest Nature
-Ability: Torrent
-EVs: 10 HP / 9 Atk / 6 Def / 7 Spe / 7 SpA / 8 SpD
-IVs: 22 HP / 6 Atk / 30 Def / 27 Spe / 8 SpA / 23 SpD
-- Metal Claw
-- Doll Eyes
-- Bubble
-- Bubble Beam
-
-
-Butterfree @ Oran Berry
-Level: 27
-Bashful Nature
 Ability: Compound Eyes
-EVs: 15 HP / 8 Atk / 15 Def / 21 Spe / 11 SpA / 9 SpD
+EVs: 19 HP / 12 Atk / 19 Def / 39 Spe / 16 SpA / 15 SpD
 IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
 - Silver Wind
 - Roost
@@ -104,11 +22,23 @@ IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
 - Air Cutter
 
 
-Shiinotic @ Tiny Mushroom
+Lanturn @ Sitrus Berry
+Level: 27
+Relaxed Nature
+Ability: Volt Absorb
+EVs: 94 HP / 3 Atk / 3 Def / 6 Spe / 42 SpA / 3 SpD
+IVs: 26 HP / 28 Atk / 29 Def / 4 Spe / 15 SpA / 12 SpD
+- Bubble Beam
+- Eerie Impulse
+- Thunder Wave
+- Shock Wave
+
+
+Shiinotic @ Sitrus Berry
 Level: 27
 Modest Nature
 Ability: Illuminate
-EVs: 8 HP / 5 Atk / 8 Def / 9 Spe / 5 SpA / 6 SpD
+EVs: 43 HP / 9 Atk / 11 Def / 17 Spe / 79 SpA / 9 SpD
 IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
 - Mega Drain
 - Drain Kiss
@@ -116,16 +46,76 @@ IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
 - Moonlight
 
 
-Furret @ Berry Juice
+Furret @ Silk Scarf
 Level: 27
 Adamant Nature
 Ability: Run Away
-EVs: 23 HP / 18 Atk / 20 Def / 28 Spe / 17 SpA / 9 SpD
+EVs: 31 HP / 25 Atk / 26 Def / 40 Spe / 27 SpA / 17 SpD
 IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
 - Headbutt
 - Follow Me
 - Helping Hand
 - Quick Attack
+
+
+Beedrill @ Silver Powder
+Level: 27
+Adamant Nature
+Ability: Swarm
+EVs: 22 HP / 20 Atk / 18 Def / 133 Spe / 17 SpA / 13 SpD
+IVs: 31 HP / 15 Atk / 2 Def / 29 Spe / 27 SpA / 25 SpD
+- Cross Poison
+- Pursuit
+- Bug Bite
+- Roost
+
+
+Naclstack @ Hard Stone
+Level: 27
+Careful Nature
+Ability: Purifying Salt
+EVs: 21 HP / 23 Atk / 11 Def / 25 Spe / 19 SpA / 14 SpD
+IVs: 3 HP / 7 Atk / 2 Def / 31 Spe / 31 SpA / 24 SpD
+- Salt Cure
+- Iron Defense
+- Rock Polish
+- Smack Down
+
+
+Pidgeotto @ Berry Juice
+Level: 27
+Adamant Nature
+Ability: Frisk
+EVs: 2 HP / 9 Atk / 3 Def / 5 Spe / 3 SpA / 3 SpD
+IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
+- Dual Wingbeat
+- Return
+- Roost
+- Feather Dance
+
+
+Tinkatuff @ Berry Juice
+Level: 27
+Jolly Nature
+Ability: Mold Breaker
+EVs: 12 HP / 15 Atk / 3 Def / 9 Spe / 11 SpA / 2 SpD
+IVs: 5 HP / 10 Atk / 1 Def / 19 Spe / 4 SpA / 20 SpD
+- Doll Eyes
+- Metal Claw
+- Covet
+- Fake Out
+
+
+Azumarill @ Never Melt Ice
+Level: 27
+Adamant Nature
+Ability: Thick Fat
+EVs: 21 HP / 22 Atk / 10 Def / 18 Spe / 16 SpA / 10 SpD
+IVs: 24 HP / 3 Atk / 19 Def / 24 Spe / 20 SpA / 7 SpD
+- Play Rough
+- Aqua Jet
+- Ice Punch
+- Aqua Tail
 
 
 Fletchinder @ Berry Juice
@@ -140,39 +130,129 @@ IVs: 4 HP / 4 Atk / 27 Def / 6 Spe / 9 SpA / 19 SpD
 - Aerial Ace
 
 
-Pidgeotto @ Berry Juice
+Scraggy @ Steelixite
 Level: 27
-Hasty Nature
-Ability: Frisk
-EVs: 6 HP / 7 Atk / 2 Def / 4 Spe / 3 SpA / 0 SpD
-IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
-- Dual Wingbeat
-- Take Down
-- Quick Attack
-- Feather Dance
+Sassy Nature
+Ability: Intimidate
+EVs: 25 HP / 27 Atk / 23 Def / 35 Spe / 15 SpA / 16 SpD
+IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
+- Swagger
+- Brick Break
+- Low Kick
+- Payback
 
 
-Gyarados @ Berry Juice
+Milotic-Sevii
+Level: 27
+Bold Nature
+Ability: Serene Grace
+EVs: 0 HP / 0 Atk / 0 Def / 1 Spe / 0 SpA / 1 SpD
+IVs: 11 HP / 31 Atk / 28 Def / 31 Spe / 31 SpA / 7 SpD
+- Drain Kiss
+- Dragon Tail
+- Dazzle Gleam
+- Captivate
+
+
+Kadabra
+Level: 27
+Calm Nature
+Ability: Magic Guard
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 27 HP / 26 Atk / 18 Def / 31 Spe / 22 SpA / 23 SpD
+- Teleport
+- Hidden Power
+- Confusion
+- Reflect
+
+
+Numel @ Berry Juice
+Level: 27
+Calm Nature
+Ability: Oblivious
+EVs: 23 HP / 29 Atk / 20 Def / 33 Spe / 17 SpA / 16 SpD
+IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
+- Amnesia
+- Earth Power
+- Lava Plume
+- Focus Energy
+
+
+Prinplup @ Berry Juice
+Level: 27
+Modest Nature
+Ability: Torrent
+EVs: 11 HP / 9 Atk / 8 Def / 8 Spe / 10 SpA / 9 SpD
+IVs: 22 HP / 6 Atk / 30 Def / 27 Spe / 8 SpA / 23 SpD
+- Metal Claw
+- Doll Eyes
+- Bubble
+- Bubble Beam
+
+
+Tentacool @ Berry Juice
 Level: 27
 Docile Nature
-Ability: Intimidate
-EVs: 0 HP / 117 Atk / 1 Def / 103 Spe / 2 SpA / 0 SpD
-IVs: 22 HP / 23 Atk / 28 Def / 8 Spe / 27 SpA / 11 SpD
-- Twister
-- Tackle
-- Bite
-- Ice Fang
+Ability: Clear Body
+EVs: 11 HP / 10 Atk / 16 Def / 16 Spe / 6 SpA / 3 SpD
+IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
+- Sludge
+- Bubble Beam
+- None
+- Acid Spray
 
 
-Azumarill @ Meadow Plate
+Meowth-Galar
 Level: 27
-Adamant Nature
-Ability: Thick Fat
-EVs: 7 HP / 6 Atk / 6 Def / 7 Spe / 6 SpA / 6 SpD
-IVs: 24 HP / 3 Atk / 19 Def / 24 Spe / 20 SpA / 7 SpD
-- Play Rough
-- Aqua Jet
-- Ice Punch
-- Aqua Tail
+Bashful Nature
+Ability: Pickup
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 0 HP / 9 Atk / 20 Def / 11 Spe / 22 SpA / 24 SpD
+- Scratch
+- Pay Day
+- Metal Claw
+- Taunt
+
+
+Wimpod
+Level: 27
+Hardy Nature
+Ability: Wimp Out
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 27 HP / 11 Atk / 22 Def / 0 Spe / 9 SpA / 27 SpD
+- Stuggle Bug
+
+
+Shellder @ Pearl
+Level: 27
+Calm Nature
+Ability: Shell Armor
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 3 HP / 23 Atk / 3 Def / 26 Spe / 1 SpA / 26 SpD
+- Tackle
+- Water Gun
+- Withdraw
+
+
+Frillish
+Level: 27
+Calm Nature
+Ability: Water Absorb
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 4 HP / 12 Atk / 28 Def / 29 Spe / 19 SpA / 22 SpD
+- Bubble Beam
+- Recover
+- Water Pulse
+- Ominous Wind
+
+
+Darumaka-Galar
+Level: 27
+Naughty Nature
+Ability: Inner Focus
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 20 HP / 31 Atk / 22 Def / 31 Spe / 31 SpA / 29 SpD
+- Powder Snow
+- Tackle
 
 

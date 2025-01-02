@@ -6,7 +6,7 @@
 - Bug: Game reads Caterpie's coba berry as a Gengarite
     Caterpie is in the box for this
 
-- Capitalize Gen 9 pokemon in _species.py
-- Ensure naming convention matches between _pokemon.json and _species
 - Add gen 9 to _pokedex.py
     - tinkaton line high prio bc in party
+
+Add seviian pokemon manually to _pokemon.json and resync w pokedex
