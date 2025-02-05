@@ -86,7 +86,8 @@ def species_rr_to_str(species_rr):
     return 'ERROR'
 
 def species_rr_str_to_nat_dex(name):
-    return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name.replace('-', '__').replace(' ', '_').upper()}')
+    s = name.replace('-', '__').replace(' ', '_').upper()
+    return getattr(constants.rr._pokedex, 'NATIONAL_DEX_'+s)
 
 def move_rr_to_name(move_rr):
     if move_rr == 0:

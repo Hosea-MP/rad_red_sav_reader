@@ -1,12 +1,15 @@
 - Add support for RR changes to ability ids
     - Current: Checked up to (not including) Chikorita (152)
 
-- Add support for chillet...?
+- Update:
+    - Add missing item ids to either of the following
+        1. _items.txt; then run `create_items_list()` from `scripts.py` (recommended)
+        2. _items.json directly
 
-- Bug: Game reads Caterpie's coba berry as a Gengarite
-    Caterpie is in the box for this
-
-- Add gen 9 to _pokedex.py
-    - tinkaton line high prio bc in party
-
-Add seviian pokemon manually to _pokemon.json and resync w pokedex
+        Currently missing items:
+            Grimmsnite
+            Centiskite
+            Sandacondite
+            Sceptilite
+            Blazikenite
+            Swampertite

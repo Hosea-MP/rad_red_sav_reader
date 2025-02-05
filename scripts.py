@@ -2,7 +2,7 @@ import mmap
 import json
 import argparse
 
-import pokebase as pb
+#import pokebase as pb
 
 # NOTE: This constructs a db based on base game abilities
 def create_pokemon_db():
@@ -26,31 +26,27 @@ def create_pokemon_db():
 
 
 def create_items_list():
-    FP = './Complete-Fire-Red-Upgrade/asm_defines.s'
+    FP = './rr_parser/constants/rr/_items.txt'
     OUT_FP = './rr_parser/constants/rr/_items.py'
 
     items = {}
-    with open(FP, 'r') as f_in, \
-        mmap.mmap(f_in.fileno(), 0, access=mmap.ACCESS_READ) as s:
+    unknown = int('FFFF', 16)
+    with open(FP, 'r') as f_in:
 
-        i = s.find(b'@;Items')
-        if i == -1:
-            raise LookupError('Couldn\'t find items list in asm_defines.s')
-        print('Found items header, creating items list')
-        s.seek(i)
+        for line in f_in:
+            hex_code = line.rfind('\t')
+            name = line[:hex_code].strip()
+            hex_code = line[hex_code+1:].strip()
+            
 
-        while True:
-            line = s.readline().decode('utf-8')
-            if line[:4] != '.equ':
+            if name == '':
                 continue
 
-            if line[5:9] != 'ITEM':
-                break
-
-            st, end = 10, line.find(',')
-            name = line[st: end].replace('_', ' ').title()
-            n = line[end+2:line.rfind('@')]
-            number = int(n, 16) if n.startswith('0x') else int(n, 10)
+            if hex_code == '':
+                number = unknown
+                unknown -= 1
+            else:
+                number = int(hex_code, 16)
 
             items[number] = name
 

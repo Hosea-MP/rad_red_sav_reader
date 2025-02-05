@@ -1,0 +1,624 @@
+Master Ball	0001
+Ultra Ball	0002
+Great Ball	0003
+Poke Ball	0004
+Safari Ball	0005
+Net Ball	0006
+Dive Ball	0007
+Nest Ball	0008
+Repeat Ball	0009
+Timer Ball	000A
+Luxury Ball	000B
+Premier Ball	000C
+Cherish Ball	00EF
+Dusk Ball	00F0
+Heal Ball	00F1
+Quick Ball	00F2
+Fast Ball	00F3
+Level Ball	00F4
+Lure Ball	00F5
+Heavy Ball	00F6
+Love Ball	00F7
+Friend Ball	00F8
+Moon Ball	00F9
+Sport Ball	00FA
+Beast Ball	00FB
+Dream Ball	00FC
+Park Ball	00FD
+	
+Link Cable	0057
+Sun Stone	005D
+Moon Stone	005E
+Fire Stone	005F
+Thunder Stone	0060
+Water Stone	0061
+Leaf Stone	0062
+Shint Stone	0063
+Dusk Stone	0064
+Dawn Stone	0065
+Ice Stone	0066
+Prism Scale	00B0
+Kings Rock	00BB
+Metal Coat	00C7
+Upgrade	00DA
+	
+Potion	000D
+Super Potion	0016
+Hyper Potion	0015
+Max Potion	0014
+Repel	0056
+Super Repel	0053
+Max Repel	0054
+Antidote	000E
+Burn Heal	000F
+Ice Heal	0010
+Awakening	0011
+Parlyz Heal	0012
+Full Heal	0017
+Full Restore	0013
+Revive	0018
+Max Revive	0019
+Fresh Water	001A
+Soda Pop	001B
+Lemonade	001C
+Moomoo Milk	001D
+Energy Powder	001E
+Energy Root	001F
+Heal Powder	0020
+Revival Herb	0021
+Ether	0022
+Max Ether	0023
+Elixer	0024
+Max Elixer	0025
+Lava Cookie	0026
+Blue Flute	0027
+Yellow Flute	0028
+Red Flute	0029
+Black Flute	002A
+White Flute	002B
+Berry Juice	002C
+Sacred Ash	002D
+RageCandyBar	0034
+Old Gateau	0035
+CasteliaCone	0036
+ShalourSable	0038
+Big Malasada	0052
+HP UP	003F
+Protein	0040
+Iron	0041
+Carbos	0042
+Calcium	0043
+Zinc	0046
+Rare Candy	0044
+PP Up	0045
+PP Max	0047
+Escape Rope	0055
+HP Wing	0039
+Attack Wing	003A
+Defense Wing	003B
+SpAtk Wing	003C
+SpDef Wing	003D
+Speed Wing	003E
+Ability Pill	0048
+Ability Patch	0037
+Reaper Cloth	005C
+Razor Claw	0077
+Razor Fang	0078
+	
+Cheri Berry	0085
+Chesto Berry	0086
+Pecha Berry	0087
+Rawst Berry	0088
+Aspear Berry	0089
+Leppa Berry	008A
+Oran Berry	008B
+Persim Berry	008C
+Lum Berry	008D
+Sitrus Berry	008E
+Figy Berry	008F
+Wiki Berry	0090
+Mago Berry	0091
+Aguav Berry	0092
+Iapapa Berry	0093
+Liechi Berry	00A8
+Ganlon Berry	00A9
+Salac Berry	00AA
+Petaya Berry	00AB
+Apicot Berry	00AC
+Lanset Berry	00AD
+Starf Berry	00AE
+Occa Berry	01BE
+Passho Berry	01BF
+Wacan Berry	01C0
+Rindo Berry	01C1
+Yache Berry	01C2
+Chople Berry	01C3
+Kebia Berry	01C4
+Shuca Berry	01C5
+Coba Berry	01C6
+Payapa Berry	01C7
+Tanga Berry	01C8
+Charti Berry	01C9
+Kasib Berry	01CA
+Haban Berry	01CB
+Colbur Berry	01CC
+Babiri Berry	01CD
+Chilan Berry	01CE
+Micle Berry	01CF
+Custap Berry	01D0
+Jacoba Berry	01D1
+Rowap Berry	01D2
+Roseli Berry	01D3
+Kee Berry	01D4
+Marang Berry	01D5
+	
+Bright Powder	00B3
+White Herb	00B4
+Macho Brace	00B5
+Quick Claw	00B7
+Soothe Bell	00B8
+Mental Herb	00B9
+Choice Band	00BA
+Silver Powder	00BC
+Amulet Coin	00BD
+Cleanse Tag	00BE
+Soul Dew	00BF
+Deep Sea Tooth	00C0
+Deep Sea Scale	00C1
+Smoke Ball	00C2
+Everstone	00C3
+Focus Band	00C4
+Lucky Egg	00C5
+Scope Lens	00C6
+Leftovers	00C8
+Light Ball	00CA
+Soft Sand	00CB
+Hard Stone	00CC
+Miracle Seed	00CD
+Black Glasses	00CE
+Black Belt	00CF
+Magnet	00D0
+Mystic Water	00D1
+Sharp Beak	00D2
+Poison Barb	00D3
+Nevermelt Ice	00D4
+Spell Tag	00D5
+Twisted Spoon	00D6
+Charcoal	00D7
+Dragon Fang	00D8
+Silk Scarf	00D9
+Shell Bell	00DB
+Sea Incense	00DC
+Lax Incense	00DD
+Lucky Punch	00DE
+Metal Powder	00DF
+Thick Club	00E0
+Leek Stick	00E1
+Wide Lens	02A1 
+Muscle Band	02A2 
+Wise Glasses	02A3
+Expert Belt	02A4
+Light Clay	02A5
+Life Orb	02A6 
+Power Herb	02A7 
+Toxic Orb	02A8 
+Flame Orb	02A9 
+Quick Powder	02AA 
+Focus Sash	02AB 
+Zoom Lens	02AC 
+Metronome	02AD 
+Iron Ball	02AE 
+Lagging Tail	02AF
+Destiny Knot	02B0 
+Black Sludge	02B1 
+Icy Rock	02B2 
+Smooth Rock	02B3 
+Heat Rock	02B4
+Damp Rock	02B5 
+Grip Claw	02B6 
+Choice Scarf	02B7 
+Choice Specs	02B8 
+Sticky barb	02B9 
+Shed Shell	02BA 
+Big Root	02BB 
+Eviolite	02BC 
+Float Stone	02BD 
+Rocky Helmet	02BE 
+Air Balloon	02BF 
+Red Card	02C0 
+Ring Target	02C1 
+Binding Band	02C2 
+Absorb Bulb	02C3 
+Cell Battery	02C4 
+Eject Button	02C5 
+WeaknesPolicy	02C6 
+Assault Vest	02C7 
+Luminous Moss	02C8 
+Snowball	02C9 
+Safe Goggles	02CA 
+Adrenal Orb	02CB 
+Terrain Ext.	02CC 
+Protect Pads	02CD 
+Electric Seed	02CE 
+Grass Seed	02CF 
+Misty Seed	02D0 
+Psychic Seed	02D1 
+Eject Pack	02D2 
+Room Service	02D3 
+Blunder Policy	02D4 
+Heavy D Boots	02D5 
+Ut Umbrella	02D6 
+Throat Spray	02D7 
+Boost Energy	0266
+Loaded dice 	0267
+Punch Gloves	02EB
+	
+Power Bracer	0282
+Power Belt	0283
+Power Lens	0284
+Power Band	0285
+Power Anklet	0286
+Power Weight	0287
+Luck Incense	0288
+	
+Full Incense	0289
+Odd Incense	028A
+Pure Incense	028B
+Rock Incense	028C
+Rose Incense	028D
+Wave Incense	028E
+	
+Normal Gem	028F
+Fighting Gem	0290
+Flying Gem	0291
+Poison Gem	0292
+Ground Gem	0293
+Rock Gem	0294 
+Bug Gem	0295 
+Ghost Gem	0296 
+Steel Gem	0297
+Fire Gem	0298 
+Water Gem	0299 
+Grass Gem	029A 
+Electric Gem	029B 
+Psychic Gem	029C 
+Ice Gem	029D 
+Dragon Gem	029E 
+Dark Gem	029F 
+Fairy Gem	02A0 
+	
+	
+Prison Bottle	01E2
+Rusty Sword	01E5
+Rusty Shield	01E6
+Adamant Orb	01E7
+Lustrous Orb	01E8
+Griseous Orb	01E9
+Fist Plate	01EA
+Sky Plate	01EB
+Toxic Plate	01EC
+Earth Plate	01ED
+Stone Plate	01EE
+Insect Plate	01EF
+Spooky Plate	01F0
+Iron Plate	01F1
+Flame Plate	0115
+Splash Plate	01F3
+Meadow Plate	01F4
+Zap Plate	01F5
+Mind Plate	01F6
+Icicle Plate	01F7
+Draco Plate	01F8
+Dread Plate	01F9
+Pixie Plate	01FA
+GracideaFlower	01DF
+Bug Memory	0200
+Ghost Memory	0201
+Steel memory	0202
+Fire Memory	0203
+Water Memory	0204
+Grass Memory	0205
+Electric Memory	0206
+Psychic Memory	0207
+Ice Memory	0208
+Dragon Memory	0209
+Dark Memory	020A
+Fairy Memory	020B
+Fight Memory	01FB
+Flying Memory	01FC
+Poison Memory	01FD
+Ground Memory	01FE
+Rock Memory	01FF
+Burn Drive	020C
+Douse Drive	020D
+Shock Drive	020E
+Chill Drive	020F
+Eternamax Orb	02EA
+Red Orb	0114
+Blue Orb	0115
+Teal Mask	0270
+Cornerstone mask	026D
+Hearthflame mask	026E
+Wellspring mask	026F
+	
+TM01 Close Combat	0121
+TM02 Dragon Claw	0122
+TM03 Flip Turn	0123
+TM04 Calm Mind	0124
+TM05 Roar	0125
+TM06 Toxic	0126
+TM07 Hail	0127
+TM08 Bulk Up	0128
+TM09 Bullet Seed	0129
+TM10 Hidden Power	012A  
+TM11 Sunny Day	012B  
+TM12 Taunt	012C  
+TM13 Ice Beam	012D  
+TM14 Blizzard	012E  
+TM15 Electroweb	012F  
+TM16 Light Screen	0130
+TM17 Protect	0131
+TM18 Rain Dance	0132
+TM19 Giga Drain	0133
+TM20 Hyper Voice	0134
+TM21 Frustration	0135
+TM22 Solar Beam	0136
+TM23 Iron Tail	0137
+TM24 Thunderbolt	138
+TM25 Thunder	0139
+TM26 Earthquake	013A
+TM27 Return	013B
+TM28 Dig	013C  
+TM29 Psychic	013D  
+TM30 Shadow Ball	013E  
+TM31 Brick Break	013F  
+TM32 Solar Blade	0140
+TM33 Reflect	0141
+TM34 Teleport	0142
+TM35 Flamethrower	0143
+TM36 Sludge Bomb	0144
+TM37 Sandstorm	0145
+TM38 Fire Blast	0146
+TM39 Rock Tomb	0147
+TM40 Low kick	0148
+TM41 Dragon Dance	0149
+TM42 Facade	014A  
+TM43 Defog	014B  
+TM44 Rest	014C  
+TM45 Drain Kiss	014D  
+TM46 Thief	014E  
+TM47 Steel Wing	014F  
+TM48 Meteor Beam	0150
+TM49 Leech Life	0151
+TM50 Overheat	0152
+TM51 Roost	0178
+TM52 Focus Blast	0179
+TM53 Energy Ball	017A
+TM54 Grassy Glide	017B
+TM55 Expand Force	017C
+TM56 Hone Claws	017D
+TM57 Charge Beam	017E
+TM58 Rising Volt	017F
+TM59 Dragon Pulse	0180
+TM60 Drain Punch	0181
+TM61 Will O Wisp	0182
+TM62 Silver Wind	0183
+TM63 Venoshock	0184
+TM64 Explosion	0185
+TM65 Shadow Claw	0186
+TM66 Payback	0187
+TM67 Poltergeist	0188
+TM68 Giga Impact	0189
+TM69 Rock Polish	018A
+TM70 Triple Axel	018B
+TM71 Stone Edge	018C
+TM72 Draco Barrage	018D
+TM73 Thunder Wave	018E
+TM74 Gyro Ball	018F
+TM75 Swords Dance	0190
+TM76 Stealth Rock	0191
+TM77 Flame Charge	0192
+TM78 Low Sweep	0193
+TM79 Dark Pulse	0194
+TM80 Rock Slide	0195
+TM81 X-Scissor	0196
+TM82 Sleep Talk	0197
+TM83 Scald	0198
+TM84 Poison Jab	0199
+TM85 Future Sight	019A
+TM86 Grass Knot	019B
+TM87 Aerial Ace	019C
+TM88 Pluck	019D
+TM89 U-Turn	019E
+TM90 Substitute	019F
+TM91 Flash Cannon	01A0
+TM92 Volt Switch	01A1
+TM93 Dragon Tail	01A2
+TM94 Scale Shot	01A3
+TM95 Cosmic Power	01A4
+TM96 Bulldoze	01A5
+TM97 Frost Breath	01A6
+TM98 Work Up	01A7
+TM99 Wild Charge	01A8
+TM100 DualWingBeat	01A9
+TM101 PowerUpPunch	01AA
+TM102 Dazzling Gleam	01AB
+TM103 Sludge Wave	01AC
+TM104 Psyshock	01AD
+TM105 Trailblaze	01AE
+TM106 Acrobatics	01AF
+TM107 Terrain Pulse	01B0
+TM108 Snarl	01B1
+TM109 Superpower	01B2
+TM110 Scorch Sands	01B3
+TM111 Smack Down	01B4
+TM112 Misty Explode	01B5
+TM113 Spikes	01B6
+TM114 Heat Crash	01B7
+TM115 Body Press	01B8
+TM116 Trick Room	01B9
+TM117 Brave Bird	01BA
+TM118 Aurora Veil	01BB
+TM119 Coaching	01BC
+TM120 Ice Spinner	01BD
+HM01 Cut	0153
+HM02 Fly	0154
+HM03 Surf	0155
+HM04 Strength	0156
+HM05 Flash	0157
+HM06 Rock Smash	0158
+HM07 Waterfall	0159
+HM08 Rock Climb	015A
+	
+Red Shard	0030
+Blue Shard	0031
+Yellow Shard	0032
+Green Shard	0033
+TinyMushroom	0067
+BigMushroom	0068
+Heart Scale	006F
+Bottle Cap	027F
+wish pieces	0281
+
+Root Fossil	011E
+Claw Fossil	011F
+Old Amber	0162
+Helix Fossil	0165
+Dome Fossil	0166
+Skull Fossil	0274
+Armor Fossil	0275
+Cover Fossil	0276
+Plume Fossil	0277
+Jaw Fossil	0278
+Sail Fossil	0279
+Bird Fossil	027A
+Fish Fossil	027B
+Drake Fossil	027C
+Dino Fossil	027D
+	
+	0215
+	0216
+	0217
+	0218
+	0219
+	021A
+	021B
+	021C
+	021D
+	021E
+	021F
+	0220
+	0221
+	0222
+	0223
+	0224
+	0225
+	0226
+	0227
+	0228
+	0229
+	022A
+	022B
+	022C
+	022D
+	022E
+	022F
+	0230
+	0231
+	0232
+	0233
+	0234
+	0235
+	0236
+	0237
+	0238
+	0239
+	023A
+	023B
+	023C
+	023D
+	023E
+	023F
+Venusaurite	0240
+CharizarditeX	0241
+CharizarditeY	0242
+Blastoisnite	02D8
+Beedrillite	02D9
+Pidgeotite	02DA
+Alakazite	02DB
+Slowbronite	02DC
+Gengarite	02DD
+Kangaskanite	02DE
+Pinsirite	02DF
+Gyaradosite	02E0
+Aerodactlite	02E1
+MewtwoniteX	02E2
+MewtwoniteY	02E3
+Ampharosite	02E4
+Steelixite	02E5
+Scizorite	02E7
+Heracronite	02E8
+Houndoomnite	02E9
+Tyranitarite	0243
+Sceptilite	
+Blazikenite	
+Swampertite	
+Gardevoirite	0244
+Sablenite	0245
+Mawilite	0246
+Aggronite	0247
+Medichamite	0248
+Manectite	0249
+Sharpedonite	024A
+Cameruptite	024B
+Altarianite	024C
+Banettite	024D
+Absolite	024E
+Glalitite	024F
+Salamencite	0250
+Metagrossite	0251
+Latiasite	0252
+Latiosite	0253
+Lopunnite	0254
+Garchompite	0255
+Lucarionite	0256
+Abomasite	0257
+Galladite	0258
+Audinite	0259
+Machampite	025A
+Laprasite	025B
+Butterfrite	025C
+Garbodorite	025D
+Snorlaxite	025E
+Kinglerite	025F
+Toxtricitite	0260
+Coalossite	0261
+Duraludite	0262
+Drednawite	0263
+Copperajite	0264
+Applite	0265
+Orbeetlite	0214
+Grimmsnite	
+Centiskite	
+Sandacondite	
+Alcremite	0049
+Diancite	004A
+X Attack	004B
+X Defend	004C
+X Speed	004D
+X Accuracy	004E
+X SpAtk	004F
+Poke Doll	0050
+Fluffy Tail	0051
+BalmMushroom	0069
+Pearl	006A
+Big Pearl	006B
+Stardust	006C
+Star Piece	006D
+Nugget	006E
+Big Nugget	0073
+Rare Bone	0070
+Pearl String	0071
+Comet Shard	0072
+Honey	0074
+Pretty Wing	0075
