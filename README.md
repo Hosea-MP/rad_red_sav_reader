@@ -12,7 +12,11 @@ the result into a legit savegame. Currently, it can:
 * Create 'valid' Radical Red Pokemons. All of them
   were caught at Pallet Town, which makes them not
   100% legit.
-
+# Running the export
+call export_mons.py
+```
+python export_mons.py --sav_filename <path_to_sav> -l <level> --output_directory <path_to_output.txt> 
+```
 # Updating Procedure
 
 1. Update pokemon abilities / availability in _pokemon.json
