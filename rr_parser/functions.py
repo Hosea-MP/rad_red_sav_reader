@@ -75,7 +75,7 @@ def species_rr_to_nat_dex(species_rr):
         if getattr(constants.rr._species, v) == species_rr:
             name = v[v.find('_')+1:]
             return getattr(constants.rr._pokedex, f'NATIONAL_DEX_{name}')
-    return 'ERROR'
+    raise Exception(f'Species not found: {species_rr}')
 
 def species_rr_to_str(species_rr):
     assert(species_rr < constants.rr._species.NUM_SPECIES)
@@ -83,7 +83,7 @@ def species_rr_to_str(species_rr):
         if getattr(constants.rr._species, v) == species_rr:
             name = v[v.find('_')+1:]
             return name.replace('__', '-').replace('_', ' ').title()
-    return 'ERROR'
+    raise Exception(f'Species not found: {species_rr}')
 
 def species_rr_str_to_nat_dex(name):
     s = name.replace('-', '__').replace(' ', '_').upper()

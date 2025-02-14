@@ -4705,7 +4705,7 @@
 	},
 	"555": {
 		"id": 555,
-		"name": "darmanitan-standard",
+		"name": "darmanitan",
 		"abilities": [
 			"sheer-force",
 			"zen-mode"
@@ -9933,7 +9933,7 @@
 	},
 	"10177": {
 		"id": 10177,
-		"name": "darmanitan-galar-standard",
+		"name": "darmanitan-galar",
 		"abilities": [
 			"gorilla-tactics",
 			"zen-mode"

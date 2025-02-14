@@ -1,5 +1,89 @@
+Charizard @ Chesto Berry
+Level: 44
+Adamant Nature
+Ability: Blaze
+EVs: 15 HP / 252 Atk / 0 Def / 0 Spe / 0 SpA / 243 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Dual Wingbeat
+- Roost
+- Flamethrower
+- Incinerate
+
+
+Lanturn @ Sitrus Berry
+Level: 47
+Relaxed Nature
+Ability: Volt Absorb
+EVs: 252 HP / 5 Atk / 1 Def / 0 Spe / 0 SpA / 252 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Scald
+- Eerie Impulse
+- Flip Turn
+- Discharge
+
+
+Tentacruel @ Black Sludge
+Level: 47
+Docile Nature
+Ability: Clear Body
+EVs: 252 HP / 10 Atk / 16 Def / 20 Spe / 27 SpA / 185 SpD
+IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
+- Acid Spray
+- Flip Turn
+- Scald
+- Barrier
+
+
+Milotic-Sevii @ Sitrus Berry
+Level: 47
+Calm Nature
+Ability: Serene Grace
+EVs: 108 HP / 7 Atk / 0 Def / 3 Spe / 252 SpA / 19 SpD
+IVs: 11 HP / 31 Atk / 28 Def / 31 Spe / 31 SpA / 7 SpD
+- Drain Kiss
+- Earth Power
+- Dazzle Gleam
+- Captivate
+
+
+Cinderace
+Level: 47
+Jolly Nature
+Ability: Libero
+EVs: 6 HP / 252 Atk / 0 Def / 252 Spe / 0 SpA / 0 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Pyro Ball
+- Acrobatics
+- U-Turn
+- Quick Attack
+
+
+Gyarados @ Sitrus Berry
+Level: 47
+Adamant Nature
+Ability: Intimidate
+EVs: 36 HP / 252 Atk / 21 Def / 201 Spe / 0 SpA / 0 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Aqua Tail
+- Twister
+- Crunch
+- Ice Fang
+
+
+Golisopod @ Sitrus Berry
+Level: 47
+Adamant Nature
+Ability: Emergency Exit
+EVs: 47 HP / 239 Atk / 157 Def / 54 Spe / 0 SpA / 13 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- First Impression
+- Pin Missile
+- Sucker Punch
+- Razor Shell
+
+
 Aerodactyl @ Hard Stone
-Level: 34
+Level: 47
 Hasty Nature
 Ability: Unnerve
 EVs: 36 HP / 216 Atk / 6 Def / 252 Spe / 0 SpA / 0 SpD
@@ -10,30 +94,8 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
 - Roost
 
 
-Charmander
-Level: 34
-Impish Nature
-Ability: Blaze
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 7 HP / 18 Atk / 27 Def / 14 Spe / 8 SpA / 6 SpD
-- Scratch
-- Growl
-
-
-Scraggy
-Level: 34
-Bold Nature
-Ability: Intimidate
-EVs: 29 HP / 30 Atk / 24 Def / 43 Spe / 18 SpA / 17 SpD
-IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
-- Swagger
-- Brick Break
-- High Jump Kick
-- Payback
-
-
 Alakazam @ Sitrus Berry
-Level: 34
+Level: 47
 Calm Nature
 Ability: Magic Guard
 EVs: 81 HP / 143 Atk / 9 Def / 43 Spe / 11 SpA / 12 SpD
@@ -41,35 +103,11 @@ IVs: 27 HP / 26 Atk / 18 Def / 31 Spe / 22 SpA / 23 SpD
 - Teleport
 - Hidden Power
 - Energy Ball
-- Psyshock
-
-
-Zorua-Hisui
-Level: 34
-Timid Nature
-Ability: Illusion
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 31 HP / 8 Atk / 20 Def / 17 Spe / 29 SpA / 12 SpD
-- Lick
-- Fake Tears
-- Fury Swipes
-- Hex
-
-
-Naclstack @ Hard Stone
-Level: 34
-Careful Nature
-Ability: Purifying Salt
-EVs: 21 HP / 23 Atk / 11 Def / 25 Spe / 19 SpA / 14 SpD
-IVs: 3 HP / 7 Atk / 2 Def / 31 Spe / 31 SpA / 24 SpD
-- Salt Cure
-- Iron Defense
-- Recover
-- Rock Slide
+- Psychic
 
 
 Perrserker
-Level: 34
+Level: 47
 Adamant Nature
 Ability: Battle Armor
 EVs: 69 HP / 190 Atk / 163 Def / 56 Spe / 18 SpA / 14 SpD
@@ -81,139 +119,127 @@ IVs: 0 HP / 9 Atk / 20 Def / 11 Spe / 22 SpA / 24 SpD
 
 
 Butterfree @ Sitrus Berry
-Level: 34
+Level: 47
 Modest Nature
 Ability: Compound Eyes
 EVs: 19 HP / 12 Atk / 19 Def / 39 Spe / 16 SpA / 15 SpD
 IVs: 27 HP / 1 Atk / 15 Def / 14 Spe / 3 SpA / 24 SpD
 - Bug Buzz
-- Roost
+- Tailwind
 - Sleep Powder
-- Air Cutter
+- Rage Powder
 
 
-Pidgeotto @ Berry Juice
-Level: 34
-Adamant Nature
-Ability: Frisk
-EVs: 2 HP / 9 Atk / 3 Def / 5 Spe / 3 SpA / 3 SpD
-IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
-- Dual Wingbeat
-- Return
-- Roost
-- Feather Dance
-
-
-Milotic-Sevii
-Level: 34
+Scrafty
+Level: 47
 Bold Nature
-Ability: Serene Grace
-EVs: 0 HP / 0 Atk / 0 Def / 1 Spe / 0 SpA / 1 SpD
-IVs: 11 HP / 31 Atk / 28 Def / 31 Spe / 31 SpA / 7 SpD
-- Drain Kiss
-- Dragon Tail
-- Dazzle Gleam
-- Captivate
+Ability: Intimidate
+EVs: 29 HP / 30 Atk / 24 Def / 43 Spe / 18 SpA / 17 SpD
+IVs: 24 HP / 31 Atk / 2 Def / 31 Spe / 31 SpA / 3 SpD
+- Swagger
+- Brick Break
+- High Jump Kick
+- Crunch
 
 
-Darumaka-Galar
-Level: 34
-Naughty Nature
-Ability: Inner Focus
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 20 HP / 31 Atk / 22 Def / 31 Spe / 31 SpA / 29 SpD
+Azumarill @ Pixie Plate
+Level: 47
+Adamant Nature
+Ability: Sap Sipper
+EVs: 6 HP / 252 Atk / 0 Def / 252 Spe / 0 SpA / 0 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Play Rough
+- Aqua Jet
 - Ice Punch
-- Work Up
+- Aqua Tail
+
+
+Zoroark-Hisui
+Level: 47
+Timid Nature
+Ability: Illusion
+EVs: 0 HP / 0 Atk / 0 Def / 3 Spe / 0 SpA / 0 SpD
+IVs: 31 HP / 8 Atk / 20 Def / 17 Spe / 29 SpA / 12 SpD
+- Slash
 - Taunt
-- Bite
+- Scary Face
+- Bitter Malice
 
 
 Beedrill @ Black Sludge
-Level: 34
+Level: 47
 Adamant Nature
 Ability: Swarm
 EVs: 22 HP / 24 Atk / 21 Def / 134 Spe / 18 SpA / 15 SpD
 IVs: 31 HP / 15 Atk / 2 Def / 29 Spe / 27 SpA / 25 SpD
-- Cross Poison
-- Pursuit
+- Poison Jab
+- Fell Stinger
 - Pin Missile
 - Roost
 
 
-Golisopod @ Sitrus Berry
-Level: 34
+Furret
+Level: 47
 Adamant Nature
-Ability: Emergency Exit
-EVs: 47 HP / 239 Atk / 157 Def / 54 Spe / 0 SpA / 13 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
-- First Impression
-- Stuggle Bug
+Ability: Run Away
+EVs: 113 HP / 186 Atk / 39 Def / 96 Spe / 45 SpA / 31 SpD
+IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
+- Extreme Speed
+- Follow Me
 - Sucker Punch
-- Razor Shell
+- Amnesia
 
 
-Gyarados @ Sitrus Berry
-Level: 34
-Adamant Nature
-Ability: Intimidate
-EVs: 36 HP / 252 Atk / 21 Def / 201 Spe / 0 SpA / 0 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
-- Aqua Fang
-- Twister
-- Bite
-- Ice Fang
-
-
-Lanturn @ Sitrus Berry
-Level: 34
-Relaxed Nature
-Ability: Volt Absorb
-EVs: 252 HP / 5 Atk / 1 Def / 0 Spe / 0 SpA / 252 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
-- Scald
-- Eerie Impulse
-- Thunder Wave
-- Shock Wave
-
-
-Prinplup @ Berry Juice
-Level: 34
+Shiinotic @ Yache Berry
+Level: 47
 Modest Nature
-Ability: Torrent
+Ability: Illuminate
+EVs: 45 HP / 11 Atk / 12 Def / 24 Spe / 80 SpA / 159 SpD
+IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
+- Moonblast
+- Strength Sap
+- Spore
+- Moonlight
+
+
+Darmanitan-Galar
+Level: 47
+Naughty Nature
+Ability: Zen Mode
+EVs: 0 HP / 0 Atk / 0 Def / 1 Spe / 0 SpA / 0 SpD
+IVs: 20 HP / 31 Atk / 22 Def / 31 Spe / 31 SpA / 29 SpD
+- Icicle Crash
+- U-Turn
+- Taunt
+- Bite
+
+
+Empoleon @ Berry Juice
+Level: 47
+Modest Nature
+Ability: Competitive
 EVs: 11 HP / 9 Atk / 8 Def / 8 Spe / 10 SpA / 9 SpD
 IVs: 22 HP / 6 Atk / 30 Def / 27 Spe / 8 SpA / 23 SpD
-- Metal Claw
+- Flash Cannon
 - Doll Eyes
-- Brine
+- Surf
 - Bubble Beam
 
 
-Tinkatuff @ Sitrus Berry
-Level: 34
-Jolly Nature
-Ability: Mold Breaker
-EVs: 74 HP / 93 Atk / 37 Def / 63 Spe / 0 SpA / 38 SpD
-IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
-- Rock Tomb
-- Metal Claw
-- Covet
-- Fake Out
-
-
-Tentacruel @ Black Sludge
-Level: 34
-Docile Nature
-Ability: Clear Body
-EVs: 11 HP / 10 Atk / 16 Def / 20 Spe / 9 SpA / 4 SpD
-IVs: 30 HP / 18 Atk / 30 Def / 21 Spe / 20 SpA / 13 SpD
-- Barrier
-- Poison Jab
-- None
-- Acid Spray
+Jellicent
+Level: 47
+Calm Nature
+Ability: Water Absorb
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 4 HP / 12 Atk / 28 Def / 29 Spe / 19 SpA / 22 SpD
+- Water Spout
+- Recover
+- Rain Dance
+- Ominous Wind
 
 
 Shellder @ Pearl
-Level: 34
+Level: 47
 Calm Nature
 Ability: Shell Armor
 EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
@@ -224,133 +250,123 @@ IVs: 3 HP / 23 Atk / 3 Def / 26 Spe / 1 SpA / 26 SpD
 - Ice Shard
 
 
-Cyndaquil
-Level: 34
-Jolly Nature
-Ability: Blaze
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 29 HP / 16 Atk / 5 Def / 17 Spe / 0 SpA / 17 SpD
-- Tackle
-- Leer
-
-
-Camerupt @ Sitrus Berry
-Level: 34
-Calm Nature
-Ability: Magma Armor
-EVs: 28 HP / 29 Atk / 20 Def / 37 Spe / 19 SpA / 16 SpD
-IVs: 7 HP / 30 Atk / 4 Def / 21 Spe / 30 SpA / 18 SpD
-- Amnesia
-- Earth Power
-- Lava Plume
-- Rock Slide
-
-
-Furret
-Level: 34
+Tinkaton @ Sitrus Berry
+Level: 47
 Adamant Nature
-Ability: Run Away
-EVs: 113 HP / 186 Atk / 39 Def / 96 Spe / 45 SpA / 31 SpD
-IVs: 9 HP / 13 Atk / 9 Def / 18 Spe / 21 SpA / 7 SpD
-- Slam
-- Follow Me
-- Sucker Punch
-- Quick Attack
-
-
-Turtwig
-Level: 34
-Naive Nature
-Ability: Overgrow
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 5 HP / 14 Atk / 24 Def / 0 Spe / 15 SpA / 31 SpD
-- Tackle
-
-
-Torchic
-Level: 34
-Calm Nature
-Ability: Blaze
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 4 HP / 2 Atk / 11 Def / 13 Spe / 4 SpA / 8 SpD
-- Scratch
-- Growl
-
-
-Frillish
-Level: 34
-Calm Nature
-Ability: Water Absorb
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 4 HP / 12 Atk / 28 Def / 29 Spe / 19 SpA / 22 SpD
-- Bubble Beam
-- Recover
-- Water Pulse
-- Ominous Wind
-
-
-Snivy
-Level: 34
-Naughty Nature
-Ability: Overgrow
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 5 HP / 7 Atk / 15 Def / 18 Spe / 18 SpA / 0 SpD
-- Tackle
-
-
-Grookey
-Level: 34
-Bold Nature
-Ability: Overgrow
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 8 HP / 17 Atk / 26 Def / 18 Spe / 17 SpA / 8 SpD
-- Growl
-- Scratch
-
-
-Shiinotic @ Yache Berry
-Level: 34
-Modest Nature
-Ability: Illuminate
-EVs: 45 HP / 11 Atk / 12 Def / 24 Spe / 80 SpA / 159 SpD
-IVs: 8 HP / 24 Atk / 11 Def / 6 Spe / 7 SpA / 22 SpD
-- Giga Drain
-- Drain Kiss
-- Sleep Powder
-- Moonlight
-
-
-Scorbunny
-Level: 34
-Adamant Nature
-Ability: Blaze
-EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
-IVs: 19 HP / 28 Atk / 2 Def / 25 Spe / 22 SpA / 1 SpD
-- Growl
-- Tackle
-
-
-Azumarill @ Mystic Water
-Level: 34
-Adamant Nature
-Ability: Thick Fat
-EVs: 6 HP / 252 Atk / 0 Def / 252 Spe / 0 SpA / 0 SpD
+Ability: Mold Breaker
+EVs: 24 HP / 252 Atk / 0 Def / 39 Spe / 0 SpA / 195 SpD
 IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Iron Head
+- Gigaton Hammer
 - Play Rough
-- Aqua Jet
-- Ice Punch
-- Aqua Tail
+- Fake Out
 
 
-Fletchinder @ Berry Juice
-Level: 34
+Pidgeot @ Berry Juice
+Level: 47
+Adamant Nature
+Ability: No Guard
+EVs: 2 HP / 9 Atk / 3 Def / 5 Spe / 3 SpA / 3 SpD
+IVs: 23 HP / 23 Atk / 27 Def / 31 Spe / 21 SpA / 28 SpD
+- Dual Wingbeat
+- Hurricane
+- Roost
+- Heat Wave
+
+
+Talonflame @ Berry Juice
+Level: 47
 Relaxed Nature
-Ability: Flame Body
+Ability: Gale Wings
 EVs: 0 HP / 7 Atk / 1 Def / 13 Spe / 2 SpA / 0 SpD
 IVs: 4 HP / 4 Atk / 27 Def / 6 Spe / 9 SpA / 19 SpD
 - Flame Charge
 - Roost
-- Ember
-- Aerial Ace
+- Dual Wingbeat
+- Acrobatics
+
+
+Torterra
+Level: 47
+Naive Nature
+Ability: Overgrow
+EVs: 0 HP / 0 Atk / 0 Def / 3 Spe / 0 SpA / 0 SpD
+IVs: 5 HP / 14 Atk / 24 Def / 0 Spe / 15 SpA / 31 SpD
+- Seed Bomb
+- Synthesis
+- Earthquake
+- Leech Seed
+
+
+Naclstack @ Everstone
+Level: 47
+Careful Nature
+Ability: Purifying Salt
+EVs: 21 HP / 23 Atk / 11 Def / 25 Spe / 19 SpA / 14 SpD
+IVs: 3 HP / 7 Atk / 2 Def / 31 Spe / 31 SpA / 24 SpD
+- Salt Cure
+- Iron Defense
+- Recover
+- Stealth Rock
+
+
+Serperior
+Level: 47
+Naughty Nature
+Ability: Contrary
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 5 HP / 7 Atk / 15 Def / 18 Spe / 18 SpA / 0 SpD
+- Leaf Storm
+- Knock Off
+- Leech Seed
+- Glare
+
+
+Rillaboom
+Level: 47
+Bold Nature
+Ability: Grassy Surge
+EVs: 0 HP / 0 Atk / 0 Def / 0 Spe / 0 SpA / 0 SpD
+IVs: 8 HP / 17 Atk / 26 Def / 18 Spe / 17 SpA / 8 SpD
+- Wood Hammer
+- Drain Punch
+- Endeavor
+- Taunt
+
+
+Camerupt @ Sitrus Berry
+Level: 47
+Calm Nature
+Ability: Magma Armor
+EVs: 252 HP / 6 Atk / 0 Def / 0 Spe / 0 SpA / 252 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Earth Power
+- Amnesia
+- Lava Plume
+- Yawn
+
+
+Blaziken
+Level: 47
+Calm Nature
+Ability: Blaze
+EVs: 0 HP / 0 Atk / 0 Def / 3 Spe / 0 SpA / 0 SpD
+IVs: 4 HP / 2 Atk / 11 Def / 13 Spe / 4 SpA / 8 SpD
+- Blaze Kick
+- Detect
+- Brave Bird
+- Trip Arrow
+
+
+Typhlosion-Hisui @ Sitrus Berry
+Level: 47
+Jolly Nature
+Ability: Blaze
+EVs: 90 HP / 116 Atk / 6 Def / 44 Spe / 6 SpA / 133 SpD
+IVs: 31 HP / 31 Atk / 31 Def / 31 Spe / 31 SpA / 31 SpD
+- Flamethrower
+- Inferno March
+- Quick Attack
+- Mystical Fire
 
 
