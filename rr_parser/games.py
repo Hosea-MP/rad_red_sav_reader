@@ -2,7 +2,7 @@ from typing import Optional
 
 from .charsets import Gen3Charset
 from .enums import GameType
-from .pkms import Pokemon
+from .pkms import Pokemon, BoxPokemon
 from .abstracts import UpdatableData
 from .game_saves import GameSave
 
@@ -95,6 +95,18 @@ class Gen3(UpdatableData, Gen3Charset):
 
     def set_pokemon(self, pkm: "Pokemon", team_pos: int):
         self.game_save.set_pokemon(pkm, team_pos)
+        if self.active_game_save == 0:
+            self.game_save_a = self.game_save
+            pass
+        else:
+            self.game_save_b = self.game_save
+            pass
+        self.update_from_sub_data()
+        assert self.check_valid()
+        pass
+
+    def set_pc_pokemon(self, pkm: "BoxPokemon", box: int, slot: int):
+        self.game_save.set_pc_pokemon(pkm, box, slot)
         if self.active_game_save == 0:
             self.game_save_a = self.game_save
             pass

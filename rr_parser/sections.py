@@ -362,3 +362,17 @@ class PC(Section):
         self.boxes = []
 
         self.update_from_data()
+
+    def set_pokemon(self, pkm: BoxPokemon, box: int, slot: int):
+        o = 4 + box * PKM_PER_BOX * BYTES_PER_PKM + slot * BYTES_PER_PKM
+        d = bytearray(self._data)
+        d[o:o+BYTES_PER_PKM] = pkm.data
+        self._data = bytes(d)
+        s = 0
+        for sec_id in range(5, 14):
+            size = DATA_SIZES[sec_id]
+            sec = bytearray(self.game_save.sections[sec_id].section)
+            sec[0:size] = self._data[s:s+size]
+            self.game_save.sections[sec_id].section = bytes(sec)
+            s += size
+        self.update_from_data()
