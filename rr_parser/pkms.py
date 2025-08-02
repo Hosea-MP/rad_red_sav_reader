@@ -860,16 +860,22 @@ class BoxPokemon(ABCPokemon):
         self.sub_data.attacks = Attacks(substruct_data[11:16], isBoxMon=True)
         self.sub_data._evs = EVs(substruct_data[16:22])
         self.sub_data.misc = Misc(substruct_data[22:30])
-        
+
 
     def check(self):
         raise NotImplementedError
-    
+
     def update_from_sub_data(self):
+        self.update_from_data()
+
+    def set_species(self, species: int):
+        d = bytearray(self._data)
+        d[0x1C:0x1E] = species.to_bytes(2, 'little')
+        self._data = bytes(d)
         self.update_from_data()
     
     @property
     def data(self):
         return self._data
-    
-__all__ = ["Pokemon", "DecryptedData"]
+
+__all__ = ["Pokemon", "DecryptedData", "BoxPokemon"]

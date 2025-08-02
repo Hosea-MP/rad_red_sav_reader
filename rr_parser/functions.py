@@ -105,7 +105,9 @@ def item_rr_to_name(item_rr):
     return constants.rr._items.items_dict[str(item_rr)]
 
 import json
-with open('rr_parser\\constants\\rr\\_pokemon.json') as f:
+from pathlib import Path
+PKM_DB_PATH = Path(__file__).resolve().parent / "constants" / "rr" / "_pokemon.json"
+with open(PKM_DB_PATH) as f:
     PKM_DB = json.load(f)
 def pkm_set_to_text(pkm: Union[Pokemon, BoxPokemon], level:int = None):
     """Example Output:

@@ -12,6 +12,10 @@ the result into a legit savegame. Currently, it can:
 * Create 'valid' Radical Red Pokemons. All of them
   were caught at Pallet Town, which makes them not
   100% legit.
+# Edit PC box Pokémon
+```
+python examples/edit_pc_box.py <input_save> <output_save> <box> <slot> <species_id>
+```
 # Running the export
 call export_mons.py
 ```

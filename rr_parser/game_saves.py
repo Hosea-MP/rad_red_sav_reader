@@ -3,7 +3,7 @@ from typing import Optional
 from .abstracts import GameSave as ABCGameSave
 from .enums import GameType
 from .sections import Section, Team, TrainerInfo, PC
-from .pkms import Pokemon
+from .pkms import Pokemon, BoxPokemon
 from .pokedex import Pokedex
 
 
@@ -119,6 +119,12 @@ class GameSave(ABCGameSave):
 
     def set_pokemon(self, pkm: Pokemon, team_pos: int):
         self.team.set_pokemon(pkm, team_pos)
+        self.update_from_sub_data()
+        assert self.check_valid()
+        pass
+
+    def set_pc_pokemon(self, pkm: BoxPokemon, box: int, slot: int):
+        self.pc.set_pokemon(pkm, box, slot)
         self.update_from_sub_data()
         assert self.check_valid()
         pass
